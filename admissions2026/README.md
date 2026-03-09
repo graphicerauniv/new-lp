@@ -13,6 +13,7 @@ This is a general admissions landing page for 2026.
     ├── js/            - Custom scripts (if needed)
     └── img/           - Page-specific images
 ```
+"Aaaaa"
 
 ## Shared Assets
 
