@@ -1,0 +1,12 @@
+# Allow JSON files in this directory
+# This overrides the parent .htaccess that blocks .json files
+
+<FilesMatch "\.json$">
+    Require all granted
+</FilesMatch>
+
+# Enable CORS for JSON files
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Content-Type "application/json"
+</IfModule>

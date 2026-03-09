@@ -1,0 +1,103 @@
+/* Hide any large success animations or overlays */
+
+/* Hide any large checkmark/success circles */
+.success-animation,
+.verification-success,
+.otp-success-overlay,
+[class*="success-circle"],
+[class*="checkmark-large"] {
+  display: none !important;
+}
+
+/* Ensure verify button is always visible */
+#verifyPhoneBtn {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Ensure phone field flex layout works */
+#phone {
+  flex: 1 !important;
+}
+
+/* Ensure only our small verified badge shows */
+#phone-verified {
+  font-size: 11px !important;
+  padding: 2px 0 !important;
+  max-width: 150px !important;
+  height: auto !important;
+}
+
+#phone-verified svg {
+  width: 12px !important;
+  height: 12px !important;
+}
+
+/* Hide any full-screen success overlays */
+.fixed.inset-0:not(#otpModal) {
+  display: none !important;
+}
+
+/* Prevent any huge elements after phone field */
+#phone ~ * {
+  max-height: none !important;
+}
+
+/* Keep form compact - no huge elements */
+#formContainer * {
+  max-width: 100% !important;
+}
+
+/* If there's a success checkmark element, hide it */
+svg[width="200"],
+svg[height="200"],
+.success-checkmark {
+  display: none !important;
+}
+
+/* Make any "Verified" text green */
+#phone + small,
+#phone ~ small,
+small:contains("Verified"),
+[class*="verified"] {
+  color: #16a34a !important; /* Green-600 */
+  font-weight: 600 !important;
+}
+
+/* Hide our green badge since backend shows its own */
+#phone-verified {
+  display: none !important;
+}
+
+/* Style any verification message that appears */
+#phone ~ .text-white,
+.verification-message {
+  color: #16a34a !important;
+  background: transparent !important;
+}
+
+/* Prevent huge loading spinners */
+.animate-spin {
+  max-width: 20px !important;
+  max-height: 20px !important;
+}
+
+/* Hide any large loading overlays from backend */
+.loading-overlay,
+.spinner-overlay,
+[class*="loading-circle"] {
+  display: none !important;
+}
+
+/* Ensure submit button spinner stays small */
+button[type="submit"] svg.animate-spin {
+  width: 16px !important;
+  height: 16px !important;
+  display: inline-block !important;
+}
+
+/* Hide any full-screen loaders */
+.fixed.inset-0.flex.items-center.justify-center:not(#otpModal) {
+  display: none !important;
+}

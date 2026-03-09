@@ -1,0 +1,185 @@
+let coursesData = [];
+let swiperInstance;
+let manualPause = false; // track Read More state
+
+/* Fetch Courses */
+fetch("/lp/assets/etc/courses.json")
+  .then(res => res.json())
+  .then(data => {
+    coursesData = data;
+    renderCourses(data);
+    populateDepartments(data);
+    populateStates();
+    attachFilterEvents();
+  });
+
+/* Render Courses with Swiper Grid (autoplay + smart pause/resume) */
+function renderCourses(list) {
+  const noResults = document.getElementById("noResults");
+
+  if (!swiperInstance) {
+    swiperInstance = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      grid: { rows: 2, fill: "row" },
+      spaceBetween: 20,
+      autoplay: { delay: 3000, disableOnInteraction: false },
+      preloadImages: false,
+      lazy: { loadPrevNext: true },
+      breakpoints: {
+        0:    { slidesPerView: 1, grid: { rows: 2, fill: "row" }, spaceBetween: 12 },
+        640:  { slidesPerView: 2, grid: { rows: 2, fill: "row" }, spaceBetween: 16 },
+        1024: { slidesPerView: 3, grid: { rows: 2, fill: "row" }, spaceBetween: 20 },
+        1280: { slidesPerView: 4, grid: { rows: 2, fill: "row" }, spaceBetween: 24 }
+      }
+    });
+  }
+
+  const wrapper = document.querySelector(".mySwiper .swiper-wrapper");
+  wrapper.innerHTML = "";
+
+  if (!list.length) {
+    noResults.classList.remove("hidden");
+    swiperInstance.update();
+    return;
+  } else {
+    noResults.classList.add("hidden");
+  }
+
+  list.forEach(course => {
+    const slide = document.createElement("div");
+    slide.className = "swiper-slide";
+    slide.innerHTML = `
+      <div class="course-card">
+        <img data-src="${course.image}" class="swiper-lazy course-img" alt="${course.name}">
+        <div class="swiper-lazy-preloader"></div>
+        <h3>${course.name}</h3>
+        <p><strong>Dept:</strong> ${course.dept}</p>
+        <p><strong>State:</strong> ${course.state}</p>
+        <button class="read-more">Read More</button>
+        <div class="course-details hidden">
+          <p><strong>Duration:</strong> ${course.duration}</p>
+          <p><strong>Eligibility:</strong> ${course.eligibility}</p>
+          <p><strong>Fees:</strong> ${course.fees}</p>
+        </div>
+      </div>
+    `;
+    wrapper.appendChild(slide);
+  });
+
+  swiperInstance.update();
+
+  // Read More toggle (pause autoplay)
+  wrapper.querySelectorAll(".read-more").forEach(btn => {
+    btn.addEventListener("click", e => {
+      const card = e.target.closest(".course-card");
+      const details = card.querySelector(".course-details");
+      const expanded = !details.classList.contains("hidden");
+      details.classList.toggle("hidden");
+      manualPause = !expanded;
+
+      if (manualPause) swiperInstance.autoplay.stop();
+      else swiperInstance.autoplay.start();
+    });
+  });
+}
+
+/* Populate Departments into both Form + Filter */
+function populateDepartments(data) {
+  const depts = [...new Set(data.map(c => c.dept))];
+  const deptSelect = document.getElementById("department");
+  const filterSelect = document.getElementById("deptFilter");
+
+  [deptSelect, filterSelect].forEach(sel => {
+    if (sel) {
+      sel.innerHTML = '<option value=""></option>';
+      depts.forEach(d => {
+        const opt = document.createElement("option");
+        opt.value = d;
+        opt.textContent = d;
+        sel.appendChild(opt);
+      });
+    }
+  });
+
+  // ✅ Populate courses when Department (form) changes
+  if (deptSelect) {
+    const courseSel = document.getElementById("course");
+    if (courseSel) courseSel.disabled = true;
+
+    deptSelect.addEventListener("change", e => {
+      populateCourseNames(e.target.value);
+    });
+
+    // If dept already pre-selected, populate
+    if (deptSelect.value) {
+      populateCourseNames(deptSelect.value);
+    }
+  }
+}
+
+/* Populate Course names for a given Department */
+function populateCourseNames(deptRaw) {
+  const courseSel = document.getElementById("course");
+  if (!courseSel) return;
+
+  const norm = s => (s || "").toString().trim().toLowerCase();
+  const dept = norm(deptRaw);
+
+  const names = Array.from(
+    new Set(
+      (coursesData || [])
+        .filter(c => norm(c.dept) === dept)
+        .map(c => c.name)
+    )
+  ).sort((a, b) => a.localeCompare(b));
+
+  courseSel.innerHTML = "";
+  const ph = document.createElement("option");
+  ph.value = "";
+  ph.textContent = names.length ? "Select Course" : "Select Department first";
+  ph.disabled = !names.length;
+  ph.selected = true;
+  courseSel.appendChild(ph);
+
+  names.forEach(n => {
+    const opt = document.createElement("option");
+    opt.value = n;
+    opt.textContent = n;
+    courseSel.appendChild(opt);
+  });
+
+  courseSel.disabled = names.length === 0;
+}
+
+/* Populate States into Filter */
+function populateStates() {
+  const states = [...new Set(coursesData.map(c => c.state))];
+  const stateFilter = document.getElementById("stateFilter");
+  if (!stateFilter) return;
+
+  stateFilter.innerHTML = '<option value=""></option>';
+  states.forEach(s => {
+    const opt = document.createElement("option");
+    opt.value = s;
+    opt.textContent = s;
+    stateFilter.appendChild(opt);
+  });
+}
+
+/* Filter Events */
+function attachFilterEvents() {
+  const deptFilter = document.getElementById("deptFilter");
+  const stateFilter = document.getElementById("stateFilter");
+  const applyBtn = document.getElementById("applyFilters");
+
+  applyBtn?.addEventListener("click", () => {
+    const deptVal = deptFilter?.value || "";
+    const stateVal = stateFilter?.value || "";
+    let filtered = [...coursesData];
+
+    if (deptVal) filtered = filtered.filter(c => c.dept === deptVal);
+    if (stateVal) filtered = filtered.filter(c => c.state === stateVal);
+
+    renderCourses(filtered);
+  });
+}

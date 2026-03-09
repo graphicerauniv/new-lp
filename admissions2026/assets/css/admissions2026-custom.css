@@ -1,0 +1,15 @@
+/* Admissions 2026 Custom Styles */
+/* Add your page-specific styles here */
+/* Shared styles are in /lp/assets/css/ */
+
+:root {
+  --admissions-primary: #0066cc;
+  --admissions-secondary: #00cc66;
+}
+
+/* Custom hero for admissions page */
+.admissions-hero {
+  background: linear-gradient(135deg, var(--admissions-primary), var(--admissions-secondary));
+}
+
+/* Add more custom styles as needed */

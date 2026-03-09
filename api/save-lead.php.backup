@@ -1,0 +1,460 @@
+<?php
+/**
+ * Save Lead API - Production Version
+ * Combines DynamoDB storage + Meritto CRM integration
+ * Handles both form POST and JSON requests
+ */
+
+// Suppress deprecated warnings
+ini_set('display_errors', '0');
+ini_set('display_startup_errors', 0);
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED);
+
+// CORS Headers
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: POST, OPTIONS');
+header('Access-Control-Allow-Headers: Content-Type, Accept');
+
+// Handle preflight
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    http_response_code(200);
+    exit(0);
+}
+
+// Only allow POST
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    http_response_code(405);
+    header('Content-Type: application/json');
+    echo json_encode(['success' => false, 'error' => 'Method not allowed']);
+    exit;
+}
+
+require '/var/www/vendor_global/vendor/autoload.php';
+
+use Aws\DynamoDb\DynamoDbClient;
+use Aws\DynamoDb\Marshaler;
+
+date_default_timezone_set('Asia/Kolkata');
+
+// ============================================================================
+// HELPER FUNCTIONS
+// ============================================================================
+
+function clean($v) {
+    return trim(preg_replace('/[\r\n]+/', ' ', htmlspecialchars((string)$v, ENT_QUOTES | ENT_SUBSTITUTE)));
+}
+
+function getClientIP() {
+    if (!empty($_SERVER['HTTP_CF_CONNECTING_IP'])) return $_SERVER['HTTP_CF_CONNECTING_IP'];
+    if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+        $ips = explode(',', $_SERVER['HTTP_X_FORWARDED_FOR']);
+        foreach ($ips as $ip) {
+            $ip = trim($ip);
+            if (filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE)) 
+                return $ip;
+        }
+    }
+    return $_SERVER['REMOTE_ADDR'] ?? '';
+}
+
+function detectBrowserOS($ua) {
+    $browser = 'Unknown';
+    $os = 'Unknown';
+    
+    foreach ([
+        'Edge'=>'Edge', 'Edg'=>'Edge', 'OPR'=>'Opera', 'Chrome'=>'Chrome',
+        'Firefox'=>'Firefox', 'Safari'=>'Safari'
+    ] as $k=>$v) {
+        if (stripos($ua, $k) !== false) { $browser = $v; break; }
+    }
+    
+    foreach ([
+        'Windows NT 10'=>'Windows 10/11', 'Android'=>'Android', 'iPhone'=>'iOS',
+        'Macintosh'=>'macOS', 'Linux'=>'Linux'
+    ] as $k=>$v) {
+        if (stripos($ua, $k) !== false) { $os = $v; break; }
+    }
+    
+    return ['browser' => $browser, 'os' => $os];
+}
+
+function logError($message, $data = null) {
+    $logFile = __DIR__ . '/logs/save-lead-errors.log';
+    if (!is_dir(dirname($logFile))) @mkdir(dirname($logFile), 0755, true);
+    
+    $timestamp = date('Y-m-d H:i:s');
+    $logMessage = "[$timestamp] $message\n";
+    if ($data !== null) $logMessage .= "Data: " . json_encode($data, JSON_PRETTY_PRINT) . "\n";
+    $logMessage .= str_repeat('-', 80) . "\n";
+    
+    @file_put_contents($logFile, $logMessage, FILE_APPEND);
+}
+
+function respondJson($data, $code = 200) {
+    http_response_code($code);
+    header('Content-Type: application/json; charset=utf-8');
+    echo json_encode($data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+    exit;
+}
+
+// ============================================================================
+// GET INPUT DATA
+// ============================================================================
+
+try {
+    // Check if JSON request
+    $contentType = $_SERVER['CONTENT_TYPE'] ?? '';
+    $isJson = (stripos($contentType, 'application/json') !== false);
+    
+    $data = [];
+    
+    if ($isJson) {
+        // JSON input (from frontend AJAX)
+        $input = file_get_contents('php://input');
+        $data = json_decode($input, true);
+        if (json_last_error() !== JSON_ERROR_NONE) {
+            throw new Exception('Invalid JSON: ' . json_last_error_msg());
+        }
+    } else {
+        // Form POST input
+        $data = $_POST;
+    }
+    
+    logError('Incoming lead data', $data);
+    
+    // Extract fields with fallbacks
+    $full_name = clean($data['name'] ?? $data['full_name'] ?? '');
+    $email = clean($data['email'] ?? '');
+    $phone = clean($data['phone'] ?? $data['mobile'] ?? '');
+    $state = clean($data['state'] ?? '');
+    $city = clean($data['city'] ?? '');
+    $course = clean($data['course'] ?? '');
+    $department = clean($data['department'] ?? '');
+    $consent = isset($data['consent']) ? ($data['consent'] ? 'yes' : 'no') : 'yes';
+    
+    // UTM parameters
+    $utm_source = clean($data['source'] ?? $data['utm_source'] ?? 'Direct');
+    $utm_medium = clean($data['medium'] ?? $data['utm_medium'] ?? 'None');
+    $utm_campaign = clean($data['campaign'] ?? $data['utm_campaign'] ?? 'GEU_S_MBA_2026');
+    $utm_term = clean($data['term'] ?? $data['utm_term'] ?? '');
+    $utm_content = clean($data['content'] ?? $data['utm_content'] ?? '');
+    $utm_page = clean($data['page'] ?? $data['utm_page'] ?? ''); // Page identifier (e.g., admissions2026)
+    $gclid = clean($data['gclid'] ?? '');
+    $fbclid = clean($data['fbclid'] ?? '');
+    
+    // Additional tracking
+    $referrer = clean($data['referrer'] ?? $_SERVER['HTTP_REFERER'] ?? '');
+    $landing_page = clean($data['landing_page'] ?? '');
+    $user_agent = $data['userAgent'] ?? $_SERVER['HTTP_USER_AGENT'] ?? '';
+    
+    // Validation
+    if (!$full_name || (!$email && !$phone)) {
+        throw new Exception('Missing required fields: name, email or phone');
+    }
+    
+    // Generate lead ID
+    $lead_id = $data['leadId'] ?? ("GEU-" . date('YmdHis') . "-" . substr(bin2hex(random_bytes(3)), 0, 5));
+    $created_at = $data['createdAt'] ?? date('c');
+    
+    // Get IP and device info
+    $ip = getClientIP();
+    $device_info = detectBrowserOS($user_agent);
+    
+    // ========================================================================
+    // SAVE TO DYNAMODB
+    // ========================================================================
+    
+    $dynamodb_success = false;
+    $dynamodb_error = null;
+    
+    try {
+        logError("Attempting to save to DynamoDB", ['leadId' => $lead_id]);
+        
+        $dynamo = new DynamoDbClient([
+            'version' => 'latest',
+            'region' => getenv('AWS_REGION') ?: 'ap-south-1',
+            'http' => ['connect_timeout' => 5, 'timeout' => 10]
+        ]);
+        
+        $marshal = new Marshaler();
+        
+        // Prepare item for DynamoDB
+        $item = [
+            'lead_id' => $lead_id,
+            'first_name' => $full_name,
+            'email' => $email,
+            'phone' => $phone,
+            'state' => $state,
+            'city' => $city,
+            'course' => $course,
+            'department' => $department,
+            'consent' => $consent,
+            'created_at' => $created_at,
+            
+            // UTM tracking
+            'utm_source' => $utm_source,
+            'utm_medium' => $utm_medium,
+            'utm_campaign' => $utm_campaign,
+            'utm_term' => $utm_term,
+            'utm_content' => $utm_content,
+            'utm_page' => $utm_page, // Page identifier (e.g., admissions2026)
+            'gclid' => $gclid,
+            'fbclid' => $fbclid,
+            
+            // Additional tracking
+            'remote_ip' => $ip,
+            'referrer' => $referrer,
+            'landing_page' => $landing_page,
+            'browser' => $device_info['browser'],
+            'os' => $device_info['os'],
+            'user_agent' => $user_agent,
+            
+            // Metadata
+            'status' => $data['status'] ?? 'new',
+            'updated_at' => date('c')
+        ];
+        
+        $dynamo->putItem([
+            'TableName' => 'lp_app_leads',
+            'Item' => $marshal->marshalItem($item)
+        ]);
+        
+        $dynamodb_success = true;
+        logError("✓ DynamoDB save successful", ['leadId' => $lead_id]);
+        
+    } catch (Exception $e) {
+        $dynamodb_error = $e->getMessage();
+        logError("❌ DynamoDB save failed", [
+            'leadId' => $lead_id,
+            'error' => $dynamodb_error
+        ]);
+    }
+    
+    // ========================================================================
+    // SEND TO MERITTO CRM
+    // ========================================================================
+    
+    $meritto_success = false;
+    $meritto_error = null;
+    
+    try {
+        logError("Attempting to send to Meritto", ['leadId' => $lead_id]);
+        
+        // ====================================================================
+        // DETERMINE SOURCE - PAGE-BASED PRIORITY
+        // ====================================================================
+        // Priority 1: Check utm_page (explicit page identifier)
+        // Priority 2: Fallback to department text matching
+        // Priority 3: Default to general admissions
+        
+        $merittoSource = 'GEU-ADMISSIONS-LP-2026'; // Default
+        
+        // PRIORITY 1: Check utm_page first (most reliable)
+        if (!empty($utm_page)) {
+            $pageLower = strtolower(trim($utm_page));
+            
+            // Direct page-to-source mapping
+            $pageMapping = [
+                'mba' => 'GEU-MBA-LP-2026',
+                'design' => 'GEU-DESIGN-LP-2026',
+                'cse' => 'GEU-CSE-LP-2026',
+                'engineering' => 'GEU-ENGG-LP-2026',
+                'engg' => 'GEU-ENGG-LP-2026',
+                'law' => 'GEU-LAW-LP-2026',
+                'commerce' => 'GEU-COMMERCE-LP-2026',
+                'science' => 'GEU-SCIENCE-LP-2026',
+                'arts' => 'GEU-ARTS-LP-2026',
+                'health' => 'GEU-HEALTH-LP-2026',
+                'admissions2026' => 'GEU-ADMISSIONS-LP-2026',
+                'admissions' => 'GEU-ADMISSIONS-LP-2026',
+                'biotech' => 'GEU-BIOTECH-LP-2026',
+                'aerospace' => 'GEU-AEROSPACE-LP-2026',
+                'civil' => 'GEU-CIVIL-LP-2026',
+                'ee' => 'GEU-EE-LP-2026',
+                'ece' => 'GEU-ECE-LP-2026',
+                'me' => 'GEU-ME-LP-2026',
+            ];
+            
+            if (isset($pageMapping[$pageLower])) {
+                $merittoSource = $pageMapping[$pageLower];
+                logError("Source set from utm_page", [
+                    'utm_page' => $utm_page,
+                    'source' => $merittoSource
+                ]);
+            }
+        }
+        
+        // PRIORITY 2: Fallback to department if source is still default
+        if ($merittoSource === 'GEU-ADMISSIONS-LP-2026' && !empty($department)) {
+            $deptLower = strtolower($department);
+            
+            // Map departments to source codes (fallback only)
+            if (strpos($deptLower, 'management') !== false || strpos($deptLower, 'mba') !== false) {
+                $merittoSource = 'GEU-MBA-LP-2026';
+            } elseif (strpos($deptLower, 'design') !== false) {
+                $merittoSource = 'GEU-DESIGN-LP-2026';
+            } elseif (strpos($deptLower, 'computer') !== false && strpos($deptLower, 'science') !== false) {
+                $merittoSource = 'GEU-CSE-LP-2026';
+            } elseif (strpos($deptLower, 'engineering') !== false || strpos($deptLower, 'tech') !== false) {
+                $merittoSource = 'GEU-ENGG-LP-2026';
+            } elseif (strpos($deptLower, 'law') !== false) {
+                $merittoSource = 'GEU-LAW-LP-2026';
+            } elseif (strpos($deptLower, 'commerce') !== false) {
+                $merittoSource = 'GEU-COMMERCE-LP-2026';
+            } elseif (strpos($deptLower, 'science') !== false) {
+                $merittoSource = 'GEU-SCIENCE-LP-2026';
+            } elseif (strpos($deptLower, 'arts') !== false || strpos($deptLower, 'humanities') !== false) {
+                $merittoSource = 'GEU-ARTS-LP-2026';
+            } elseif (strpos($deptLower, 'health') !== false || strpos($deptLower, 'nursing') !== false || strpos($deptLower, 'medical') !== false) {
+                $merittoSource = 'GEU-HEALTH-LP-2026';
+            } elseif (strpos($deptLower, 'biotechnology') !== false) {
+                $merittoSource = 'GEU-BIOTECH-LP-2026';
+            } elseif (strpos($deptLower, 'aerospace') !== false) {
+                $merittoSource = 'GEU-AEROSPACE-LP-2026';
+            } elseif (strpos($deptLower, 'civil') !== false) {
+                $merittoSource = 'GEU-CIVIL-LP-2026';
+            } elseif (strpos($deptLower, 'electrical') !== false) {
+                $merittoSource = 'GEU-EE-LP-2026';
+            } elseif (strpos($deptLower, 'electronics') !== false || strpos($deptLower, 'communication') !== false) {
+                $merittoSource = 'GEU-ECE-LP-2026';
+            } elseif (strpos($deptLower, 'mechanical') !== false) {
+                $merittoSource = 'GEU-ME-LP-2026';
+            }
+            
+            logError("Source set from department (fallback)", [
+                'department' => $department,
+                'source' => $merittoSource
+            ]);
+        }
+        
+        logError("Final source determination", [
+            'utm_page' => $utm_page,
+            'department' => $department,
+            'source' => $merittoSource
+        ]);
+        
+        // Prepare Meritto payload
+        // Note: specialization sent as empty string (required for existing leads, works for new leads)
+        $merittoPayload = [
+            'name' => $full_name,
+            'mobile' => $phone,
+            'email' => $email,
+            'lead_stage' => 'New',
+            'sub_stage' => 'Not Called',
+            'search_criteria' => 'email',
+            'course' => 'PG',
+            'campus' => $department ?: 'Management',
+            'specialization' => '', // Empty string - required for existing leads, allowed for new leads
+            'source' => $merittoSource,
+            'mobile_verification_status' => true,
+            'email_verification_status' => false,
+            'country_dial_code' => '+91',
+            'state' => $state,
+            'city' => $city,
+            'medium' => $utm_medium ?: 'google',
+            'campaign' => $utm_campaign ?: 'GEU_S_MBA_2026'
+        ];
+
+        logError("Meritto payload", [
+            'lead_id' => $lead_id,
+            'course_selected' => $course,
+            'payload' => $merittoPayload
+        ]);
+        
+        // Add UTM data if available
+        logError("Meritto payload", [
+            'lead_id' => $lead_id,
+            'course_selected' => $course,
+            'payload' => $merittoPayload
+        ]);
+        
+        // Add UTM data if available
+        if ($utm_source) $merittoPayload['utm_source'] = $utm_source;
+        if ($utm_term) $merittoPayload['utm_term'] = $utm_term;
+        if ($utm_content) $merittoPayload['utm_content'] = $utm_content;
+        if ($gclid) $merittoPayload['gclid'] = $gclid;
+        if ($fbclid) $merittoPayload['fbclid'] = $fbclid;
+        
+        // Send to Meritto
+        $ch = curl_init('https://api.nopaperforms.io/lead/v1/createOrUpdate');
+        curl_setopt_array($ch, [
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_POST => true,
+            CURLOPT_HTTPHEADER => [
+                'Content-Type: application/json',
+                'secret-key: 45c20f12941b42a1a662b7f1613e8db6',
+                'access-key: dccc277169bf4df39112e1423bab6454'
+            ],
+            CURLOPT_POSTFIELDS => json_encode($merittoPayload),
+            CURLOPT_TIMEOUT => 10,
+            CURLOPT_CONNECTTIMEOUT => 5
+        ]);
+        
+        $merittoResponse = curl_exec($ch);
+        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        
+        if (curl_errno($ch)) {
+            throw new Exception('Meritto curl error: ' . curl_error($ch));
+        }
+        
+        curl_close($ch);
+        
+        if ($httpCode >= 200 && $httpCode < 300) {
+            $meritto_success = true;
+            logError("✓ Meritto submission successful", [
+                'leadId' => $lead_id,
+                'httpCode' => $httpCode,
+                'response' => $merittoResponse
+            ]);
+        } else {
+            throw new Exception("Meritto HTTP $httpCode: $merittoResponse");
+        }
+        
+    } catch (Exception $e) {
+        $meritto_error = $e->getMessage();
+        logError("❌ Meritto submission failed", [
+            'leadId' => $lead_id,
+            'error' => $meritto_error
+        ]);
+    }
+    
+    // ========================================================================
+    // RESPONSE
+    // ========================================================================
+    
+    // Consider success if either DynamoDB or Meritto succeeded
+    $overall_success = ($dynamodb_success || $meritto_success);
+    
+    $response = [
+        'success' => $overall_success,
+        'leadId' => $lead_id,
+        'message' => $overall_success ? 'Lead processed successfully' : 'Lead processing failed',
+        'details' => [
+            'dynamodb' => [
+                'success' => $dynamodb_success,
+                'error' => $dynamodb_error
+            ],
+            'meritto' => [
+                'success' => $meritto_success,
+                'error' => $meritto_error
+            ]
+        ]
+    ];
+    
+    logError("Final response", $response);
+    
+    // Return JSON response
+    respondJson($response, $overall_success ? 200 : 500);
+    
+} catch (Exception $ex) {
+    logError("CRITICAL ERROR", [
+        'error' => $ex->getMessage(),
+        'trace' => $ex->getTraceAsString()
+    ]);
+    
+    respondJson([
+        'success' => false,
+        'error' => $ex->getMessage(),
+        'leadId' => $lead_id ?? null
+    ], 500);
+}

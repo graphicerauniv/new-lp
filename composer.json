@@ -1,0 +1,17 @@
+{
+    "name": "geu/mba-landing-page",
+    "description": "GEU MBA Landing Page with DynamoDB and Meritto Integration",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "aws/aws-sdk-php": "^3.0",
+        "ext-curl": "*",
+        "ext-mbstring": "*"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

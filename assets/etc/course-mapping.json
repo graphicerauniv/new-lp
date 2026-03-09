@@ -1,0 +1,717 @@
+[
+  {
+    "title": "B.Tech CSE",
+    "level": "UG",
+    "department": "Computer Science Engineering"
+  },
+  {
+    "title": "B.Tech CSE (Hons.) with specialization in AI & ML",
+    "level": "UG",
+    "department": "Computer Science Engineering"
+  },
+  {
+    "title": "B.Tech CSE (Hons.) with specialization in AI & DS",
+    "level": "UG",
+    "department": "Computer Science Engineering"
+  },
+  {
+    "title": "B.Tech CSE (Hons.) with specialization in Cyber Security",
+    "level": "UG",
+    "department": "Computer Science Engineering"
+  },
+  {
+    "title": "B.Tech CSE (Hons.) with specialization in Generative AI",
+    "level": "UG",
+    "department": "Computer Science Engineering"
+  },
+  {
+    "title": "B.Tech CSE AI & DS",
+    "level": "UG",
+    "department": "Computer Science Engineering"
+  },
+  {
+    "title": "B.Tech CSE AI & ML",
+    "level": "UG",
+    "department": "Computer Science Engineering"
+  },
+  {
+    "title": "B.Tech CSE Cyber Security",
+    "level": "UG",
+    "department": "Computer Science Engineering"
+  },
+  {
+    "title": "B.Tech CSE Regional Language Quota",
+    "level": "UG",
+    "department": "Computer Science Engineering"
+  },
+  {
+    "title": "M.Tech CSE",
+    "level": "PG",
+    "department": "Computer Science Engineering"
+  },
+  {
+    "title": "B.Tech Aerospace Engineering",
+    "level": "UG",
+    "department": "Aerospace Engineering"
+  },
+  {
+    "title": "B.Tech Aerospace Engineering with specialization in Space Technology",
+    "level": "UG",
+    "department": "Aerospace Engineering"
+  },
+  {
+    "title": "B.Sc Aeronautics",
+    "level": "UG",
+    "department": "Aerospace Engineering"
+  },
+  {
+    "title": "B.Tech Biotechnology",
+    "level": "UG",
+    "department": "Biotechnology"
+  },
+  {
+    "title": "B.Tech Civil Engineering",
+    "level": "UG",
+    "department": "Civil Engineering"
+  },
+  {
+    "title": "B.Tech Civil Engineering with specialization in GIS & Remote Sensing",
+    "level": "UG",
+    "department": "Civil Engineering"
+  },
+  {
+    "title": "B.Tech Civil Engineering with specialization in Construction Management",
+    "level": "UG",
+    "department": "Civil Engineering"
+  },
+  {
+    "title": "B.Tech Civil Engineering (Working Professionals)",
+    "level": "UG",
+    "department": "Civil Engineering"
+  },
+  {
+    "title": "M.Tech Structural Engineering",
+    "level": "PG",
+    "department": "Civil Engineering"
+  },
+  {
+    "title": "M.Tech Structural Engineering (Working Professionals)",
+    "level": "PG",
+    "department": "Civil Engineering"
+  },
+  {
+    "title": "B.Tech Electrical & Computer Engineering",
+    "level": "UG",
+    "department": "Electrical Engineering"
+  },
+  {
+    "title": "M.Tech Electric Vehicle Technology",
+    "level": "PG",
+    "department": "Electrical Engineering"
+  },
+  {
+    "title": "B.Tech ECE",
+    "level": "UG",
+    "department": "Electronics & Communication Engineering"
+  },
+  {
+    "title": "B.Tech ECE with optional specialization in Embedded Sytems and Robotics (ESR)",
+    "level": "UG",
+    "department": "Electronics & Communication Engineering"
+  },
+  {
+    "title": "B.Tech ECE with optional specialization in Internet of Things (IoT)",
+    "level": "UG",
+    "department": "Electronics & Communication Engineering"
+  },
+  {
+    "title": "B.Tech ECE (VLSI Design and Technology)",
+    "level": "UG",
+    "department": "Electronics & Communication Engineering"
+  },
+  {
+    "title": "B.Tech ECE (Working Professionals)",
+    "level": "UG",
+    "department": "Electronics & Communication Engineering"
+  },
+  {
+    "title": "M.Tech Biomedical Engineering",
+    "level": "PG",
+    "department": "Electronics & Communication Engineering"
+  },
+  {
+    "title": "B.Tech ME",
+    "level": "UG",
+    "department": "Mechanical Engineering"
+  },
+  {
+    "title": "B.Tech ME (Hons.) with specialization in Automobile",
+    "level": "UG",
+    "department": "Mechanical Engineering"
+  },
+  {
+    "title": "B.Tech ME (Hons.) with specialization in Robotics & Automation",
+    "level": "UG",
+    "department": "Mechanical Engineering"
+  },
+  {
+    "title": "B.Tech ME with minor specialization in Computer Science",
+    "level": "UG",
+    "department": "Mechanical Engineering"
+  },
+  {
+    "title": "BCA",
+    "level": "UG",
+    "department": "Computer Application"
+  },
+  {
+    "title": "BCA (Hons.)",
+    "level": "UG",
+    "department": "Computer Application"
+  },
+  {
+    "title": "BCA Industry Integrated",
+    "level": "UG",
+    "department": "Computer Application"
+  },
+  {
+    "title": "BCA (Hons.) AI & DS",
+    "level": "UG",
+    "department": "Computer Application"
+  },
+  {
+    "title": "BCA Cyber Security",
+    "level": "UG",
+    "department": "Computer Application"
+  },
+  {
+    "title": "BCA (Hons.) Cyber Security",
+    "level": "UG",
+    "department": "Computer Application"
+  },
+  {
+    "title": "B.Sc (Hons.) Computer Science",
+    "level": "UG",
+    "department": "Computer Application"
+  },
+  {
+    "title": "B.Sc Computer Science",
+    "level": "UG",
+    "department": "Computer Application"
+  },
+  {
+    "title": "B.Sc. (Hons.) IT",
+    "level": "UG",
+    "department": "Computer Application"
+  },
+  {
+    "title": "B.Sc IT",
+    "level": "UG",
+    "department": "Computer Application"
+  },
+  {
+    "title": "B.Sc",
+    "level": "UG",
+    "department": "Computer Application"
+  },
+  {
+    "title": "B.Sc IT Industry Integrated",
+    "level": "UG",
+    "department": "Computer Application"
+  },
+  {
+    "title": "MCA",
+    "level": "PG",
+    "department": "Computer Application"
+  },
+  {
+    "title": "MCA AI & DS",
+    "level": "PG",
+    "department": "Computer Application"
+  },
+  {
+    "title": "M.Sc IT",
+    "level": "PG",
+    "department": "Computer Application"
+  },
+  {
+    "title": "BBA",
+    "level": "UG",
+    "department": "Management"
+  },
+  {
+    "title": "BBA (Hons.)",
+    "level": "UG",
+    "department": "Management"
+  },
+  {
+    "title": "BBA with specialization in Entrepreneurship",
+    "level": "UG",
+    "department": "Management"
+  },
+  {
+    "title": "BBA with specialization in Hospital Administration",
+    "level": "UG",
+    "department": "Management"
+  },
+  {
+    "title": "BBA with specialization in AI & DS",
+    "level": "UG",
+    "department": "Management"
+  },
+  {
+    "title": "BBA with specialization in E-Commerce and Digital Marketing",
+    "level": "UG",
+    "department": "Management"
+  },
+  {
+    "title": "BBA with specialization in Aviation Management",
+    "level": "UG",
+    "department": "Management"
+  },
+  {
+    "title": "BBA (Hons.) with specialization in Entrepreneurship",
+    "level": "UG",
+    "department": "Management"
+  },
+  {
+    "title": "BBA (Hons.) with specialization in Hospital Administration",
+    "level": "UG",
+    "department": "Management"
+  },
+  {
+    "title": "BBA (Hons.) with specialization in Aviation Management",
+    "level": "UG",
+    "department": "Management"
+  },
+  {
+    "title": "BBA (Hons.) with specialization in AI & DS",
+    "level": "UG",
+    "department": "Management"
+  },
+  {
+    "title": "BBA (Hons.) with specialization in E-Commerce and Digital Marketing",
+    "level": "UG",
+    "department": "Management"
+  },
+  {
+    "title": "BBA International Finance and Accounting with ACCA",
+    "level": "UG",
+    "department": "Management"
+  },
+  {
+    "title": "BBA (Hons.) International Finance and Accounting with ACCA",
+    "level": "UG",
+    "department": "Management"
+  },
+  {
+    "title": "MBA AI & DS",
+    "level": "PG",
+    "department": "Management"
+  },
+  {
+    "title": "MBA",
+    "level": "PG",
+    "department": "Management"
+  },
+  {
+    "title": "MBA IMPACT",
+    "level": "PG",
+    "department": "Management"
+  },
+  {
+    "title": "MBA with specialization in Marketing",
+    "level": "PG",
+    "department": "Management"
+  },
+  {
+    "title": "MBA with specialization in Finance",
+    "level": "PG",
+    "department": "Management"
+  },
+  {
+    "title": "MBA with specialization in Human Resource",
+    "level": "PG",
+    "department": "Management"
+  },
+  {
+    "title": "MBA with specialization in Business Analytics",
+    "level": "PG",
+    "department": "Management"
+  },
+  {
+    "title": "MBA with specialization in Logistics and Supply Chain Management",
+    "level": "PG",
+    "department": "Management"
+  },
+  {
+    "title": "MBA with specialization in Banking & Finance",
+    "level": "PG",
+    "department": "Management"
+  },
+  {
+    "title": "MBA with specialization in Branding & Advertising",
+    "level": "PG",
+    "department": "Management"
+  },
+  {
+    "title": "MBA with specialization in International Business",
+    "level": "PG",
+    "department": "Management"
+  },
+  {
+    "title": "MBA with specialization in Digital Marketing",
+    "level": "PG",
+    "department": "Management"
+  },
+  {
+    "title": "MBA with specialization in Retail Management",
+    "level": "PG",
+    "department": "Management"
+  },
+  {
+    "title": "MBA with specialization in Entrepreneurship",
+    "level": "PG",
+    "department": "Management"
+  },
+  {
+    "title": "MBA with specialization in Sports Management",
+    "level": "PG",
+    "department": "Management"
+  },
+  {
+    "title": "B.Des Animation & Game Design",
+    "level": "UG",
+    "department": "Design"
+  },
+  {
+    "title": "B.Des Graphic & Visual Communication Design",
+    "level": "UG",
+    "department": "Design"
+  },
+  {
+    "title": "B.Des Industrial Product Design",
+    "level": "UG",
+    "department": "Design"
+  },
+  {
+    "title": "B.Des User Experience & Interaction Design",
+    "level": "UG",
+    "department": "Design"
+  },
+  {
+    "title": "M.Des",
+    "level": "PG",
+    "department": "Design"
+  },
+  {
+    "title": "M.Des Design Futures",
+    "level": "PG",
+    "department": "Design"
+  },
+  {
+    "title": "M.Des Graphic & Visual Communication Design",
+    "level": "PG",
+    "department": "Design"
+  },
+  {
+    "title": "M.Des Industrial Product Design",
+    "level": "PG",
+    "department": "Design"
+  },
+  {
+    "title": "M.Des User Experience & Interaction Design",
+    "level": "PG",
+    "department": "Design"
+  },
+  {
+    "title": "B.Sc Clinical Psychology",
+    "level": "UG",
+    "department": "Paramedical"
+  },
+  {
+    "title": "B.Sc Anaesthesia Technology",
+    "level": "UG",
+    "department": "Paramedical"
+  },
+  {
+    "title": "B.Sc Renal Dialysis",
+    "level": "UG",
+    "department": "Paramedical"
+  },
+  {
+    "title": "B.Sc Critical Care",
+    "level": "UG",
+    "department": "Paramedical"
+  },
+  {
+    "title": "B.Sc Respiratory Therapy",
+    "level": "UG",
+    "department": "Paramedical"
+  },
+  {
+    "title": "BPH",
+    "level": "UG",
+    "department": "Paramedical"
+  },
+  {
+    "title": "B.Sc Cardiac Perfusion Technology",
+    "level": "UG",
+    "department": "Paramedical"
+  },
+  {
+    "title": "B.Sc Optometry",
+    "level": "UG",
+    "department": "Paramedical"
+  },
+  {
+    "title": "B.Sc Medical Microbiology",
+    "level": "UG",
+    "department": "Paramedical"
+  },
+  {
+    "title": "B.Sc Operation Theatre",
+    "level": "UG",
+    "department": "Paramedical"
+  },
+  {
+    "title": "BMLT",
+    "level": "UG",
+    "department": "Paramedical"
+  },
+  {
+    "title": "BMRIT",
+    "level": "UG",
+    "department": "Paramedical"
+  },
+  {
+    "title": "BPT",
+    "level": "UG",
+    "department": "Paramedical"
+  },
+  {
+    "title": "B.Sc Nursing",
+    "level": "UG",
+    "department": "Nursing"
+  },
+  {
+    "title": "BA LLB (Hons.)",
+    "level": "UG",
+    "department": "Law"
+  },
+  {
+    "title": "BBA LLB (Hons.)",
+    "level": "UG",
+    "department": "Law"
+  },
+  {
+    "title": "LLB (Hons.)",
+    "level": "UG",
+    "department": "Law"
+  },
+  {
+    "title": "LLM",
+    "level": "PG",
+    "department": "Law"
+  },
+  {
+    "title": "B.Com (Hons.)",
+    "level": "UG",
+    "department": "Commerce"
+  },
+  {
+    "title": "B.Com (Hons.) with research",
+    "level": "UG",
+    "department": "Commerce"
+  },
+  {
+    "title": "B.Com (Hons.) International Finance and Accounting with ACCA, UK",
+    "level": "UG",
+    "department": "Commerce"
+  },
+  {
+    "title": "B.Com (Hons.) Banking & Finance",
+    "level": "UG",
+    "department": "Commerce"
+  },
+  {
+    "title": "B.Com (Hons.) Accounting, Auditing & Taxation",
+    "level": "UG",
+    "department": "Commerce"
+  },
+  {
+    "title": "B.Com (Hons.) Corporate Accounting and Financial Analysis with CMA, US",
+    "level": "UG",
+    "department": "Commerce"
+  },
+  {
+    "title": "B.Com (Hons.) Integrated with US CPA in Corporate Finance",
+    "level": "UG",
+    "department": "Commerce"
+  },
+  {
+    "title": "B.Voc BFSI",
+    "level": "UG",
+    "department": "Commerce"
+  },
+  {
+    "title": "BHM",
+    "level": "UG",
+    "department": "Hospitality Management"
+  },
+  {
+    "title": "Hotel Operations",
+    "level": "Certificate Course",
+    "department": "Hospitality Management"
+  },
+  {
+    "title": "MHM",
+    "level": "PG",
+    "department": "Hospitality Management"
+  },
+  {
+    "title": "B.Sc (Hons.) Biotechnology",
+    "level": "UG",
+    "department": "Biosciences"
+  },
+  {
+    "title": "B.Sc (Hons.) Forensic Science",
+    "level": "UG",
+    "department": "Biosciences"
+  },
+  {
+    "title": "M.Sc Bioinformatics",
+    "level": "PG",
+    "department": "Biosciences"
+  },
+  {
+    "title": "M.Sc Biotechnology",
+    "level": "PG",
+    "department": "Biosciences"
+  },
+  {
+    "title": "B.Sc (Hons.) Microbiology",
+    "level": "UG",
+    "department": "Microbiology"
+  },
+  {
+    "title": "B.Sc Microbiology",
+    "level": "UG",
+    "department": "Microbiology"
+  },
+  {
+    "title": "M.Sc Microbiology",
+    "level": "PG",
+    "department": "Microbiology"
+  },
+  {
+    "title": "B.Sc Food Technology",
+    "level": "UG",
+    "department": "Food Science & Technology"
+  },
+  {
+    "title": "B.Sc (Hons.) Food Technology",
+    "level": "UG",
+    "department": "Food Science & Technology"
+  },
+  {
+    "title": "B.Sc Nutrition & Dietetics",
+    "level": "UG",
+    "department": "Food Science & Technology"
+  },
+  {
+    "title": "B.Sc. (Hons.) Nutrition & Dietetics",
+    "level": "UG",
+    "department": "Food Science & Technology"
+  },
+  {
+    "title": "M.Sc Foods & Nutrition",
+    "level": "PG",
+    "department": "Food Science & Technology"
+  },
+  {
+    "title": "M.Sc Food Technology",
+    "level": "PG",
+    "department": "Food Science & Technology"
+  },
+  {
+    "title": "M.Sc Chemistry",
+    "level": "PG",
+    "department": "Allied Sciences"
+  },
+  {
+    "title": "M.Sc EVS",
+    "level": "PG",
+    "department": "Allied Sciences"
+  },
+  {
+    "title": "B.Sc Geology",
+    "level": "UG",
+    "department": "Earth Sciences"
+  },
+  {
+    "title": "B.Sc (Hons.) Geology",
+    "level": "UG",
+    "department": "Earth Sciences"
+  },
+  {
+    "title": "M.Sc Applied Geology",
+    "level": "PG",
+    "department": "Earth Sciences"
+  },
+  {
+    "title": "B.A. (Hons.) Economics",
+    "level": "UG",
+    "department": "Humanities & Social Sciences"
+  },
+  {
+    "title": "B.A. (Hons.) English",
+    "level": "UG",
+    "department": "Humanities & Social Sciences"
+  },
+  {
+    "title": "B.A. (Hons.) Psychology",
+    "level": "UG",
+    "department": "Humanities & Social Sciences"
+  },
+  {
+    "title": "B.A. (Hons.) Political Science",
+    "level": "UG",
+    "department": "Humanities & Social Sciences"
+  },
+  {
+    "title": "B.A. (Hons.) Sociology",
+    "level": "UG",
+    "department": "Humanities & Social Sciences"
+  },
+  {
+    "title": "B.A.",
+    "level": "UG",
+    "department": "Humanities & Social Sciences"
+  },
+  {
+    "title": "M.A. Applied Psychology",
+    "level": "PG",
+    "department": "Humanities & Social Sciences"
+  },
+  {
+    "title": "M.A. Sociology",
+    "level": "PG",
+    "department": "Humanities & Social Sciences"
+  },
+  {
+    "title": "M.A. English",
+    "level": "PG",
+    "department": "Humanities & Social Sciences"
+  },
+  {
+    "title": "M.A. Economics",
+    "level": "PG",
+    "department": "Humanities & Social Sciences"
+  },
+  {
+    "title": "M.A. Political Science",
+    "level": "PG",
+    "department": "Humanities & Social Sciences"
+  }
+]

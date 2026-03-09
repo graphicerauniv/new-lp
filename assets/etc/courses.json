@@ -1,0 +1,1874 @@
+[
+  {
+    "code": "CSE_B_TECH_CSE",
+    "department": "Computer Science Engineering",
+    "title": "B.Tech CSE",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech CSE provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "CSE_B_TECH_CSE__HONS___WITH_SPECIALIZATION_IN_AI___ML",
+    "department": "Computer Science Engineering",
+    "title": "B.Tech CSE (Hons.) with specialization in AI & ML",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Advanced AI and machine learning algorithms",
+      "Deep learning and neural networks",
+      "Industry projects and hands-on labs"
+    ],
+    "description": "B.Tech CSE (Hons.) with specialization in AI & ML focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+  },
+  {
+    "code": "CSE_B_TECH_CSE__HONS___WITH_SPECIALIZATION_IN_AI___DS",
+    "department": "Computer Science Engineering",
+    "title": "B.Tech CSE (Hons.) with specialization in AI & DS",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Advanced AI and machine learning algorithms",
+      "Deep learning and neural networks",
+      "Industry projects and hands-on labs"
+    ],
+    "description": "B.Tech CSE (Hons.) with specialization in AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+  },
+  {
+    "code": "CSE_B_TECH_CSE__HONS___WITH_SPECIALIZATION_IN_CYBER_SE",
+    "department": "Computer Science Engineering",
+    "title": "B.Tech CSE (Hons.) with specialization in Cyber Security",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Network security and ethical hacking",
+      "Cryptography and security protocols",
+      "Hands-on cybersecurity labs"
+    ],
+    "description": "B.Tech CSE (Hons.) with specialization in Cyber Security prepares students for careers in cybersecurity and information security. Topics include ethical hacking, cryptography, network security, malware analysis, and security operations. Students gain practical experience through labs and industry certifications."
+  },
+  {
+    "code": "CSE_B_TECH_CSE__HONS___WITH_SPECIALIZATION_IN_GENERATI",
+    "department": "Computer Science Engineering",
+    "title": "B.Tech CSE (Hons.) with specialization in Generative AI",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Advanced AI and machine learning algorithms",
+      "Deep learning and neural networks",
+      "Industry projects and hands-on labs"
+    ],
+    "description": "B.Tech CSE (Hons.) with specialization in Generative AI focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+  },
+  {
+    "code": "CSE_B_TECH_CSE_AI___DS",
+    "department": "Computer Science Engineering",
+    "title": "B.Tech CSE AI & DS",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Advanced AI and machine learning algorithms",
+      "Deep learning and neural networks",
+      "Industry projects and hands-on labs"
+    ],
+    "description": "B.Tech CSE AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+  },
+  {
+    "code": "CSE_B_TECH_CSE_AI___ML",
+    "department": "Computer Science Engineering",
+    "title": "B.Tech CSE AI & ML",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Advanced AI and machine learning algorithms",
+      "Deep learning and neural networks",
+      "Industry projects and hands-on labs"
+    ],
+    "description": "B.Tech CSE AI & ML focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+  },
+  {
+    "code": "CSE_B_TECH_CSE_CYBER_SECURITY",
+    "department": "Computer Science Engineering",
+    "title": "B.Tech CSE Cyber Security",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Network security and ethical hacking",
+      "Cryptography and security protocols",
+      "Hands-on cybersecurity labs"
+    ],
+    "description": "B.Tech CSE Cyber Security prepares students for careers in cybersecurity and information security. Topics include ethical hacking, cryptography, network security, malware analysis, and security operations. Students gain practical experience through labs and industry certifications."
+  },
+  {
+    "code": "CSE_B_TECH_CSE_REGIONAL_LANGUAGE_QUOTA",
+    "department": "Computer Science Engineering",
+    "title": "B.Tech CSE Regional Language Quota",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech CSE Regional Language Quota provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "CSE_M_TECH_CSE",
+    "department": "Computer Science Engineering",
+    "title": "M.Tech CSE",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Tech CSE offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_TECH_AEROSPACE_ENGINEERING",
+    "department": "Aerospace Engineering",
+    "title": "B.Tech Aerospace Engineering",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech Aerospace Engineering provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "GEN_B_TECH_AEROSPACE_ENGINEERING_WITH_SPECIALIZATION_I",
+    "department": "Aerospace Engineering",
+    "title": "B.Tech Aerospace Engineering with specialization in Space Technology",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech Aerospace Engineering with specialization in Space Technology provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "GEN_B_SC_AERONAUTICS",
+    "department": "Aerospace Engineering",
+    "title": "B.Sc Aeronautics",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Aeronautics offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "BT_B_TECH_BIOTECHNOLOGY",
+    "department": "Biotechnology",
+    "title": "B.Tech Biotechnology",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech Biotechnology provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "CE_B_TECH_CIVIL_ENGINEERING",
+    "department": "Civil Engineering",
+    "title": "B.Tech Civil Engineering",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech Civil Engineering provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "CE_B_TECH_CIVIL_ENGINEERING_WITH_SPECIALIZATION_IN_GI",
+    "department": "Civil Engineering",
+    "title": "B.Tech Civil Engineering with specialization in GIS & Remote Sensing",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech Civil Engineering with specialization in GIS & Remote Sensing provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "CE_B_TECH_CIVIL_ENGINEERING_WITH_SPECIALIZATION_IN_CO",
+    "department": "Civil Engineering",
+    "title": "B.Tech Civil Engineering with specialization in Construction Management",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech Civil Engineering with specialization in Construction Management provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "CE_M_TECH_STRUCTURAL_ENGINEERING",
+    "department": "Civil Engineering",
+    "title": "M.Tech Structural Engineering",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Tech Structural Engineering offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "CE_B_TECH_CIVIL_ENGINEERING__WORKING_PROFESSIONALS_",
+    "department": "Civil Engineering",
+    "title": "B.Tech Civil Engineering (Working Professionals)",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech Civil Engineering (Working Professionals) provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "CE_M_TECH_STRUCTURAL_ENGINEERING__WORKING_PROFESSIONA",
+    "department": "Civil Engineering",
+    "title": "M.Tech Structural Engineering (Working Professionals)",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Tech Structural Engineering (Working Professionals) offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_TECH_ELECTRICAL___COMPUTER_ENGINEERING",
+    "department": "Electrical Engineering",
+    "title": "B.Tech Electrical & Computer Engineering",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech Electrical & Computer Engineering provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "GEN_M_TECH_ELECTRIC_VEHICLE_TECHNOLOGY",
+    "department": "Electrical Engineering",
+    "title": "M.Tech Electric Vehicle Technology",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Tech Electric Vehicle Technology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "ECE_B_TECH_ECE",
+    "department": "Electronics & Communication Engineering",
+    "title": "B.Tech ECE",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech ECE provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "ECE_B_TECH_ECE_WITH_OPTIONAL_SPECIALIZATION_IN_EMBEDDE",
+    "department": "Electronics & Communication Engineering",
+    "title": "B.Tech ECE with optional specialization in Embedded Sytems and Robotics (ESR)",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech ECE with optional specialization in Embedded Sytems and Robotics (ESR) provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "ECE_B_TECH_ECE_WITH_OPTIONAL_SPECIALIZATION_IN_INTERNE",
+    "department": "Electronics & Communication Engineering",
+    "title": "B.Tech ECE with optional specialization in Internet of Things (IoT)",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech ECE with optional specialization in Internet of Things (IoT) provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "ECE_B_TECH_ECE__VLSI_DESIGN_AND_TECHNOLOGY_",
+    "department": "Electronics & Communication Engineering",
+    "title": "B.Tech ECE (VLSI Design and Technology)",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech ECE (VLSI Design and Technology) provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "ECE_B_TECH_ECE__WORKING_PROFESSIONALS_",
+    "department": "Electronics & Communication Engineering",
+    "title": "B.Tech ECE (Working Professionals)",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech ECE (Working Professionals) provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "ECE_M_TECH_BIOMEDICAL_ENGINEERING",
+    "department": "Electronics & Communication Engineering",
+    "title": "M.Tech Biomedical Engineering",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Tech Biomedical Engineering offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "ME_B_TECH_ME",
+    "department": "Mechanical Engineering",
+    "title": "B.Tech ME",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech ME provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "ME_B_TECH_ME__HONS___WITH_SPECIALIZATION_IN_AUTOMOBIL",
+    "department": "Mechanical Engineering",
+    "title": "B.Tech ME (Hons.) with specialization in Automobile",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech ME (Hons.) with specialization in Automobile provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "ME_B_TECH_ME__HONS___WITH_SPECIALIZATION_IN_ROBOTICS_",
+    "department": "Mechanical Engineering",
+    "title": "B.Tech ME (Hons.) with specialization in Robotics & Automation",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech ME (Hons.) with specialization in Robotics & Automation provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "ME_B_TECH_ME_WITH_MINOR_SPECIALIZATION_IN_COMPUTER_SC",
+    "department": "Mechanical Engineering",
+    "title": "B.Tech ME with minor specialization in Computer Science",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Industry-aligned curriculum",
+      "State-of-the-art labs and facilities",
+      "Placement support and internships"
+    ],
+    "description": "B.Tech ME with minor specialization in Computer Science provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+  },
+  {
+    "code": "GEN_BCA",
+    "department": "Computer Application",
+    "title": "BCA",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "BCA offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_BCA__HONS__",
+    "department": "Computer Application",
+    "title": "BCA (Hons.)",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "BCA (Hons.) offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_BCA_INDUSTRY_INTEGRATED",
+    "department": "Computer Application",
+    "title": "BCA Industry Integrated",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "BCA Industry Integrated offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_BCA",
+    "department": "Computer Application",
+    "title": "BCA",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "BCA offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_BCA__HONS___AI___DS",
+    "department": "Computer Application",
+    "title": "BCA (Hons.) AI & DS",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Advanced AI and machine learning algorithms",
+      "Deep learning and neural networks",
+      "Industry projects and hands-on labs"
+    ],
+    "description": "BCA (Hons.) AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+  },
+  {
+    "code": "GEN_BCA_CYBER_SECURITY",
+    "department": "Computer Application",
+    "title": "BCA Cyber Security",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Network security and ethical hacking",
+      "Cryptography and security protocols",
+      "Hands-on cybersecurity labs"
+    ],
+    "description": "BCA Cyber Security prepares students for careers in cybersecurity and information security. Topics include ethical hacking, cryptography, network security, malware analysis, and security operations. Students gain practical experience through labs and industry certifications."
+  },
+  {
+    "code": "GEN_BCA__HONS___CYBER_SECURITY",
+    "department": "Computer Application",
+    "title": "BCA (Hons.) Cyber Security",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Network security and ethical hacking",
+      "Cryptography and security protocols",
+      "Hands-on cybersecurity labs"
+    ],
+    "description": "BCA (Hons.) Cyber Security prepares students for careers in cybersecurity and information security. Topics include ethical hacking, cryptography, network security, malware analysis, and security operations. Students gain practical experience through labs and industry certifications."
+  },
+  {
+    "code": "GEN_MCA",
+    "department": "Computer Application",
+    "title": "MCA",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "MCA offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_MCA_AI___DS",
+    "department": "Computer Application",
+    "title": "MCA AI & DS",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Advanced AI and machine learning algorithms",
+      "Deep learning and neural networks",
+      "Industry projects and hands-on labs"
+    ],
+    "description": "MCA AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+  },
+  {
+    "code": "GEN_B_SC__HONS___COMPUTER_SCIENCE",
+    "department": "Computer Application",
+    "title": "B.Sc (Hons.) Computer Science",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc (Hons.) Computer Science offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_COMPUTER_SCIENCE",
+    "department": "Computer Application",
+    "title": "B.Sc Computer Science",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Computer Science offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC___HONS___IT",
+    "department": "Computer Application",
+    "title": "B.Sc. (Hons.) IT",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc. (Hons.) IT offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_IT",
+    "department": "Computer Application",
+    "title": "B.Sc IT",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc IT offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC",
+    "department": "Computer Application",
+    "title": "B.Sc",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_IT_INDUSTRY_INTEGRATED",
+    "department": "Computer Application",
+    "title": "B.Sc IT Industry Integrated",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc IT Industry Integrated offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_M_SC_IT",
+    "department": "Computer Application",
+    "title": "M.Sc IT",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Sc IT offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "MBA_BBA",
+    "department": "Management",
+    "title": "BBA",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "BBA provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_BBA__HONS__",
+    "department": "Management",
+    "title": "BBA (Hons.)",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "BBA (Hons.) provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_BBA_WITH_SPECIALIZATION_IN_ENTREPRENEURSHIP",
+    "department": "Management",
+    "title": "BBA with specialization in Entrepreneurship",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "BBA with specialization in Entrepreneurship provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_BBA_WITH_SPECIALIZATION_IN_HOSPITAL_ADMINISTRATION",
+    "department": "Management",
+    "title": "BBA with specialization in Hospital Administration",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "BBA with specialization in Hospital Administration provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_BBA_WITH_SPECIALIZATION_IN_AI___DS",
+    "department": "Management",
+    "title": "BBA with specialization in AI & DS",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Advanced AI and machine learning algorithms",
+      "Deep learning and neural networks",
+      "Industry projects and hands-on labs"
+    ],
+    "description": "BBA with specialization in AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+  },
+  {
+    "code": "MBA_BBA_WITH_SPECIALIZATION_IN_E_COMMERCE_AND_DIGITAL_",
+    "department": "Management",
+    "title": "BBA with specialization in E-Commerce and Digital Marketing",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Digital marketing and brand management",
+      "Consumer behavior and market research",
+      "Marketing analytics and strategy"
+    ],
+    "description": "BBA with specialization in E-Commerce and Digital Marketing focuses on modern marketing strategies, digital marketing, and brand management. Students learn consumer behavior, market research, marketing analytics, and strategic planning for the digital age."
+  },
+  {
+    "code": "MBA_BBA_WITH_SPECIALIZATION_IN_AVIATION_MANAGEMENT",
+    "department": "Management",
+    "title": "BBA with specialization in Aviation Management",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "BBA with specialization in Aviation Management provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_BBA__HONS___WITH_SPECIALIZATION_IN_ENTREPRENEURSHI",
+    "department": "Management",
+    "title": "BBA (Hons.) with specialization in Entrepreneurship",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "BBA (Hons.) with specialization in Entrepreneurship provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_BBA__HONS___WITH_SPECIALIZATION_IN_HOSPITAL_ADMINI",
+    "department": "Management",
+    "title": "BBA (Hons.) with specialization in Hospital Administration",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "BBA (Hons.) with specialization in Hospital Administration provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_BBA__HONS___WITH_SPECIALIZATION_IN_AVIATION_MANAGE",
+    "department": "Management",
+    "title": "BBA (Hons.) with specialization in Aviation Management",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "BBA (Hons.) with specialization in Aviation Management provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_BBA__HONS___WITH_SPECIALIZATION_IN_AI___DS",
+    "department": "Management",
+    "title": "BBA (Hons.) with specialization in AI & DS",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Advanced AI and machine learning algorithms",
+      "Deep learning and neural networks",
+      "Industry projects and hands-on labs"
+    ],
+    "description": "BBA (Hons.) with specialization in AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+  },
+  {
+    "code": "MBA_BBA__HONS___WITH_SPECIALIZATION_IN_E_COMMERCE_AND_",
+    "department": "Management",
+    "title": "BBA (Hons.) with specialization in E-Commerce and Digital Marketing",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Digital marketing and brand management",
+      "Consumer behavior and market research",
+      "Marketing analytics and strategy"
+    ],
+    "description": "BBA (Hons.) with specialization in E-Commerce and Digital Marketing focuses on modern marketing strategies, digital marketing, and brand management. Students learn consumer behavior, market research, marketing analytics, and strategic planning for the digital age."
+  },
+  {
+    "code": "MBA_BBA_INTERNATIONAL_FINANCE_AND_ACCOUNTING_WITH_ACCA",
+    "department": "Management",
+    "title": "BBA International Finance and Accounting with ACCA",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Financial modeling and analysis",
+      "Investment and portfolio management",
+      "Banking and fintech exposure"
+    ],
+    "description": "BBA International Finance and Accounting with ACCA equips students with financial analysis, investment management, and corporate finance skills. The curriculum covers financial markets, risk analysis, banking, and fintech trends. Graduates can work in investment banking, corporate finance, financial consulting, and wealth management."
+  },
+  {
+    "code": "MBA_BBA__HONS___INTERNATIONAL_FINANCE_AND_ACCOUNTING_W",
+    "department": "Management",
+    "title": "BBA (Hons.) International Finance and Accounting with ACCA",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Financial modeling and analysis",
+      "Investment and portfolio management",
+      "Banking and fintech exposure"
+    ],
+    "description": "BBA (Hons.) International Finance and Accounting with ACCA equips students with financial analysis, investment management, and corporate finance skills. The curriculum covers financial markets, risk analysis, banking, and fintech trends. Graduates can work in investment banking, corporate finance, financial consulting, and wealth management."
+  },
+  {
+    "code": "MBA_AI___DS",
+    "department": "Management",
+    "title": "MBA AI & DS",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Advanced AI and machine learning algorithms",
+      "Deep learning and neural networks",
+      "Industry projects and hands-on labs"
+    ],
+    "description": "MBA AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+  },
+  {
+    "code": "MBA",
+    "department": "Management",
+    "title": "MBA",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "MBA provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_IMPACT",
+    "department": "Management",
+    "title": "MBA IMPACT",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "MBA IMPACT provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_WITH_SPECIALIZATION_IN_MARKETING",
+    "department": "Management",
+    "title": "MBA with specialization in Marketing",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Digital marketing and brand management",
+      "Consumer behavior and market research",
+      "Marketing analytics and strategy"
+    ],
+    "description": "MBA with specialization in Marketing focuses on modern marketing strategies, digital marketing, and brand management. Students learn consumer behavior, market research, marketing analytics, and strategic planning for the digital age."
+  },
+  {
+    "code": "MBA_WITH_SPECIALIZATION_IN_FINANCE",
+    "department": "Management",
+    "title": "MBA with specialization in Finance",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Financial modeling and analysis",
+      "Investment and portfolio management",
+      "Banking and fintech exposure"
+    ],
+    "description": "MBA with specialization in Finance equips students with financial analysis, investment management, and corporate finance skills. The curriculum covers financial markets, risk analysis, banking, and fintech trends. Graduates can work in investment banking, corporate finance, financial consulting, and wealth management."
+  },
+  {
+    "code": "MBA_WITH_SPECIALIZATION_IN_HUMAN_RESOURCE",
+    "department": "Management",
+    "title": "MBA with specialization in Human Resource",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Talent management and organizational behavior",
+      "HR analytics and strategic planning",
+      "Employee relations and development"
+    ],
+    "description": "MBA with specialization in Human Resource prepares students for HR leadership roles. The curriculum covers talent acquisition, performance management, HR analytics, organizational development, and strategic HR planning."
+  },
+  {
+    "code": "MBA_WITH_SPECIALIZATION_IN_BUSINESS_ANALYTICS",
+    "department": "Management",
+    "title": "MBA with specialization in Business Analytics",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "MBA with specialization in Business Analytics provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_WITH_SPECIALIZATION_IN_LOGISTICS_AND_SUPPLY_CH",
+    "department": "Management",
+    "title": "MBA with specialization in Logistics and Supply Chain Management",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "MBA with specialization in Logistics and Supply Chain Management provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_WITH_SPECIALIZATION_IN_BANKING___FINANCE",
+    "department": "Management",
+    "title": "MBA with specialization in Banking & Finance",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Financial modeling and analysis",
+      "Investment and portfolio management",
+      "Banking and fintech exposure"
+    ],
+    "description": "MBA with specialization in Banking & Finance equips students with financial analysis, investment management, and corporate finance skills. The curriculum covers financial markets, risk analysis, banking, and fintech trends. Graduates can work in investment banking, corporate finance, financial consulting, and wealth management."
+  },
+  {
+    "code": "MBA_WITH_SPECIALIZATION_IN_BRANDING___ADVERTISING",
+    "department": "Management",
+    "title": "MBA with specialization in Branding & Advertising",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "MBA with specialization in Branding & Advertising provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_WITH_SPECIALIZATION_IN_INTERNATIONAL_BUSINESS",
+    "department": "Management",
+    "title": "MBA with specialization in International Business",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "MBA with specialization in International Business provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_WITH_SPECIALIZATION_IN_DIGITAL_MARKETING",
+    "department": "Management",
+    "title": "MBA with specialization in Digital Marketing",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Digital marketing and brand management",
+      "Consumer behavior and market research",
+      "Marketing analytics and strategy"
+    ],
+    "description": "MBA with specialization in Digital Marketing focuses on modern marketing strategies, digital marketing, and brand management. Students learn consumer behavior, market research, marketing analytics, and strategic planning for the digital age."
+  },
+  {
+    "code": "MBA_WITH_SPECIALIZATION_IN_RETAIL_MANAGEMENT",
+    "department": "Management",
+    "title": "MBA with specialization in Retail Management",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "MBA with specialization in Retail Management provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_WITH_SPECIALIZATION_IN_ENTREPRENEURSHIP",
+    "department": "Management",
+    "title": "MBA with specialization in Entrepreneurship",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "MBA with specialization in Entrepreneurship provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "MBA_WITH_SPECIALIZATION_IN_SPORTS_MANAGEMENT",
+    "department": "Management",
+    "title": "MBA with specialization in Sports Management",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Strategic management and leadership",
+      "Business analytics and decision making",
+      "Industry internships and live projects"
+    ],
+    "description": "MBA with specialization in Sports Management provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+  },
+  {
+    "code": "DESIGN_M_DES",
+    "department": "Design",
+    "title": "M.Des",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Des offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "DESIGN_M_DES_DESIGN_FUTURES",
+    "department": "Design",
+    "title": "M.Des Design Futures",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Des Design Futures offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "DESIGN_M_DES_GRAPHIC___VISUAL_COMMUNICATION_DESIGN",
+    "department": "Design",
+    "title": "M.Des Graphic & Visual Communication Design",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Des Graphic & Visual Communication Design offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "DESIGN_M_DES_INDUSTRIAL_PRODUCT_DESIGN",
+    "department": "Design",
+    "title": "M.Des Industrial Product Design",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Des Industrial Product Design offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "DESIGN_M_DES_USER_EXPERIENCE___INTERACTION_DESIGN",
+    "department": "Design",
+    "title": "M.Des User Experience & Interaction Design",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Des User Experience & Interaction Design offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "DESIGN_B_DES_ANIMATION___GAME_DESIGN",
+    "department": "Design",
+    "title": "B.Des Animation & Game Design",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Des Animation & Game Design offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "DESIGN_B_DES_GRAPHIC___VISUAL_COMMUNICATION_DESIGN",
+    "department": "Design",
+    "title": "B.Des Graphic & Visual Communication Design",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Des Graphic & Visual Communication Design offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "DESIGN_B_DES_INDUSTRIAL_PRODUCT_DESIGN",
+    "department": "Design",
+    "title": "B.Des Industrial Product Design",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Des Industrial Product Design offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "DESIGN_B_DES_USER_EXPERIENCE___INTERACTION_DESIGN",
+    "department": "Design",
+    "title": "B.Des User Experience & Interaction Design",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Des User Experience & Interaction Design offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_CLINICAL_PSYCHOLOGY",
+    "department": "Paramedical",
+    "title": "B.Sc Clinical Psychology",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Clinical Psychology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_ANAESTHESIA_TECHNOLOGY",
+    "department": "Paramedical",
+    "title": "B.Sc Anaesthesia Technology",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Anaesthesia Technology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_RENAL_DIALYSIS",
+    "department": "Paramedical",
+    "title": "B.Sc Renal Dialysis",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Renal Dialysis offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_CRITICAL_CARE",
+    "department": "Paramedical",
+    "title": "B.Sc Critical Care",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Critical Care offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_RESPIRATORY_THERAPY",
+    "department": "Paramedical",
+    "title": "B.Sc Respiratory Therapy",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Respiratory Therapy offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_BPH",
+    "department": "Paramedical",
+    "title": "BPH",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "BPH offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_CARDIAC_PERFUSION_TECHNOLOGY",
+    "department": "Paramedical",
+    "title": "B.Sc Cardiac Perfusion Technology",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Cardiac Perfusion Technology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_OPTOMETRY",
+    "department": "Paramedical",
+    "title": "B.Sc Optometry",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Optometry offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_MEDICAL_MICROBIOLOGY",
+    "department": "Paramedical",
+    "title": "B.Sc Medical Microbiology",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Medical Microbiology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_OPERATION_THEATRE",
+    "department": "Paramedical",
+    "title": "B.Sc Operation Theatre",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Operation Theatre offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_BMLT",
+    "department": "Paramedical",
+    "title": "BMLT",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Advanced AI and machine learning algorithms",
+      "Deep learning and neural networks",
+      "Industry projects and hands-on labs"
+    ],
+    "description": "BMLT focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+  },
+  {
+    "code": "GEN_BMRIT",
+    "department": "Paramedical",
+    "title": "BMRIT",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "BMRIT offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_BPT",
+    "department": "Paramedical",
+    "title": "BPT",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "BPT offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_NURSING",
+    "department": "Nursing",
+    "title": "B.Sc Nursing",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Nursing offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "LAW_BA_LLB__HONS__",
+    "department": "Law",
+    "title": "BA LLB (Hons.)",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "BA LLB (Hons.) offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "LAW_BBA_LLB__HONS__",
+    "department": "Law",
+    "title": "BBA LLB (Hons.)",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "BBA LLB (Hons.) offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "LAW_LLB__HONS__",
+    "department": "Law",
+    "title": "LLB (Hons.)",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "LLB (Hons.) offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "LAW_LLM",
+    "department": "Law",
+    "title": "LLM",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "LLM offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "COM_B_COM__HONS__",
+    "department": "Commerce",
+    "title": "B.Com (Hons.)",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Com (Hons.) offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "COM_B_COM__HONS___WITH_RESEARCH",
+    "department": "Commerce",
+    "title": "B.Com (Hons.) with research",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Com (Hons.) with research offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "COM_B_COM__HONS___INTERNATIONAL_FINANCE_AND_ACCOUNTING",
+    "department": "Commerce",
+    "title": "B.Com (Hons.) International Finance and Accounting with ACCA, UK",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Com (Hons.) International Finance and Accounting with ACCA, UK offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "COM_B_COM__HONS___BANKING___FINANCE",
+    "department": "Commerce",
+    "title": "B.Com (Hons.) Banking & Finance",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Com (Hons.) Banking & Finance offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "COM_B_COM__HONS___ACCOUNTING__AUDITING___TAXATION",
+    "department": "Commerce",
+    "title": "B.Com (Hons.) Accounting, Auditing & Taxation",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Com (Hons.) Accounting, Auditing & Taxation offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "COM_B_COM__HONS___CORPORATE_ACCOUNTING_AND_FINANCIAL_A",
+    "department": "Commerce",
+    "title": "B.Com (Hons.) Corporate Accounting and Financial Analysis with CMA, US",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Com (Hons.) Corporate Accounting and Financial Analysis with CMA, US offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "COM_B_COM__HONS___INTEGRATED_WITH_US_CPA_IN_CORPORATE_",
+    "department": "Commerce",
+    "title": "B.Com (Hons.) Integrated with US CPA in Corporate Finance",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Com (Hons.) Integrated with US CPA in Corporate Finance offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "COM_B_VOC_BFSI",
+    "department": "Commerce",
+    "title": "B.Voc BFSI",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Voc BFSI offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_BHM",
+    "department": "Hospitality Management",
+    "title": "BHM",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "BHM offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_HOTEL_OPERATIONS",
+    "department": "Hospitality Management",
+    "title": "Hotel Operations",
+    "level": "Certificate Course",
+    "duration": "Varies",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "Hotel Operations offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_MHM",
+    "department": "Hospitality Management",
+    "title": "MHM",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "MHM offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC__HONS___BIOTECHNOLOGY",
+    "department": "Biosciences",
+    "title": "B.Sc (Hons.) Biotechnology",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc (Hons.) Biotechnology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC__HONS___FORENSIC_SCIENCE",
+    "department": "Biosciences",
+    "title": "B.Sc (Hons.) Forensic Science",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc (Hons.) Forensic Science offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_M_SC_BIOINFORMATICS",
+    "department": "Biosciences",
+    "title": "M.Sc Bioinformatics",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Sc Bioinformatics offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_M_SC_BIOTECHNOLOGY",
+    "department": "Biosciences",
+    "title": "M.Sc Biotechnology",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Sc Biotechnology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC__HONS___MICROBIOLOGY",
+    "department": "Microbiology",
+    "title": "B.Sc (Hons.) Microbiology",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc (Hons.) Microbiology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_MICROBIOLOGY",
+    "department": "Microbiology",
+    "title": "B.Sc Microbiology",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Microbiology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_M_SC_MICROBIOLOGY",
+    "department": "Microbiology",
+    "title": "M.Sc Microbiology",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Sc Microbiology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_FOOD_TECHNOLOGY",
+    "department": "Food Science & Technology",
+    "title": "B.Sc Food Technology",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Food Technology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC__HONS___FOOD_TECHNOLOGY",
+    "department": "Food Science & Technology",
+    "title": "B.Sc (Hons.) Food Technology",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc (Hons.) Food Technology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_NUTRITION___DIETETICS",
+    "department": "Food Science & Technology",
+    "title": "B.Sc Nutrition & Dietetics",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Nutrition & Dietetics offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC___HONS___NUTRITION___DIETETICS",
+    "department": "Food Science & Technology",
+    "title": "B.Sc. (Hons.) Nutrition & Dietetics",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc. (Hons.) Nutrition & Dietetics offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_M_SC_FOODS___NUTRITION",
+    "department": "Food Science & Technology",
+    "title": "M.Sc Foods & Nutrition",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Sc Foods & Nutrition offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_M_SC_FOOD_TECHNOLOGY",
+    "department": "Food Science & Technology",
+    "title": "M.Sc Food Technology",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Sc Food Technology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_M_SC_CHEMISTRY",
+    "department": "Allied Sciences",
+    "title": "M.Sc Chemistry",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Sc Chemistry offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_M_SC_EVS",
+    "department": "Allied Sciences",
+    "title": "M.Sc EVS",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Sc EVS offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC_GEOLOGY",
+    "department": "Earth Sciences",
+    "title": "B.Sc Geology",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc Geology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_SC__HONS___GEOLOGY",
+    "department": "Earth Sciences",
+    "title": "B.Sc (Hons.) Geology",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.Sc (Hons.) Geology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_M_SC_APPLIED_GEOLOGY",
+    "department": "Earth Sciences",
+    "title": "M.Sc Applied Geology",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.Sc Applied Geology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_A___HONS___ECONOMICS",
+    "department": "Humanities & Social Sciences",
+    "title": "B.A. (Hons.) Economics",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.A. (Hons.) Economics offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_A___HONS___ENGLISH",
+    "department": "Humanities & Social Sciences",
+    "title": "B.A. (Hons.) English",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.A. (Hons.) English offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_A___HONS___PSYCHOLOGY",
+    "department": "Humanities & Social Sciences",
+    "title": "B.A. (Hons.) Psychology",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.A. (Hons.) Psychology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_A___HONS___POLITICAL_SCIENCE",
+    "department": "Humanities & Social Sciences",
+    "title": "B.A. (Hons.) Political Science",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.A. (Hons.) Political Science offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_A___HONS___SOCIOLOGY",
+    "department": "Humanities & Social Sciences",
+    "title": "B.A. (Hons.) Sociology",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.A. (Hons.) Sociology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_B_A_",
+    "department": "Humanities & Social Sciences",
+    "title": "B.A.",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "B.A. offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_M_A__APPLIED_PSYCHOLOGY",
+    "department": "Humanities & Social Sciences",
+    "title": "M.A. Applied Psychology",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.A. Applied Psychology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_M_A__SOCIOLOGY",
+    "department": "Humanities & Social Sciences",
+    "title": "M.A. Sociology",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.A. Sociology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_M_A__ENGLISH",
+    "department": "Humanities & Social Sciences",
+    "title": "M.A. English",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.A. English offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_M_A__ECONOMICS",
+    "department": "Humanities & Social Sciences",
+    "title": "M.A. Economics",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.A. Economics offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
+  {
+    "code": "GEN_M_A__POLITICAL_SCIENCE",
+    "department": "Humanities & Social Sciences",
+    "title": "M.A. Political Science",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "M.A. Political Science offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  }
+]

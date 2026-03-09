@@ -1,0 +1,212 @@
+/* Inline LQIP (tiny blurred webp) */
+.hero-bg {
+  background-image: url('data:image/webp;base64,BASE64_STRING_HERE');
+  background-size: cover;
+  background-position: center;
+  filter: blur(20px);
+  transform: scale(1.05);            /* hide blur edges */
+  transition: filter 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Swap to real assets per breakpoint (these will override the inline LQIP) */
+@media (min-width: 1px) {
+  .hero-bg { background-image: url('../img/main/bg-image-480.webp'); }
+}
+@media (min-width: 768px) {
+  .hero-bg { background-image: url('../img/main/bg-image-768.webp'); }
+}
+@media (min-width: 1280px) {
+  .hero-bg { background-image: url('../img/main/bg-image-1280.webp'); }
+}
+@media (min-width: 1920px) {
+  .hero-bg { background-image: url('../img/main/bg-image-1920.webp'); }
+}
+
+/* Remove blur after load */
+.hero-bg.loaded {
+  filter: blur(0);
+  transform: scale(1);
+}
+
+/* ================== Apply Button ================== */
+.apply-btn {
+  background: linear-gradient(90deg, #2563eb, #facc15); /* blue → yellow gradient */
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.3s ease;
+}
+
+.apply-btn:hover {
+  background: linear-gradient(90deg, #1e40af, #eab308); /* darker on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+.apply-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* ================== Text Clamp ================== */
+.about-text,
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.about-text {
+  -webkit-line-clamp: 3;
+  max-height: 4.5em; /* ~3 lines */
+}
+
+.about-text.expanded {
+  -webkit-line-clamp: unset;
+  max-height: 1000px; /* allow expansion */
+}
+
+/* ================== Read More Button ================== */
+.read-more .icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.read-more.expanded .icon { transform: rotate(180deg); }
+
+/* ================== Swiper Arrows ================== */
+.swiper-button-next, .swiper-button-prev {
+  color: #1d4ed8;
+  width: 28px; height: 28px;
+  font-size: 12px;
+}
+.swiper-button-next { right: -25px; }
+.swiper-button-prev { left: -25px; }
+
+/* ================== Progress Bar ================== */
+@keyframes shrinkBar {
+  from { width:100%; background:#22c55e; }
+  50%  { background:#eab308; }
+  to   { width:0; background:#ef4444; }
+}
+.animate-progress { animation: shrinkBar 20s linear forwards; }
+
+.countdown-green { color:#22c55e; }
+.countdown-yellow { color:#eab308; }
+.countdown-red { color:#ef4444; }
+
+/* ================== Line + Dot + Glow ================== */
+#progress-line {
+  width: 4px;
+  left: 4px;
+  background: linear-gradient(to bottom, var(--line-color-start, #2563eb), var(--line-color-end, #2563eb));
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.6);
+  transition: height 0.6s ease, background 0.5s ease;
+}
+
+#progress-dot {
+  position: absolute;
+  left: 2px; top: 0;
+  width: 16px; height: 16px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #2563eb 40%, rgba(37, 99, 235, 0.6) 70%, rgba(37, 99, 235, 0));
+  animation: dotPulse 2s infinite;
+  transition: top 0.4s ease;
+  box-shadow: 0 0 12px rgba(37, 99, 235, 0.8), 0 0 24px rgba(37, 99, 235, 0.6);
+  z-index: 20;
+}
+
+#progress-dot::after {
+  content: '';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: var(--trail-length, 60px);
+  background: linear-gradient(to bottom, var(--trail-color-start, rgba(37, 99, 235, 0.5)), rgba(37, 99, 235, 0));
+  border-radius: 9999px;
+  filter: blur(4px);
+  opacity: 0.8;
+  transition: height 0.2s ease, background 0.5s ease;
+}
+
+@keyframes dotPulse {
+  0%, 100% { box-shadow: 0 0 12px rgba(37, 99, 235, 0.8), 0 0 24px rgba(37, 99, 235, 0.4); }
+  50% { box-shadow: 0 0 20px rgba(37, 99, 235, 1), 0 0 36px rgba(37, 99, 235, 0.6); }
+}
+
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.6); }
+  70% { box-shadow: 0 0 0 12px rgba(37, 99, 235, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0); }
+}
+.glow { animation: pulseGlow 2s infinite; border-radius: 9999px; }
+
+/* ================== Floating Animations ================== */
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0) translateX(0); }
+  50% { transform: translateY(-20px) translateX(10px); }
+}
+@keyframes float-fast {
+  0%, 100% { transform: translateY(0) translateX(0); }
+  50% { transform: translateY(-40px) translateX(-20px); }
+}
+@keyframes float-slower {
+  0%, 100% { transform: translateY(0) translateX(0); }
+  50% { transform: translateY(30px) translateX(15px); }
+}
+.animate-float-slow { animation: float-slow 12s ease-in-out infinite; }
+.animate-float-fast { animation: float-fast 8s ease-in-out infinite; }
+.animate-float-slower { animation: float-slower 16s ease-in-out infinite; }
+
+/* ================== Pulse ================== */
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 0.9; transform: scale(1.05); }
+}
+.animate-pulse { animation: pulse 3s ease-in-out infinite; }
+
+/* ================== Scroll Effects ================== */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+.fade-in-up {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* ================== Section Spacing ================== */
+.section-spacing { padding: 5rem 0; }    /* ~80px */
+.section-spacing-sm { padding: 3rem 0; } /* ~48px */
+
+/* ================== Cursor Effects ================== */
+.cursor-grabbing { cursor: grabbing !important; }
+#lifeVideoSlider, #placementSlider { cursor: grab; }
+
+/* ================== Success Stories Depth Effect ================== */
+#placementSlider > div {
+  transform: scale(0.95);
+  opacity: 0.85;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+#placementSlider > div.snap-center {
+  transform: scale(1);
+  opacity: 1;
+}
+#placementSlider > div:hover {
+  box-shadow: none !important;
+  transform: scale(0.95); /* maintain depth */
+}

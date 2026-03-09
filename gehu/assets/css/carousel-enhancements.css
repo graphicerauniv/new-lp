@@ -1,0 +1,152 @@
+/* Enhanced Carousel Styling - Key Highlights & Accreditations */
+
+/* ========================================
+   KEY HIGHLIGHTS SWIPER
+======================================== */
+
+.keyHighlightsSwiper {
+  padding-bottom: 60px !important;
+  position: relative;
+}
+
+/* Card height - flexible with minimum */
+.highlight-card {
+  min-height: 450px;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+.highlight-card.expanded {
+  min-height: 450px;
+  height: auto;
+}
+
+.highlight-card .description-text {
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.highlight-card .line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.highlight-card .read-more-btn {
+  cursor: pointer;
+  user-select: none;
+}
+
+.highlight-card .chevron-icon {
+  transition: transform 0.3s ease;
+}
+
+/* Ensure consistent card heights in grid */
+.keyHighlightsSwiper .swiper-slide {
+  height: auto !important;
+}
+
+/* Pagination Dots */
+.keyHighlightsSwiper .swiper-pagination {
+  bottom: 20px !important;
+}
+
+.keyHighlightsSwiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.keyHighlightsSwiper .swiper-pagination-bullet-active {
+  width: 28px;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+/* ========================================
+   ACCREDITATIONS SWIPER
+======================================== */
+
+.accreditationsSwiper {
+  padding-bottom: 60px !important;
+  position: relative;
+}
+
+/* Accreditation cards - optimal height */
+.accreditationsSwiper .swiper-slide > div {
+  height: 450px !important;
+}
+
+/* Pagination Dots */
+.accreditationsSwiper .swiper-pagination {
+  bottom: 20px !important;
+}
+
+.accreditationsSwiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #cbd5e1;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.accreditationsSwiper .swiper-pagination-bullet-active {
+  width: 28px;
+  border-radius: 5px;
+  background: #1e3a8a;
+}
+
+/* ========================================
+   CARD ENHANCEMENTS
+======================================== */
+
+/* Smooth hover effects */
+.keyHighlightsSwiper .swiper-slide,
+.accreditationsSwiper .swiper-slide {
+  height: auto;
+  display: flex;
+}
+
+/* Card hover lift effect */
+.keyHighlightsSwiper .group:hover,
+.accreditationsSwiper .group:hover {
+  transform: translateY(-4px);
+}
+
+/* Ensure content section is visible and properly spaced */
+.highlight-card > div:last-child {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 200px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .keyHighlightsSwiper,
+  .accreditationsSwiper {
+    padding-bottom: 50px !important;
+  }
+  
+  .keyHighlightsSwiper .swiper-pagination,
+  .accreditationsSwiper .swiper-pagination {
+    bottom: 10px !important;
+  }
+  
+  .highlight-card {
+    min-height: 380px;
+  }
+  
+  .highlight-card > div:last-child {
+    min-height: 180px;
+  }
+}
+
+/* Ensure cards don't stretch */
+.keyHighlightsSwiper .swiper-slide > div,
+.accreditationsSwiper .swiper-slide > div {
+  width: 100%;
+}

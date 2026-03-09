@@ -1,0 +1,272 @@
+let coursesData = [];
+window.swiperInstance = window.swiperInstance || null;
+window.window.manualPause = false;
+// track Read More state
+
+/* Fetch Courses */
+fetch("/assets/etc/courses.json")
+  .then(res => res.json())
+  .then(data => {
+    coursesData = data;
+    renderCourses(data);
+    populateDepartments(data);
+    populateStates();
+    attachFilterEvents();
+  });
+
+/* Render Courses with Swiper Grid (autoplay + smart pause/resume) */
+function renderCourses(list) {
+  const noResults = document.getElementById("noResults");
+
+  if (!swiperInstance) {
+    swiperInstance = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      grid: { rows: 2, fill: "row" },
+      spaceBetween: 20,
+      autoplay: { delay: 3000, disableOnInteraction: false },
+      preloadImages: false,
+      lazy: { loadPrevNext: true },
+      breakpoints: {
+        0:    { slidesPerView: 1, grid: { rows: 2, fill: "row" }, spaceBetween: 12 },
+        640:  { slidesPerView: 2, grid: { rows: 2, fill: "row" }, spaceBetween: 16 },
+        1024: { slidesPerView: 3, grid: { rows: 2, fill: "row" }, spaceBetween: 20 },
+        1280: { slidesPerView: 3, grid: { rows: 2, fill: "row" }, spaceBetween: 24 }
+      }
+    });
+
+    const swiperEl = document.querySelector(".mySwiper");
+    if (swiperEl) {
+      // Pause/resume on hover (desktop)
+      swiperEl.addEventListener("mouseenter", () => {
+        if (swiperInstance?.autoplay) swiperInstance.autoplay.stop();
+      });
+      swiperEl.addEventListener("mouseleave", () => {
+        if (!window.manualPause && swiperInstance?.autoplay) swiperInstance.autoplay.start();
+      });
+
+      // Pause/resume on touch-hold (mobile)
+      swiperEl.addEventListener("touchstart", () => {
+        if (swiperInstance?.autoplay) swiperInstance.autoplay.stop();
+      });
+      swiperEl.addEventListener("touchend", () => {
+        if (!window.manualPause && swiperInstance?.autoplay) swiperInstance.autoplay.start();
+      });
+
+      // ✅ Pause when slider is scrolled out of view
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            if (!window.manualPause && swiperInstance?.autoplay) swiperInstance.autoplay.start();
+          } else {
+            if (swiperInstance?.autoplay) swiperInstance.autoplay.stop();
+          }
+        });
+      }, { threshold: 0.2 }); // 20% visibility threshold
+      observer.observe(swiperEl);
+    }
+  }
+
+  const wrapper = document.querySelector(".mySwiper .swiper-wrapper");
+  if (!wrapper) return;
+
+  wrapper.innerHTML = (list || []).map(c => `
+    <div class="swiper-slide">
+      <div class="course-card bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 flex flex-col h-full"
+           data-dept="${c.dept}" data-level="${c.level}">
+        <div class="mb-4">
+          <h3 class="font-bold text-xl text-blue-800 leading-snug">${c.name}</h3>
+          <p class="text-sm text-gray-500 mt-1">
+            ${c.dept} ${c.level ? "- " + c.level : ""} ${c.duration ? "- " + c.duration : ""}
+          </p>
+        </div>
+        <p class="about-text text-sm text-gray-700 mb-4">${c.about}</p>
+        ${
+          c.image
+            ? `<img data-src="${c.image}" class="swiper-lazy w-full h-40 object-cover rounded mb-4" alt="${c.name}">
+               <div class="swiper-lazy-preloader"></div>`
+            : ""
+        }
+        <button class="apply-btn hidden w-full mt-2 px-4 py-2" data-course="${c.name}" data-dept="${c.dept}">
+          Apply Now
+        </button>
+        <div class="mt-auto flex justify-between border-t pt-4">
+          <button class="read-more text-sm font-medium text-blue-600 hover:text-blue-700 flex items-center gap-1">
+            <span class="label">Read More</span><span class="icon">▼</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  `).join("");
+
+  swiperInstance.slideTo(0, 0);
+  swiperInstance.update();
+
+  const hasSlides = list && list.length > 0;
+  if (noResults) noResults.style.display = hasSlides ? "none" : "block";
+  if (swiperInstance.autoplay) {
+    hasSlides ? swiperInstance.autoplay.start() : swiperInstance.autoplay.stop();
+  }
+
+  attachCardEvents();
+}
+
+/* Card Events (pauses autoplay on Read More expansion) */
+function attachCardEvents() {
+  document.querySelectorAll(".read-more").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const card = btn.closest(".course-card");
+      const text = card.querySelector(".about-text");
+      const applyBtn = card.querySelector(".apply-btn");
+      const expanded = text.classList.contains("expanded");
+
+      document.querySelectorAll(".about-text").forEach(t => t.classList.remove("expanded"));
+      document.querySelectorAll(".read-more").forEach(b => {
+        b.classList.remove("expanded");
+        b.querySelector(".label").textContent = "Read More";
+      });
+      document.querySelectorAll(".apply-btn").forEach(a => a.classList.add("hidden"));
+
+      if (!expanded) {
+        text.classList.add("expanded");
+        btn.classList.add("expanded");
+        btn.querySelector(".label").textContent = "Collapse";
+        applyBtn.classList.remove("hidden");
+
+        window.manualPause = true; // ✅ mark manual pause
+        if (swiperInstance?.autoplay) swiperInstance.autoplay.stop();
+        if (swiperInstance) swiperInstance.allowTouchMove = false;
+      } else {
+        text.classList.remove("expanded");
+        btn.classList.remove("expanded");
+        btn.querySelector(".label").textContent = "Read More";
+        applyBtn.classList.add("hidden");
+
+        window.manualPause = false; // ✅ release manual pause
+        if (swiperInstance?.autoplay) swiperInstance.autoplay.start();
+        if (swiperInstance) swiperInstance.allowTouchMove = true;
+      }
+
+      applyBtn.addEventListener("click", () => {
+        const formSection = document.getElementById("formContainer");
+        if (formSection) {
+          formSection.scrollIntoView({ behavior: "smooth" });
+        }
+      });
+    });
+  });
+}
+
+/* Populate Departments */
+function populateDepartments(data) {
+  const depts = [...new Set(data.map(c => c.dept))];
+  const deptSelect = document.getElementById("department");
+  const filterSelect = document.getElementById("deptFilter");
+
+  [deptSelect, filterSelect].forEach(sel => {
+    if (sel) {
+      sel.innerHTML = '<option value=""></option>';
+      depts.forEach(d => {
+        const opt = document.createElement("option");
+        opt.value = d;
+        opt.textContent = d;
+        sel.appendChild(opt);
+      });
+    }
+  });
+}
+
+/* Populate States + Cities */
+function populateStates() {
+  const states = {
+    "Uttarakhand": ["Dehradun", "Haridwar", "Nainital"],
+    "Delhi": ["New Delhi", "Dwarka"],
+    "Uttar Pradesh": ["Noida", "Lucknow"],
+    "Maharashtra": ["Mumbai", "Pune"]
+  };
+  const stateSelect = document.getElementById("state");
+  const citySelect = document.getElementById("city");
+
+  if (!stateSelect) return;
+  stateSelect.innerHTML = '<option value="">Select State</option>';
+  Object.keys(states).forEach(s => {
+    const opt = document.createElement("option");
+    opt.value = s;
+    opt.textContent = s;
+    stateSelect.appendChild(opt);
+  });
+
+  stateSelect.addEventListener("change", () => {
+    const cities = states[stateSelect.value] || [];
+    citySelect.innerHTML = '<option value="">Select City</option>';
+    if (cities.length) {
+      citySelect.disabled = false;
+      cities.forEach(c => {
+        const opt = document.createElement("option");
+        opt.value = c;
+        opt.textContent = c;
+        citySelect.appendChild(opt);
+      });
+    } else {
+      citySelect.disabled = true;
+    }
+  });
+}
+
+/* Filters */
+function attachFilterEvents() {
+  const searchInput = document.getElementById("courseSearch");
+  const deptFilter  = document.getElementById("deptFilter") || document.getElementById("department");
+  const levelFilter = document.getElementById("levelFilter") || document.getElementById("level");
+  const clearBtn    = document.getElementById("clearFilters");
+
+  const norm = s => (s || "").toString().trim().toLowerCase();
+  const letters = s => norm(s).replace(/[^a-z]/g, "");
+
+  const DEPT_MAP = {
+    cse: "cse", cs: "cse", it: "it",
+    aiml: "cse", cseaiml: "cse", csai: "cse",
+    ece: "ece", electronicsandcommunication: "ece",
+    eee: "eee", electricalandelectronics: "eee",
+    ce: "civil", civil: "civil", civilengineering: "civil",
+    mech: "mechanical", mechanical: "mechanical", mechanicalengineering: "mechanical",
+    bca: "bca", mca: "mca", mba: "mba", bba: "bba", design: "design"
+  };
+  const mapDept = v => {
+    const key = letters(v);
+    return key ? (DEPT_MAP[key] || key) : "";
+  };
+
+  const normLevel = v => {
+    v = norm(v);
+    if (!v) return "";
+    if (v.startsWith("ug") || v.startsWith("undergraduate")) return "ug";
+    if (v.startsWith("pg") || v.startsWith("postgraduate")) return "pg";
+    return v;
+  };
+
+  const applyFilters = () => {
+    const q     = norm(searchInput?.value);
+    const dept  = mapDept(deptFilter?.value);
+    const level = normLevel(levelFilter?.value);
+
+    const filtered = coursesData.filter(c => {
+      if (q && !norm(c.name).includes(q)) return false;
+      if (dept && mapDept(c.dept) !== dept) return false;
+      if (level && normLevel(c.level) !== level) return false;
+      return true;
+    });
+
+    renderCourses(filtered);
+  };
+
+  searchInput?.addEventListener("input", applyFilters);
+  deptFilter?.addEventListener("change", applyFilters);
+  levelFilter?.addEventListener("change", applyFilters);
+
+  clearBtn?.addEventListener("click", () => {
+    if (searchInput) searchInput.value = "";
+    if (deptFilter)  deptFilter.value  = "";
+    if (levelFilter) levelFilter.value = "";
+    renderCourses(coursesData);
+  });
+}

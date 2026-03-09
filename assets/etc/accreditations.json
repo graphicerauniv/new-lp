@@ -1,0 +1,40 @@
+{
+  "accreditations": [
+    {
+      "title": "NAAC A+ Accredited",
+      "description": "Accredited with NAAC A+ in 2022 after maintaining NAAC A grade since 2015, with the highest grade score in the region.",
+      "logo": "/lp/assets/img/accreditations/naac.jpg",
+      "link": "#"
+    },
+    {
+      "title": "AICTE Approval",
+      "description": "Approved by AICTE, Graphic Era ensures academic excellence across all technical courses. UGC recognized with Regularized Status by the Ministry of Education.",
+      "logo": "/lp/assets/img/accreditations/aicte.jpg",
+      "link": "#"
+    },
+    {
+      "title": "UGC Recognition",
+      "description": "Approved by UGC and accorded the Regularized Status by the Ministry of Education, Government of India.",
+      "logo": "/lp/assets/img/accreditations/ugc.jpg",
+      "link": "#"
+    },
+    {
+      "title": "NIRF Ranked",
+      "description": "Ranked 48 amongst top universities of India by NIRF 2025, consistently improving year over year.",
+      "logo": "/lp/assets/img/accreditations/nirf.jpg",
+      "link": "#"
+    },
+    {
+      "title": "NBA Accreditation",
+      "description": "Multiple programs accredited by NBA, ensuring quality education and international recognition.",
+      "logo": "/lp/assets/img/accreditations/nba.jpg",
+      "link": "#"
+    },
+    {
+      "title": "QS Ranked",
+      "description": "Featured in QS World University Rankings and QS Asia University Rankings for consistent quality.",
+      "logo": "/lp/assets/img/accreditations/qs.jpg",
+      "link": "#"
+    }
+  ]
+}

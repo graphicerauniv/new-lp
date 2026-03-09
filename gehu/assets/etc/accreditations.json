@@ -1,0 +1,16 @@
+{
+  "accreditations": [
+        {
+      "title": "AICTE Approval",
+      "description": "Approved by AICTE, Graphic Era ensures academic excellence across all technical courses. UGC recognized with Regularized Status by the Ministry of Education.",
+      "logo": "/lp/assets/img/accreditations/aicte.jpg",
+      "link": "#"
+    },
+    {
+      "title": "UGC Recognition",
+      "description": "Approved by UGC and accorded the Regularized Status by the Ministry of Education, Government of India.",
+      "logo": "/lp/assets/img/accreditations/ugc.jpg",
+      "link": "#"
+    }
+  ]
+}

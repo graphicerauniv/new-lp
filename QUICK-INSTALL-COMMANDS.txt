@@ -1,0 +1,71 @@
+# Quick Installation Commands - Copy and Paste
+
+# Note: php8.2-json is built into PHP 8.2, so we don't install it separately
+
+# 1. Update system
+sudo apt update && sudo apt upgrade -y
+
+# 2. Add PHP repository
+sudo add-apt-repository -y ppa:ondrej/php
+sudo apt update
+
+# 3. Install PHP 8.2 and extensions (only what we need for DynamoDB)
+sudo apt install -y \
+    php8.2-fpm \
+    php8.2-cli \
+    php8.2-curl \
+    php8.2-mbstring \
+    php8.2-xml \
+    php8.2-zip
+
+# 4. Verify PHP installation
+php -v
+
+# 5. Install Composer
+curl -sS https://getcomposer.org/installer | sudo php -- \
+    --install-dir=/usr/local/bin --filename=composer
+
+# 6. Verify Composer
+composer --version
+
+# 7. Install Apache
+sudo apt install -y apache2
+
+# 8. Enable Apache modules
+sudo a2enmod rewrite ssl headers
+
+# 9. Install AWS SDK globally
+sudo mkdir -p /var/www/vendor_global
+cd /var/www/vendor_global
+
+# Create composer.json
+sudo tee composer.json > /dev/null <<'EOF'
+{
+    "require": {
+        "aws/aws-sdk-php": "^3.0"
+    }
+}
+EOF
+
+# Install AWS SDK
+sudo composer install --no-dev --optimize-autoloader
+
+# Set permissions
+sudo chown -R www-data:www-data /var/www/vendor_global
+sudo chmod -R 755 /var/www/vendor_global
+
+# 10. Create project directory
+sudo mkdir -p /var/www/html/lp/api/logs
+sudo mkdir -p /var/www/html/lp/config
+
+# 11. Set permissions
+sudo chown -R www-data:www-data /var/www/html/lp
+
+echo "Installation complete!"
+echo ""
+echo "Next steps:"
+echo "1. Upload landing page files to /var/www/html/lp/"
+echo "2. Configure Apache virtual host"
+echo "3. Update config/config.php with API keys"
+echo "4. Create DynamoDB tables"
+echo "5. Test!"

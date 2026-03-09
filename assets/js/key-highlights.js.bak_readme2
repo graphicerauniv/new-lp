@@ -1,0 +1,101 @@
+(function(){
+'use strict';
+/* Key Highlights: Read More behavior matching Courses visual (label + icon) */
+
+// Helper to resume/pause global swiper autoplay safely
+function kh_pause_global_swiper() {
+  try {
+    window.manualPause = true;
+    if (window.swiperInstance?.autoplay) window.swiperInstance.autoplay.stop();
+    if (window.swiperInstance) window.swiperInstance.allowTouchMove = false;
+  } catch(e){}
+}
+function kh_resume_global_swiper() {
+  try {
+    window.manualPause = false;
+    if (window.swiperInstance?.autoplay) window.swiperInstance.autoplay.start();
+    if (window.swiperInstance) window.swiperInstance.allowTouchMove = true;
+  } catch(e){}
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  function setBtnLabelToReadMore(elem) {
+    elem.innerHTML = '<span class="label">Read More</span><span class="icon">▼</span>';
+  }
+  function setBtnLabelToCollapse(elem) {
+    elem.innerHTML = '<span class="label">Collapse</span><span class="icon">▲</span>';
+  }
+
+  // Collapse helper
+  function collapseAll() {
+    document.querySelectorAll(".about-text").forEach(t => t.classList.remove("expanded"));
+    document.querySelectorAll(".read-more").forEach(b => {
+      b.classList.remove("expanded");
+      const lbl = b.querySelector(".label");
+      if (lbl) lbl.textContent = "Read More";
+      const icon = b.querySelector(".icon");
+      if (icon) icon.textContent = "▼";
+    });
+    // fallback for toggleBtn pattern
+    Array.from(document.querySelectorAll("[id^='toggleBtn']")).forEach(b => {
+      setBtnLabelToReadMore(b);
+      const id = b.id.replace("toggleBtn","");
+      const icon = document.getElementById("icon"+id);
+      if (icon) { icon.classList.remove("rotate-180"); icon.style.display = ""; }
+    });
+  }
+
+  // Support Course-like .read-more buttons inside highlight cards
+  document.querySelectorAll(".read-more").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const card = btn.closest(".highlight-card") || btn.closest(".swiper-slide") || btn.closest(".card");
+      const text = card ? card.querySelector(".about-text") : null;
+      const applyBtn = card ? card.querySelector(".apply-btn") : null;
+      if (!text) return;
+      const expanded = text.classList.contains("expanded");
+
+      // Collapse all first
+      collapseAll();
+
+      if (!expanded) {
+        text.classList.add("expanded");
+        btn.classList.add("expanded");
+        // set label like courses
+        setBtnLabelToCollapse(btn); if (applyBtn) applyBtn.classList.remove("hidden"); kh_pause_global_swiper(); try {
+          if (typeof window.manualPause !== "undefined") window.manualPause = true;
+          if (window.window.swiperInstance?.autoplay) window.window.swiperInstance.autoplay.stop();
+          if (window.window.swiperInstance) window.window.swiperInstance.allowTouchMove = false;
+        } catch(e){}
+      } else {
+        if (applyBtn) applyBtn.classList.add("hidden"); kh_resume_global_swiper(); try {
+          if (typeof window.manualPause !== "undefined") window.manualPause = false;
+          if (window.window.swiperInstance?.autoplay) window.window.swiperInstance.autoplay.start();
+          if (window.window.swiperInstance) window.window.swiperInstance.allowTouchMove = true;
+        } catch(e){}
+      }
+    });
+  });
+
+  // Support toggleBtnN pattern by mapping to same visual
+  Array.from(document.querySelectorAll("[id^='toggleBtn']")).forEach(btn => {
+    // initialize markup to match courses
+    setBtnLabelToReadMore(btn);
+    btn.style.cursor = "pointer";
+    btn.addEventListener("click", () => {
+      const id = btn.id.replace("toggleBtn","");
+      const text = document.getElementById("text"+id);
+      const icon = document.getElementById("icon"+id);
+      if (!text) return;
+      const expanded = text.classList.contains("expanded");
+      collapseAll();
+      if (!expanded) {
+        text.classList.add("expanded");
+        setBtnLabelToCollapse(btn);
+        if (icon) { icon.classList.add("rotate-180"); icon.style.display = "none"; }
+      }
+    });
+  });
+
+});
+})();

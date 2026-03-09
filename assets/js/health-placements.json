@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Priyanshi Bhadoria",
+    "course": "B.Tech CSE",
+    "batch": "2025",
+    "company": "Atlassian",
+    "companyLogo": "/lp/assets/img/companies/atlassian.png",
+    "package": "61.99",
+    "image": "/lp/assets/img/placements/student-1.webp"
+  },
+  {
+    "name": "Suyash Gehlot",
+    "course": "B.Tech CSE",
+    "batch": "2025",
+    "company": "D E Shaw & Co",
+    "companyLogo": "/lp/assets/img/companies/deshaw.png",
+    "package": "56.30",
+    "image": "/lp/assets/img/placements/student-2.webp"
+  },
+  {
+    "name": "Shreya Shree",
+    "course": "B.Tech CSE",
+    "batch": "2025",
+    "company": "Microsoft",
+    "companyLogo": "/lp/assets/img/companies/microsoft.png",
+    "package": "52.93",
+    "image": "/lp/assets/img/placements/student-3.webp"
+  },
+  {
+    "name": "Arjun Malhotra",
+    "course": "B.Tech CSE",
+    "batch": "2025",
+    "company": "Google",
+    "companyLogo": "/lp/assets/img/companies/google.png",
+    "package": "48.50",
+    "image": "/lp/assets/img/placements/student-4.webp"
+  },
+  {
+    "name": "Neha Kapoor",
+    "course": "B.Tech CSE",
+    "batch": "2025",
+    "company": "Amazon",
+    "companyLogo": "/lp/assets/img/companies/amazon.png",
+    "package": "45.00",
+    "image": "/lp/assets/img/placements/student-5.webp"
+  },
+  {
+    "name": "Vikram Singh",
+    "course": "B.Tech CSE",
+    "batch": "2025",
+    "company": "Adobe",
+    "companyLogo": "/lp/assets/img/companies/adobe.png",
+    "package": "42.75",
+    "image": "/lp/assets/img/placements/student-6.webp"
+  }
+]

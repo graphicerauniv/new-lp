@@ -1,0 +1,25 @@
+/* ================== Key Highlights Read More ================== */
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".read-more").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const text = btn.closest(".highlight-card").querySelector(".about-text");
+      const expanded = text.classList.contains("expanded");
+
+      // Collapse all
+      document.querySelectorAll(".about-text").forEach((t) =>
+        t.classList.remove("expanded")
+      );
+      document.querySelectorAll(".read-more").forEach((b) => {
+        b.classList.remove("expanded");
+        b.querySelector(".label").textContent = "Read More";
+      });
+
+      // Expand clicked
+      if (!expanded) {
+        text.classList.add("expanded");
+        btn.classList.add("expanded");
+        btn.querySelector(".label").textContent = "Collapse";
+      }
+    });
+  });
+});

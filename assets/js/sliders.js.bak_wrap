@@ -1,0 +1,99 @@
+/* ================== Life Video Auto-Scroll ================== */
+const videoSlider = document.getElementById('lifeVideoSlider');
+let autoScroll;
+
+function getSlideWidth() {
+  const firstSlide = videoSlider?.querySelector(".youtube-lazy");
+  if (!firstSlide) return 300; // fallback
+  const style = getComputedStyle(firstSlide);
+  const marginRight = parseInt(style.marginRight) || 0;
+  return firstSlide.offsetWidth + marginRight;
+}
+
+function startAutoScroll() {
+  stopAutoScroll(); // prevent duplicates
+  autoScroll = setInterval(() => {
+    const slideWidth = getSlideWidth();
+    videoSlider.scrollBy({ left: slideWidth, behavior: 'smooth' });
+
+    // Reset to start if at the end
+    if (videoSlider.scrollLeft + videoSlider.clientWidth >= videoSlider.scrollWidth - 5) {
+      videoSlider.scrollTo({ left: 0, behavior: 'smooth' });
+    }
+  }, 4000); // 4s per slide
+}
+
+function stopAutoScroll() { clearInterval(autoScroll); }
+
+// Start auto-scroll only on desktop
+if (videoSlider && window.innerWidth >= 1024) startAutoScroll();
+
+videoSlider?.addEventListener('mouseenter', stopAutoScroll);
+videoSlider?.addEventListener('mouseleave', startAutoScroll);
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth >= 1024 && !autoScroll) startAutoScroll();
+  else stopAutoScroll();
+});
+
+/* ================== Enable Drag-to-Scroll ================== */
+document.addEventListener("DOMContentLoaded", () => {
+  if (typeof enableDragScroll === "function") {
+    // Life Videos
+    enableDragScroll("#lifeVideoSlider", ".youtube-lazy");
+
+    // Success Stories
+    enableDragScroll("#placementSlider", "div");
+
+    // Recruiters (optional: make logos draggable on mobile)
+    // enableDragScroll("#recruitersGrid", "div");
+  }
+});
+
+/* ================== Accreditation Auto-Slider ================== */
+document.addEventListener("DOMContentLoaded", () => {
+  const slider = document.getElementById("accreditation-slider");
+  if (!slider) return;
+  const cards = slider.querySelectorAll(".accreditation-card");
+  let index = 0, autoScroll;
+  const visibleCards = () => window.innerWidth >= 768 ? 3 : 1;
+
+  function updateSlider() {
+    const step = 100 / visibleCards();
+    slider.style.transform = `translateX(-${index * step}%)`;
+  }
+  function startSlider() {
+    autoScroll = setInterval(() => {
+      index++;
+      if (index > cards.length - visibleCards()) index = 0;
+      updateSlider();
+    }, 3000);
+  }
+  function stopSlider() { clearInterval(autoScroll); }
+
+  slider.addEventListener("mouseenter", stopSlider);
+  slider.addEventListener("mouseleave", startSlider);
+  startSlider();
+  window.addEventListener("resize", updateSlider);
+});
+
+/* ================== Highlights Swiper ================== */
+document.addEventListener("DOMContentLoaded", () => {
+  const slides = document.querySelectorAll("#highlightsContainer .swiper-slide");
+  if (slides.length > 4) {
+    new Swiper(".keyHighlightsSwiper", {
+      loop: true,
+      autoplay: { delay: 3000, disableOnInteraction: false, pauseOnMouseEnter: true },
+      slidesPerView: 1,
+      spaceBetween: 24,
+      pagination: { el: ".swiper-pagination", clickable: true },
+      navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+      breakpoints: { 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }
+    });
+  } else {
+    const wrapper = document.getElementById("highlightsContainer");
+    wrapper?.classList.remove("swiper-wrapper");
+    wrapper?.classList.add("grid", "md:grid-cols-3", "gap-10");
+    slides.forEach(card => card.classList.remove("swiper-slide"));
+  }
+});

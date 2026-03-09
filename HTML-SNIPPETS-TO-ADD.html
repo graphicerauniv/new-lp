@@ -1,0 +1,89 @@
+<!-- ================================================================ -->
+<!-- BACK TO TOP BUTTON FIX - ADD BEFORE </head> -->
+<!-- ================================================================ -->
+<style>
+/* BACK TO TOP - RIGHT ALIGN FIX */
+#backToTop, 
+.back-to-top, 
+[id*="top"], 
+button[onclick*="scroll"] {
+  position: fixed !important;
+  bottom: 2rem !important;
+  right: 2rem !important;
+  left: auto !important;
+  margin-left: 0 !important;
+  transform: none !important;
+  z-index: 9999;
+}
+
+@media (max-width: 768px) {
+  #backToTop, 
+  .back-to-top, 
+  [id*="top"], 
+  button[onclick*="scroll"] {
+    right: 1.5rem !important;
+    bottom: 1.5rem !important;
+    left: auto !important;
+  }
+}
+</style>
+
+
+<!-- ================================================================ -->
+<!-- JOIN BUTTON - SCROLL TO FORM - ADD BEFORE </body> -->
+<!-- ================================================================ -->
+<script>
+// JOIN BUTTON - AUTO SCROLL TO FORM
+document.addEventListener('DOMContentLoaded', function() {
+  // Find all potential join/apply buttons
+  const buttons = document.querySelectorAll('button, a');
+  
+  buttons.forEach(btn => {
+    const text = btn.textContent || '';
+    // Check if button contains join/apply text
+    if (text.toLowerCase().includes('join us') || 
+        text.toLowerCase().includes('apply now') ||
+        text.toLowerCase().includes('admissions')) {
+      
+      btn.addEventListener('click', function(e) {
+        // Don't prevent if it's a submit button
+        if (this.type === 'submit') return;
+        
+        e.preventDefault();
+        
+        // Find form - try multiple selectors
+        const form = document.querySelector(
+          '#applyNowForm, ' +
+          'form[id*="apply"], ' +
+          'form[id*="admission"], ' +
+          '.apply-now-section, ' +
+          'section:has(form), ' +
+          'form'
+        );
+        
+        if (form) {
+          form.scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'start',
+            inline: 'nearest'
+          });
+          
+          // Focus first input after scroll
+          setTimeout(() => {
+            const input = form.querySelector('input[type="text"], input[type="email"], input[name="name"]');
+            if (input) input.focus();
+          }, 600);
+        }
+      });
+    }
+  });
+});
+</script>
+
+
+<!-- ================================================================ -->
+<!-- NO RESULTS DIV - ADD AFTER courseResults div -->
+<!-- ================================================================ -->
+<div id="noResults" class="hidden">
+  <!-- This will be populated by JavaScript when no courses match -->
+</div>

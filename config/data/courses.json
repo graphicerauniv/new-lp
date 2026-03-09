@@ -1,0 +1,350 @@
+{
+  "departments": [
+    {
+      "code": "MGMT",
+      "name": "Management",
+      "level": "PG",
+      "courses": [
+        {
+          "code": "MBA_HOSP",
+          "title": "MBA in Hospital Administration",
+          "duration": "2 Years",
+          "bullets": [
+            "Healthcare operations management",
+            "Hospital planning & quality control",
+            "Industry training with healthcare institutions"
+          ],
+          "description": "MBA in Hospital Administration prepares students for leadership roles in healthcare management. The program covers hospital operations, healthcare policy, quality management, financial planning, and regulatory compliance. Students gain practical exposure through internships with leading hospitals and healthcare institutions."
+        },
+        {
+          "code": "MBA_AVIATION",
+          "title": "MBA in Aviation Management",
+          "duration": "2 Years",
+          "bullets": [
+            "Airport operations",
+            "Aviation safety & regulations",
+            "Training with aviation industry experts"
+          ],
+          "description": "MBA in Aviation Management focuses on the unique challenges of the aviation sector. The curriculum includes airline operations, airport management, aviation law, safety protocols, and strategic planning. Graduates are prepared for careers in airlines, airports, aviation consultancies, and regulatory bodies."
+        },
+        {
+          "code": "MBA_MKT",
+          "title": "MBA in Marketing",
+          "duration": "2 Years",
+          "bullets": [
+            "Brand management",
+            "Digital & traditional marketing",
+            "Consumer behaviour analytics"
+          ],
+          "description": "MBA in Marketing equips students with skills in brand strategy, market research, digital marketing, and consumer insights. The program blends traditional marketing fundamentals with modern digital tools including social media, SEO/SEM, and data analytics. Graduates pursue careers in brand management, marketing analytics, and digital marketing."
+        },
+        {
+          "code": "MBA_BRAND",
+          "title": "MBA in Branding & Advertising",
+          "duration": "2 Years",
+          "bullets": [
+            "Brand strategy & identity",
+            "Creative advertising modules",
+            "Campaign planning & execution"
+          ],
+          "description": "MBA in Branding & Advertising focuses on creating compelling brand narratives and effective advertising campaigns. The curriculum covers brand positioning, creative strategy, media planning, and integrated marketing communications. Students work on live projects and campaigns for real clients."
+        },
+        {
+          "code": "MBA_DM",
+          "title": "MBA in Digital Marketing",
+          "duration": "2 Years",
+          "bullets": [
+            "SEO, SEM, SMM",
+            "Performance marketing",
+            "Real-time campaign optimization"
+          ],
+          "description": "MBA in Digital Marketing prepares students for the rapidly evolving digital landscape. The program covers search engine optimization, social media marketing, content marketing, email marketing, marketing automation, and web analytics. Students gain hands-on experience with tools like Google Ads, Facebook Ads Manager, and analytics platforms."
+        },
+        {
+          "code": "MBA_IB",
+          "title": "MBA in International Business",
+          "duration": "2 Years",
+          "bullets": [
+            "Global trade policies",
+            "Cross-cultural management",
+            "Import-export documentation"
+          ],
+          "description": "MBA in International Business focuses on the complexities of global markets and international trade. The curriculum includes international marketing, global supply chain management, foreign exchange management, and international business law. Students are prepared for careers in multinational corporations, export houses, and international trade organizations."
+        },
+        {
+          "code": "MBA_FIN",
+          "title": "MBA in Finance",
+          "duration": "2 Years",
+          "bullets": [
+            "Financial modelling",
+            "Investment & portfolio management",
+            "Banking and fintech exposure"
+          ],
+          "description": "MBA in Finance equips students with strong financial analysis, investment management, and corporate finance skills. The curriculum covers financial markets, risk analysis, banking, and fintech trends. Graduates can work in investment banking, corporate finance, financial consulting, wealth management, and equity research roles."
+        },
+        {
+          "code": "MBA_HR",
+          "title": "MBA in Human Resource Management",
+          "duration": "2 Years",
+          "bullets": [
+            "Talent acquisition & retention",
+            "Performance management systems",
+            "HR analytics & workforce planning"
+          ],
+          "description": "MBA in Human Resource Management prepares students for strategic HR roles. The program covers recruitment, training and development, compensation management, employee relations, and HR analytics. Students learn to align HR practices with business objectives and drive organizational performance through people management."
+        },
+        {
+          "code": "MBA_BA",
+          "title": "MBA in Business Analytics",
+          "duration": "2 Years",
+          "bullets": [
+            "Data-driven decision making",
+            "Predictive modelling & AI",
+            "Business intelligence tools"
+          ],
+          "description": "MBA in Business Analytics focuses on leveraging data for strategic business decisions. The curriculum includes statistics, data mining, machine learning, visualization tools (Tableau, Power BI), and big data technologies. Graduates pursue careers as data analysts, business intelligence consultants, and analytics managers."
+        },
+        {
+          "code": "MBA_OM",
+          "title": "MBA in Operations Management",
+          "duration": "2 Years",
+          "bullets": [
+            "Supply chain optimization",
+            "Quality management & Six Sigma",
+            "Project management"
+          ],
+          "description": "MBA in Operations Management prepares students to optimize business processes and supply chains. The program covers production planning, inventory management, quality control, logistics, and operations strategy. Students learn methodologies like Lean, Six Sigma, and Agile project management."
+        },
+        {
+          "code": "MBA_ENTR",
+          "title": "MBA in Entrepreneurship",
+          "duration": "2 Years",
+          "bullets": [
+            "Startup ideation & validation",
+            "Business model development",
+            "Venture capital & funding"
+          ],
+          "description": "MBA in Entrepreneurship is designed for aspiring entrepreneurs and innovators. The curriculum covers startup ecosystem, business planning, financial management for startups, pitching to investors, and growth hacking strategies. Students work on their own ventures with mentorship from successful entrepreneurs."
+        },
+        {
+          "code": "MBA_IT",
+          "title": "MBA in Information Technology",
+          "duration": "2 Years",
+          "bullets": [
+            "IT strategy & governance",
+            "Digital transformation",
+            "Technology project management"
+          ],
+          "description": "MBA in Information Technology bridges business and technology. The program prepares students to lead digital transformation initiatives, manage IT projects, and align technology with business goals. Topics include IT infrastructure, cybersecurity, cloud computing, and enterprise systems."
+        }
+      ]
+    },
+    {
+      "code": "CSE",
+      "name": "Computer Science and Engineering",
+      "level": "UG",
+      "courses": [
+        {
+          "code": "BTECH_CSE",
+          "title": "B.Tech in Computer Science & Engineering",
+          "duration": "4 Years",
+          "bullets": [
+            "Programming & algorithms",
+            "Software development",
+            "AI & machine learning"
+          ],
+          "description": "B.Tech in Computer Science & Engineering provides comprehensive education in computer fundamentals, programming languages, data structures, algorithms, software engineering, and emerging technologies like AI, ML, and cloud computing."
+        },
+        {
+          "code": "BTECH_CSE_AI",
+          "title": "B.Tech CSE (Artificial Intelligence & Machine Learning)",
+          "duration": "4 Years",
+          "bullets": [
+            "Deep learning & neural networks",
+            "Natural language processing",
+            "Computer vision"
+          ],
+          "description": "Specialized program focusing on AI and ML technologies. Students learn advanced topics in machine learning algorithms, deep learning frameworks (TensorFlow, PyTorch), AI applications, and data science."
+        },
+        {
+          "code": "BTECH_CSE_DS",
+          "title": "B.Tech CSE (Data Science)",
+          "duration": "4 Years",
+          "bullets": [
+            "Big data analytics",
+            "Statistical modelling",
+            "Data visualization"
+          ],
+          "description": "B.Tech CSE with Data Science specialization prepares students for data-intensive roles. The curriculum covers statistics, machine learning, big data technologies (Hadoop, Spark), data visualization, and predictive analytics."
+        },
+        {
+          "code": "BTECH_CSE_CYBER",
+          "title": "B.Tech CSE (Cyber Security)",
+          "duration": "4 Years",
+          "bullets": [
+            "Network security",
+            "Ethical hacking",
+            "Cryptography"
+          ],
+          "description": "Specialized program in cybersecurity covering network security, cryptography, ethical hacking, security auditing, and compliance. Students gain hands-on experience with security tools and techniques."
+        },
+        {
+          "code": "BTECH_IT",
+          "title": "B.Tech in Information Technology",
+          "duration": "4 Years",
+          "bullets": [
+            "Web & mobile development",
+            "Database management",
+            "Cloud computing"
+          ],
+          "description": "B.Tech IT focuses on application development, database systems, web technologies, mobile app development, and IT infrastructure. Students gain practical skills in full-stack development and system administration."
+        }
+      ]
+    },
+    {
+      "code": "MECH",
+      "name": "Mechanical Engineering",
+      "level": "UG",
+      "courses": [
+        {
+          "code": "BTECH_MECH",
+          "title": "B.Tech in Mechanical Engineering",
+          "duration": "4 Years",
+          "bullets": [
+            "Thermodynamics & heat transfer",
+            "Manufacturing processes",
+            "CAD/CAM & automation"
+          ],
+          "description": "B.Tech Mechanical Engineering covers core mechanical principles including thermodynamics, fluid mechanics, manufacturing, machine design, and materials science. Students gain practical skills through workshops and industry projects."
+        },
+        {
+          "code": "BTECH_MECH_AUTO",
+          "title": "B.Tech Mechanical (Automobile Engineering)",
+          "duration": "4 Years",
+          "bullets": [
+            "Vehicle dynamics",
+            "Automotive systems",
+            "EV technology"
+          ],
+          "description": "Specialization in automobile engineering covering vehicle design, automotive electronics, engine technology, electric vehicles, and hybrid systems. Students work with automotive industry partners."
+        }
+      ]
+    },
+    {
+      "code": "CIVIL",
+      "name": "Civil Engineering",
+      "level": "UG",
+      "courses": [
+        {
+          "code": "BTECH_CIVIL",
+          "title": "B.Tech in Civil Engineering",
+          "duration": "4 Years",
+          "bullets": [
+            "Structural engineering",
+            "Construction management",
+            "Environmental engineering"
+          ],
+          "description": "B.Tech Civil Engineering covers structural analysis, construction technology, geotechnical engineering, transportation engineering, and environmental engineering. Students gain hands-on experience through site visits and projects."
+        }
+      ]
+    },
+    {
+      "code": "ECE",
+      "name": "Electronics and Communication Engineering",
+      "level": "UG",
+      "courses": [
+        {
+          "code": "BTECH_ECE",
+          "title": "B.Tech in Electronics & Communication Engineering",
+          "duration": "4 Years",
+          "bullets": [
+            "VLSI design",
+            "Communication systems",
+            "Embedded systems"
+          ],
+          "description": "B.Tech ECE covers electronic circuits, digital systems, communication systems, signal processing, and VLSI design. Students learn to design and develop electronic devices and communication systems."
+        }
+      ]
+    },
+    {
+      "code": "LAW",
+      "name": "Law",
+      "level": "UG",
+      "courses": [
+        {
+          "code": "LLB",
+          "title": "Bachelor of Laws (LLB)",
+          "duration": "3 Years",
+          "bullets": [
+            "Constitutional law",
+            "Corporate law",
+            "Criminal law & procedure"
+          ],
+          "description": "LLB program provides comprehensive legal education covering constitutional law, criminal law, civil law, corporate law, and legal practice. Students participate in moot courts and legal aid clinics."
+        },
+        {
+          "code": "BA_LLB",
+          "title": "BA LLB (Hons.)",
+          "duration": "5 Years",
+          "bullets": [
+            "Integrated arts & law curriculum",
+            "Legal research & writing",
+            "Courtroom practice"
+          ],
+          "description": "Integrated BA LLB program combining liberal arts education with legal studies. Students develop strong analytical, research, and advocacy skills through comprehensive curriculum and practical training."
+        },
+        {
+          "code": "BBA_LLB",
+          "title": "BBA LLB (Hons.)",
+          "duration": "5 Years",
+          "bullets": [
+            "Business law specialization",
+            "Corporate governance",
+            "Commercial litigation"
+          ],
+          "description": "Integrated BBA LLB program designed for students interested in corporate law and business. Combines business management education with legal training for corporate legal careers."
+        }
+      ]
+    },
+    {
+      "code": "DESIGN",
+      "name": "Design",
+      "level": "UG",
+      "courses": [
+        {
+          "code": "BDES_FASH",
+          "title": "B.Des in Fashion Design",
+          "duration": "4 Years",
+          "bullets": [
+            "Fashion illustration & draping",
+            "Textile design",
+            "Fashion marketing & merchandising"
+          ],
+          "description": "B.Des Fashion Design develops creative and technical skills in fashion design, pattern making, garment construction, and fashion business. Students showcase their work through fashion shows and industry collaborations."
+        },
+        {
+          "code": "BDES_INT",
+          "title": "B.Des in Interior Design",
+          "duration": "4 Years",
+          "bullets": [
+            "Space planning",
+            "Materials & finishes",
+            "3D visualization"
+          ],
+          "description": "B.Des Interior Design focuses on residential and commercial space design, furniture design, lighting, and sustainable design practices. Students work on real projects and learn industry-standard software."
+        },
+        {
+          "code": "BDES_GRAPH",
+          "title": "B.Des in Graphic Design",
+          "duration": "4 Years",
+          "bullets": [
+            "Visual communication",
+            "Branding & identity design",
+            "Digital media & UX/UI"
+          ],
+          "description": "B.Des Graphic Design covers visual communication, typography, branding, digital design, and user experience. Students build comprehensive portfolios through diverse projects in print and digital media."
+        }
+      ]
+    }
+  ]
+}

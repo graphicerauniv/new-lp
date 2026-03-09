@@ -1,0 +1,20 @@
+[
+  { "name": "Adobe", "logo": "../assets/img/recruiters/adobe.png" },
+  { "name": "Amazon", "logo": "../assets/img/recruiters/amazon.png" },
+  { "name": "American Express", "logo": "../assets/img/recruiters/american-express.png" },
+  { "name": "Bny Mellon", "logo": "../assets/img/recruiters/bny-mellon.png" },
+  { "name": "Deshaw", "logo": "../assets/img/recruiters/deshaw.png" },
+  { "name": "Deutsche Bank", "logo": "../assets/img/recruiters/deutsche-bank.png" },
+  { "name": "Flipkart", "logo": "../assets/img/recruiters/flipkart.png" },
+  { "name": "Goldman Sachs", "logo": "../assets/img/recruiters/goldman-sachs.png" },
+  { "name": "Google", "logo": "../assets/img/recruiters/google.png" },
+  { "name": "Informatica", "logo": "../assets/img/recruiters/informatica.png" },
+  { "name": "Microsoft", "logo": "../assets/img/recruiters/microsoft.png" },
+  { "name": "Morgan Stanley", "logo": "../assets/img/recruiters/morgan-stanley.png" },
+  { "name": "Nasdaq", "logo": "../assets/img/recruiters/nasdaq.png" },
+  { "name": "Paypal", "logo": "../assets/img/recruiters/paypal.svg" },
+  { "name": "Uber", "logo": "../assets/img/recruiters/uber.png" },
+  { "name": "Volvo", "logo": "../assets/img/recruiters/volvo.png" },
+  { "name": "Zsacler", "logo": "../assets/img/recruiters/zsacler.png" },
+  { "name": "Many More", "logo": "../assets/img/recruiters/many-more.png" }
+]

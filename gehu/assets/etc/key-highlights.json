@@ -1,0 +1,40 @@
+{
+  "highlights": [
+    {
+      "title": "Specialized Teaching from Experts",
+      "description": "The academic rigor and the task of the creative transformation of an individual are the centre pieces of this program - both these targets are achievable only by ensuring just the right combination of teaching style and content.",
+      "image": "/lp/assets/img/highlights/teaching-experts.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Top Internships and Placements",
+      "description": "We have held great pride in being one of the first few private Universities in India who took on the task of ensuring Top of the Line placements for our students, and with MBA, we will write a new success story for years to come.",
+      "image": "/lp/assets/img/highlights/placements.jpg",
+      "link": "#"
+    },
+    {
+      "title": "AICTE Approved Degree",
+      "description": "Graphic Era Hill University is offering AICTE Approved courses. These accreditations are attained through a rigorous peer-review process.",
+      "image": "/lp/assets/img/highlights/accreditation.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Industry-Aligned Curriculum",
+      "description": "Our curriculum is designed in collaboration with industry experts to ensure that students gain practical, real-world skills that are immediately applicable in their careers.",
+      "image": "/lp/assets/img/highlights/curriculum.jpg",
+      "link": "#"
+    },
+    {
+      "title": "State-of-the-Art Infrastructure",
+      "description": "Modern classrooms, advanced laboratories, comprehensive library, and collaborative learning spaces equipped with the latest technology to support your academic journey.",
+      "image": "/lp/assets/img/highlights/gehu-campus.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Global Exposure Programs",
+      "description": "International collaborations, student exchange programs, and global internship opportunities to broaden your horizons and build an international network.",
+      "image": "/lp/assets/img/highlights/global-exposure.jpg",
+      "link": "#"
+    }
+  ]
+}
