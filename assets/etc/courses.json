@@ -417,59 +417,47 @@
   },
   {
     "code": "GEN_BCA",
-    "department": "Computer Application",
+    "department": "Computer Applications",
     "title": "BCA",
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
+      "Programming and database mastery",
+      "Expert coding mentorship",
       "Career development opportunities"
     ],
-    "description": "BCA offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "BCA program builds strong foundations in software development, web tech, databases, algorithms, and cloud computing through balanced theory and hands-on projects. Students gain industry exposure, internships with tech firms, and dedicated placement support for entry into software engineering, app development, and digital roles."
   },
   {
     "code": "GEN_BCA__HONS__",
-    "department": "Computer Application",
+    "department": "Computer Applications",
     "title": "BCA (Hons.)",
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
+      "Advanced algorithms and AI electives",
+      "Experienced faculty and research-focused mentorship",
       "Career development opportunities"
     ],
-    "description": "BCA (Hons.) offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "BCA (Hons.) elevates core computing with honors depth in data science, cybersecurity, machine learning, and software architecture via rigorous theory, capstone projects, and labs. Secure industry internships, expert guidance, and elite placement support for high-impact roles in tech innovation and leadership."
   },
   {
     "code": "GEN_BCA_INDUSTRY_INTEGRATED",
-    "department": "Computer Application",
+    "department": "Computer Applications",
     "title": "BCA Industry Integrated",
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
+      "Live industry projects and tools",
+      "Experienced faculty and corporate mentorship sessions",
       "Career development opportunities"
     ],
-    "description": "BCA Industry Integrated offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "BCA Industry Integrated immerses students in real-world computing via partnerships with tech firms, blending coursework in app development, cloud services, and agile methods with embedded internships and live assignments. Receive on-site mentorship, skill certifications, and seamless transitions to full-time roles in software and IT services."
   },
-  {
-    "code": "GEN_BCA",
-    "department": "Computer Application",
-    "title": "BCA",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "BCA offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
+  
   {
     "code": "GEN_BCA__HONS___AI___DS",
-    "department": "Computer Application",
+    "department": "Computer Applications",
     "title": "BCA (Hons.) AI & DS",
     "level": "UG",
     "duration": "3 Years",
@@ -480,9 +468,10 @@
     ],
     "description": "BCA (Hons.) AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
   },
+ 
   {
     "code": "GEN_BCA_CYBER_SECURITY",
-    "department": "Computer Application",
+    "department": "Computer Applications",
     "title": "BCA Cyber Security",
     "level": "UG",
     "duration": "3 Years",
@@ -495,42 +484,42 @@
   },
   {
     "code": "GEN_BCA__HONS___CYBER_SECURITY",
-    "department": "Computer Application",
+    "department": "Computer Applications",
     "title": "BCA (Hons.) Cyber Security",
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Network security and ethical hacking",
-      "Cryptography and security protocols",
-      "Hands-on cybersecurity labs"
+      "Ethical hacking and threat hunting",
+      "Encryption and secure coding",
+      "Cyber simulation labs"
     ],
-    "description": "BCA (Hons.) Cyber Security prepares students for careers in cybersecurity and information security. Topics include ethical hacking, cryptography, network security, malware analysis, and security operations. Students gain practical experience through labs and industry certifications."
+    "description": "BCA (Hons.) Cyber Security arms students with vital defenses in ethical hacking techniques, cryptography standards, network fortification, malware dissection, and incident response. Build expertise through intensive labs, industry certifications like CompTIA, and practical scenarios for IT security and compliance careers."
   },
   {
     "code": "GEN_MCA",
-    "department": "Computer Application",
+    "department": "Computer Application.",
     "title": "MCA",
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Full-stack development and databases",
+      "Advanced software mentorship",
+      "Career development opportunities & enterprise-level placements"
     ],
-    "description": "MCA offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "MCA program cultivates elite software professionals with deep dives into cloud architecture, DevOps practices, enterprise systems, cybersecurity, and scalable applications via theory, coding bootcamps, and projects. Benefit from industry collaborations, internships, expert faculty, and strong placement pipelines for top IT consulting roles."
   },
   {
     "code": "GEN_MCA_AI___DS",
-    "department": "Computer Application",
+    "department": "Computer Application.",
     "title": "MCA AI & DS",
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Advanced AI and machine learning algorithms",
+      "Scalable ML pipelines and big data",
       "Deep learning and neural networks",
-      "Industry projects and hands-on labs"
+      "Enterprise AI deployments and hands-on labs"
     ],
-    "description": "MCA AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+    "description": "MCA AI & DS program propels postgrads into sophisticated AI realms covering reinforcement learning, generative models, computer vision frameworks, NLP systems, and responsible AI deployment. Tackle industry-scale projects, collaborative ventures, and labs applying solutions to finance, logistics, healthcare analytics, and beyond."
   },
   {
     "code": "GEN_B_SC__HONS___COMPUTER_SCIENCE",

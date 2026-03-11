@@ -157,7 +157,7 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
 
     <!-- Course Filter Container - Dynamic Filter System -->
     <!-- MBA Page: Department-specific (hides department filter, shows only MBA courses) -->
-    <div id="courseFilterContainer" data-page-type="department" data-department="Management"></div>
+    <div id="courseFilterContainer" data-page-type="department" data-department="Computer Applications"></div>
   </div>
 </section>
 </section>
@@ -438,9 +438,7 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
             <a href="#admissionForm" class="flex-1 text-center px-5 py-3 bg-blue-600 text-white font-bold text-sm rounded-lg hover:bg-blue-700 transition-all shadow-md hover:shadow-lg">
               Apply for GECET Now →
             </a>
-            <a href="#courseFilterContainer" class="flex-1 text-center px-5 py-3 bg-white text-blue-700 font-bold text-sm rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition-all">
-              Explore Programs ↓
-            </a>
+
           </div>
         </div>
 
@@ -458,30 +456,7 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
   </div>
 </section>
 
-<!-- MBA Placement Stories Section - Netflix-Style Infinite Slider -->
-<section class="py-16 bg-white">
-  <div class="max-w-7xl mx-auto px-6 lg:px-8">
 
-    <!-- Section Header -->
-    <div class="text-center mb-12">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">
-        Placement <span class="text-blue-600">Stories</span>
-      </h2>
-      <p class="text-gray-600 text-base max-w-2xl mx-auto">
-        Celebrating our students placed in top companies with impressive packages.
-      </p>
-    </div>
-
-    <!-- Netflix-Style Slider Container -->
-    <div class="relative overflow-hidden">
-      <div class="flex gap-6 transition-transform duration-500 ease-out" id="mbaPlacementSlider">
-        <!-- Cards will be dynamically inserted here -->
-      </div>
-    </div>
-
-  </div>
-</section>
-<!-- MBA Placement Stories End -->
 
 <style>
 /* Netflix-style slider styles */
@@ -715,11 +690,21 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
     </div>
 
     <!-- Dynamic Image Slider -->
-    <div class="relative">
-      <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementSlider"></div>
+     <!-- Dynamic Image Slider with Navigation -->
+    <div class="flex items-center gap-4">
+      <!-- Left Arrow -->
+      <button onclick="document.getElementById('placementSlider').scrollBy({left: -320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-12 h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll left">
+        <svg class="w-6 h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+      </button>
+      <!-- Slider -->
+      <div class="flex-1 overflow-hidden">
+        <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementSlider"></div>
+      </div>
+      <!-- Right Arrow -->
+      <button onclick="document.getElementById('placementSlider').scrollBy({left: 320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-12 h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll right">
+        <svg class="w-6 h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+      </button>
     </div>
-
-  </div>
 </section>
 
 <!-- Placement Stories End -->
@@ -738,7 +723,7 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
       <br/><br/>
 <span class="text-xs text-gray-500 italic">
         *The above stats are combined for all the campuses under the Brand Graphic Era and the stats are subject to change
-        as the placement session is still going on. Last Updated: 09 January, 2025
+        as the placement session is still going on. Last Updated: 09 January, 2026
       </span>
 </p>
 <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20">
@@ -936,18 +921,7 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
 <div class="youtube-lazy group rounded-2xl overflow-hidden shadow-xl relative w-full h-72 md:h-96" data-id="X6MCS7SmNO8"></div>
 </div>
 <!-- Video Carousel -->
-<div class="mt-12 relative overflow-hidden">
-<div class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 scroll-smooth no-scrollbar" id="lifeVideoSlider">
-<!-- Video 1 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="NJ0WSfUej54"></div>
-<!-- Video 2 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="m3Ot4fWaj5U"></div>
-<!-- Video 3 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="ACX5kBzFHMM"></div>
-<!-- Video 4 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="0uHjyg6CdJo"></div>
-</div>
-</div>
+
 <!-- Campus Gallery -->
 <div class="mt-16">
 <h3 class="text-2xl font-bold text-gray-800 text-center mb-10">Campus Highlights</h3>
@@ -1016,114 +990,126 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
 <!-- FAQ Section -->
 <!-- FAQ Section -->
 <section class="section-spacing-sm bg-gray-50">
-<div class="max-w-6xl mx-auto px-6">
-<h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+  <div class="max-w-6xl mx-auto px-6">
+
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
       Frequently Asked Questions
     </h2>
-<div class="space-y-4">
-<!-- FAQ Item -->
-<div class="border border-gray-200 rounded-lg shadow-sm">
-<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-        Which MBA specialisations are offered at Graphic Era (Deemed to be University)?
-          <span class="ml-2">+</span>
-</button>
-<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-        Graphic Era (Deemed to be University) offers MBA specialisations in Marketing, Finance, Human Resource Management (HR), Business Analytics, Digital Marketing, and International Business. These MBA programs are designed to meet current industry requirements and career trends.
-            </div>
-</div>
-<!-- FAQ Item -->
-<div class="border border-gray-200 rounded-lg shadow-sm">
-<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-      What is the eligibility criteria for MBA admission at GEU?
-          <span class="ml-2">+</span>
-</button>
-<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-To apply for MBA admission at Graphic Era University, candidates must have a Bachelor’s degree in any discipline from a recognised university. Students appearing in their final year are also eligible to apply for MBA admission 2026.
 
+    <div class="space-y-4">
+
+      <!-- FAQ Item -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          What is the BCA program offered at Graphic Era (Deemed to be University)?
+          <span class="ml-2">+</span>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          The Bachelor of Computer Applications (BCA) program at Graphic Era (Deemed to be University) is designed to build strong foundations in computer science, programming, and software development. Students learn languages such as C, Java, and Python, along with database management, web technologies, cloud computing, and emerging technologies like AI and data analytics.
         </div>
-</div>
-<!-- FAQ Item -->
-<div class="border border-gray-200 rounded-lg shadow-sm">
-<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-      Is work experience required for MBA admission?
-          <span class="ml-2">+</span>
-</button>
-<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-No, work experience is not mandatory for MBA admission. Both fresh graduates and working professionals can apply for the MBA program at GEU.
-          </div>
-</div>
-<!-- FAQ Item -->
-<div class="border border-gray-200 rounded-lg shadow-sm">
-<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-        What is the duration of the MBA program?
-          <span class="ml-2">+</span>
-</button>
-<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-The MBA program duration is 2 years, divided into four semesters, with industry exposure, internships, and practical learning modules.
-        </div>
-</div>
-<!-- FAQ Item -->
-<div class="border border-gray-200 rounded-lg shadow-sm">
-<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-      Does Graphic Era (Deemed to be University) provide MBA placements?
-          <span class="ml-2">+</span>
-</button>
-<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-Yes. Graphic Era (Deemed to be University) offers strong MBA placement support through its dedicated placement cell. MBA students get placement opportunities in marketing, finance, HR, analytics, consulting, and management roles.
-        </div>
-</div>
-<!-- FAQ Item -->
-<div class="border border-gray-200 rounded-lg shadow-sm">
-<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-  How can I apply for MBA admission at GEU?
-          <span class="ml-2">+</span>
-</button>
-<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-You can apply online for MBA admission by filling out the application form on this page. After submission, the admissions team will contact you for the next steps.
-        </div>
-</div>
-<!-- FAQ Item -->
-<div class="border border-gray-200 rounded-lg shadow-sm">
-<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-    Is the MBA degree UGC approved?
-          <span class="ml-2">+</span>
-</button>
-<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-Yes. Graphic Era (Deemed to be University) is UGC approved and NAAC A+ accredited. The MBA degree is fully recognised across India and abroad.
-        </div>
-</div>
-<!-- FAQ Item -->
-<div class="border border-gray-200 rounded-lg shadow-sm">
-<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-    Are scholarships available for MBA students?
-          <span class="ml-2">+</span>
-</button>
-<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-Yes. Merit-based scholarships and category-specific scholarships are available for eligible MBA students as per university guidelines.
       </div>
-</div>
-<!-- FAQ Item -->
-<div class="border border-gray-200 rounded-lg shadow-sm">
-<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-  Can students from outside Uttarakhand apply for MBA admission?
+
+      <!-- FAQ Item -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          What is the eligibility criteria for BCA admission at GEU?
           <span class="ml-2">+</span>
-</button>
-<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-Yes. Students from all over India can apply for MBA admission in Dehradun at Graphic Era University. Hostel facilities are available for outstation students.
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          To apply for BCA admission at Graphic Era University, candidates must have passed 10+2 or equivalent examination from a recognised board with Mathematics or Computer Science as a subject. Students appearing in their final board exams can also apply for BCA admission 2026.
+        </div>
       </div>
-</div>
-<!-- FAQ Item -->
-<div class="border border-gray-200 rounded-lg shadow-sm">
-<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-When will MBA admissions for 2026 start?
+
+      <!-- FAQ Item -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          What is the duration of the BCA program?
           <span class="ml-2">+</span>
-</button>
-<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-MBA admissions for 2026 are currently open. The academic session generally begins in July/August. Early applicants get priority in seat allocation.
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          The BCA program duration is 3 years, divided into six semesters. The curriculum includes programming fundamentals, operating systems, data structures, database systems, software engineering, web development, and a final year project.
+        </div>
       </div>
-</div>
-</div>
-</div>
+
+      <!-- FAQ Item -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          Does Graphic Era (Deemed to be University) provide BCA placements?
+          <span class="ml-2">+</span>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          Yes. Graphic Era offers strong placement support through its dedicated training and placement cell. BCA students get opportunities with leading IT companies, startups, and technology firms. Many graduates also pursue higher studies such as MCA or MBA to expand their career opportunities.
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          What career opportunities are available after BCA?
+          <span class="ml-2">+</span>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          After completing BCA, students can pursue roles such as Software Developer, Web Developer, System Analyst, Data Analyst, Mobile App Developer, IT Support Specialist, and Cloud Technician. Many graduates also continue with MCA to specialise further in software development and advanced technologies.
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          How can I apply for BCA admission at GEU?
+          <span class="ml-2">+</span>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          Students can apply online by filling out the application form available on this page. After submission, the admissions team will contact applicants for the next steps including document verification and counselling.
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          Is the BCA degree UGC approved?
+          <span class="ml-2">+</span>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          Yes. Graphic Era (Deemed to be University) is recognised by UGC and accredited with NAAC A+. The BCA degree is widely recognised by employers and academic institutions across India and internationally.
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          Are scholarships available for BCA students?
+          <span class="ml-2">+</span>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          Yes. Graphic Era offers several merit based scholarships for BCA students based on academic performance. Additional scholarships and fee concessions may also be available for eligible candidates including female students and defence personnel wards.
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          Can students from outside Uttarakhand apply for BCA admission?
+          <span class="ml-2">+</span>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          Yes. Students from all states of India can apply for BCA admission at Graphic Era University in Dehradun. Hostel facilities and modern campus amenities are available for outstation students.
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          When will BCA admissions for 2026 start?
+          <span class="ml-2">+</span>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          BCA admissions for the 2026 academic session are currently open. Classes generally begin in July or August. Early applicants receive priority in seat allocation and scholarship consideration.
+        </div>
+      </div>
+
+    </div>
+  </div>
 </section>
 <!--- FAQ-->
 <!--- Footer Start-->

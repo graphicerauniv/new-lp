@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 
 <html lang="en">
@@ -157,7 +157,7 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
 
     <!-- Course Filter Container - Dynamic Filter System -->
     <!-- MBA Page: Department-specific (hides department filter, shows only MBA courses) -->
-    <div id="courseFilterContainer" data-page-type="department" data-department="Management"></div>
+    <div id="courseFilterContainer" data-page-type="department" data-department="Computer Application."></div>
   </div>
 </section>
 </section>
@@ -438,9 +438,7 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
             <a href="#admissionForm" class="flex-1 text-center px-5 py-3 bg-blue-600 text-white font-bold text-sm rounded-lg hover:bg-blue-700 transition-all shadow-md hover:shadow-lg">
               Apply for GECET Now →
             </a>
-            <a href="#courseFilterContainer" class="flex-1 text-center px-5 py-3 bg-white text-blue-700 font-bold text-sm rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition-all">
-              Explore Programs ↓
-            </a>
+           
           </div>
         </div>
 
@@ -458,30 +456,8 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
   </div>
 </section>
 
-<!-- MBA Placement Stories Section - Netflix-Style Infinite Slider -->
-<section class="py-16 bg-white">
-  <div class="max-w-7xl mx-auto px-6 lg:px-8">
 
-    <!-- Section Header -->
-    <div class="text-center mb-12">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">
-        Placement <span class="text-blue-600">Stories</span>
-      </h2>
-      <p class="text-gray-600 text-base max-w-2xl mx-auto">
-        Celebrating our students placed in top companies with impressive packages.
-      </p>
-    </div>
 
-    <!-- Netflix-Style Slider Container -->
-    <div class="relative overflow-hidden">
-      <div class="flex gap-6 transition-transform duration-500 ease-out" id="mbaPlacementSlider">
-        <!-- Cards will be dynamically inserted here -->
-      </div>
-    </div>
-
-  </div>
-</section>
-<!-- MBA Placement Stories End -->
 
 <style>
 /* Netflix-style slider styles */
@@ -714,9 +690,20 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
       </p>
     </div>
 
-    <!-- Dynamic Image Slider -->
-    <div class="relative">
-      <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementSlider"></div>
+    <!-- Dynamic Image Slider with Navigation -->
+    <div class="flex items-center gap-4">
+      <!-- Left Arrow -->
+      <button onclick="document.getElementById('placementSlider').scrollBy({left: -320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-12 h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll left">
+        <svg class="w-6 h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+      </button>
+      <!-- Slider -->
+      <div class="flex-1 overflow-hidden">
+        <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementSlider"></div>
+      </div>
+      <!-- Right Arrow -->
+      <button onclick="document.getElementById('placementSlider').scrollBy({left: 320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-12 h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll right">
+        <svg class="w-6 h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+      </button>
     </div>
 
   </div>
@@ -738,7 +725,7 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
       <br/><br/>
 <span class="text-xs text-gray-500 italic">
         *The above stats are combined for all the campuses under the Brand Graphic Era and the stats are subject to change
-        as the placement session is still going on. Last Updated: 09 January, 2025
+        as the placement session is still going on. Last Updated: 09 January, 2026
       </span>
 </p>
 <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20">
@@ -936,18 +923,7 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
 <div class="youtube-lazy group rounded-2xl overflow-hidden shadow-xl relative w-full h-72 md:h-96" data-id="X6MCS7SmNO8"></div>
 </div>
 <!-- Video Carousel -->
-<div class="mt-12 relative overflow-hidden">
-<div class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 scroll-smooth no-scrollbar" id="lifeVideoSlider">
-<!-- Video 1 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="NJ0WSfUej54"></div>
-<!-- Video 2 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="m3Ot4fWaj5U"></div>
-<!-- Video 3 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="ACX5kBzFHMM"></div>
-<!-- Video 4 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="0uHjyg6CdJo"></div>
-</div>
-</div>
+
 <!-- Campus Gallery -->
 <div class="mt-16">
 <h3 class="text-2xl font-bold text-gray-800 text-center mb-10">Campus Highlights</h3>
@@ -1024,102 +1000,102 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
 <!-- FAQ Item -->
 <div class="border border-gray-200 rounded-lg shadow-sm">
 <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-        Which MBA specialisations are offered at Graphic Era (Deemed to be University)?
+        Which MCA specialisations are offered at Graphic Era (Deemed to be University)?
           <span class="ml-2">+</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-        Graphic Era (Deemed to be University) offers MBA specialisations in Marketing, Finance, Human Resource Management (HR), Business Analytics, Digital Marketing, and International Business. These MBA programs are designed to meet current industry requirements and career trends.
+        Graphic Era (Deemed to be University) offers MCA programs including MCA and MCA with AI &amp; Data Science specialisation. These programs equip students with advanced software development, cloud computing, machine learning, and enterprise-level IT skills aligned with current industry demands.
             </div>
 </div>
 <!-- FAQ Item -->
 <div class="border border-gray-200 rounded-lg shadow-sm">
 <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-      What is the eligibility criteria for MBA admission at GEU?
+      What is the eligibility criteria for MCA admission at GEU?
           <span class="ml-2">+</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-To apply for MBA admission at Graphic Era University, candidates must have a Bachelor’s degree in any discipline from a recognised university. Students appearing in their final year are also eligible to apply for MBA admission 2026.
+To apply for MCA admission at Graphic Era University, candidates must have a Bachelor’s degree in Computer Applications (BCA), Computer Science, IT, or any relevant discipline with Mathematics at 10+2 or graduation level. Students appearing in their final year are also eligible to apply for MCA admission 2026.
 
         </div>
 </div>
 <!-- FAQ Item -->
 <div class="border border-gray-200 rounded-lg shadow-sm">
 <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-      Is work experience required for MBA admission?
+      What is the duration of the MCA program?
           <span class="ml-2">+</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-No, work experience is not mandatory for MBA admission. Both fresh graduates and working professionals can apply for the MBA program at GEU.
+The MCA program duration is 2 years, divided into four semesters. The curriculum covers advanced programming, database management, software engineering, cloud computing, DevOps, and a final semester industry project.
           </div>
 </div>
 <!-- FAQ Item -->
 <div class="border border-gray-200 rounded-lg shadow-sm">
 <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-        What is the duration of the MBA program?
+        Does Graphic Era (Deemed to be University) provide MCA placements?
           <span class="ml-2">+</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-The MBA program duration is 2 years, divided into four semesters, with industry exposure, internships, and practical learning modules.
+Yes. Graphic Era (Deemed to be University) offers strong MCA placement support through its dedicated placement cell. MCA graduates have been placed at top companies including Amazon, Google, Microsoft, Adobe, Goldman Sachs, and Atlassian, with the highest package reaching &#8377;61.99 LPA.
         </div>
 </div>
 <!-- FAQ Item -->
 <div class="border border-gray-200 rounded-lg shadow-sm">
 <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-      Does Graphic Era (Deemed to be University) provide MBA placements?
+      What career opportunities are available after MCA from GEU?
           <span class="ml-2">+</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-Yes. Graphic Era (Deemed to be University) offers strong MBA placement support through its dedicated placement cell. MBA students get placement opportunities in marketing, finance, HR, analytics, consulting, and management roles.
+After completing MCA from Graphic Era, graduates can pursue careers as Software Developer, Full Stack Developer, Data Scientist, Cloud Engineer, DevOps Engineer, AI/ML Engineer, Cybersecurity Analyst, and System Architect in top IT companies and startups globally.
         </div>
 </div>
 <!-- FAQ Item -->
 <div class="border border-gray-200 rounded-lg shadow-sm">
 <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-  How can I apply for MBA admission at GEU?
+  How can I apply for MCA admission at GEU?
           <span class="ml-2">+</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-You can apply online for MBA admission by filling out the application form on this page. After submission, the admissions team will contact you for the next steps.
+You can apply online for MCA admission by filling out the application form on this page. After submission, the admissions team will contact you for the next steps including document verification and counselling.
         </div>
 </div>
 <!-- FAQ Item -->
 <div class="border border-gray-200 rounded-lg shadow-sm">
 <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-    Is the MBA degree UGC approved?
+    Is the MCA degree UGC approved?
           <span class="ml-2">+</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-Yes. Graphic Era (Deemed to be University) is UGC approved and NAAC A+ accredited. The MBA degree is fully recognised across India and abroad.
+Yes. Graphic Era (Deemed to be University) is UGC approved and NAAC A+ accredited. The MCA degree is fully recognised across India and by global employers, making graduates eligible for top IT roles worldwide.
         </div>
 </div>
 <!-- FAQ Item -->
 <div class="border border-gray-200 rounded-lg shadow-sm">
 <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-    Are scholarships available for MBA students?
+    Are scholarships available for MCA students?
           <span class="ml-2">+</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-Yes. Merit-based scholarships and category-specific scholarships are available for eligible MBA students as per university guidelines.
+Yes. Merit-based scholarships up to 70% and category-specific scholarships are available for eligible MCA students. Additional 10% scholarship is offered for female candidates and 5% fee waiver for wards of defence personnel.
       </div>
 </div>
 <!-- FAQ Item -->
 <div class="border border-gray-200 rounded-lg shadow-sm">
 <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-  Can students from outside Uttarakhand apply for MBA admission?
+  Can students from outside Uttarakhand apply for MCA admission?
           <span class="ml-2">+</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-Yes. Students from all over India can apply for MBA admission in Dehradun at Graphic Era University. Hostel facilities are available for outstation students.
+Yes. Students from all over India can apply for MCA admission at Graphic Era University in Dehradun. Hostel facilities with modern amenities are available for outstation students on campus.
       </div>
 </div>
 <!-- FAQ Item -->
 <div class="border border-gray-200 rounded-lg shadow-sm">
 <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-When will MBA admissions for 2026 start?
+When will MCA admissions for 2026 start?
           <span class="ml-2">+</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-MBA admissions for 2026 are currently open. The academic session generally begins in July/August. Early applicants get priority in seat allocation.
+MCA admissions for 2026 are currently open. The academic session generally begins in July/August. Early applicants get priority in seat allocation and scholarship consideration through GECET.
       </div>
 </div>
 </div>

@@ -438,9 +438,6 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
             <a href="#admissionForm" class="flex-1 text-center px-5 py-3 bg-blue-600 text-white font-bold text-sm rounded-lg hover:bg-blue-700 transition-all shadow-md hover:shadow-lg">
               Apply for GECET Now →
             </a>
-            <a href="#courseFilterContainer" class="flex-1 text-center px-5 py-3 bg-white text-blue-700 font-bold text-sm rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition-all">
-              Explore Programs ↓
-            </a>
           </div>
         </div>
 
@@ -714,12 +711,22 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
       </p>
     </div>
 
-    <!-- Dynamic Image Slider -->
-    <div class="relative">
-      <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementSlider"></div>
+  <!-- Dynamic Image Slider -->
+     <!-- Dynamic Image Slider with Navigation -->
+    <div class="flex items-center gap-4">
+      <!-- Left Arrow -->
+      <button onclick="document.getElementById('placementSlider').scrollBy({left: -320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-12 h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll left">
+        <svg class="w-6 h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+      </button>
+      <!-- Slider -->
+      <div class="flex-1 overflow-hidden">
+        <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementSlider"></div>
+      </div>
+      <!-- Right Arrow -->
+      <button onclick="document.getElementById('placementSlider').scrollBy({left: 320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-12 h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll right">
+        <svg class="w-6 h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+      </button>
     </div>
-
-  </div>
 </section>
 
 <!-- Placement Stories End -->
@@ -738,7 +745,7 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
       <br/><br/>
 <span class="text-xs text-gray-500 italic">
         *The above stats are combined for all the campuses under the Brand Graphic Era and the stats are subject to change
-        as the placement session is still going on. Last Updated: 09 January, 2025
+        as the placement session is still going on. Last Updated: 09 January, 2026
       </span>
 </p>
 <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20">
@@ -934,19 +941,6 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
 </div>
 <!-- Featured Video -->
 <div class="youtube-lazy group rounded-2xl overflow-hidden shadow-xl relative w-full h-72 md:h-96" data-id="X6MCS7SmNO8"></div>
-</div>
-<!-- Video Carousel -->
-<div class="mt-12 relative overflow-hidden">
-<div class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 scroll-smooth no-scrollbar" id="lifeVideoSlider">
-<!-- Video 1 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="NJ0WSfUej54"></div>
-<!-- Video 2 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="m3Ot4fWaj5U"></div>
-<!-- Video 3 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="ACX5kBzFHMM"></div>
-<!-- Video 4 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="0uHjyg6CdJo"></div>
-</div>
 </div>
 <!-- Campus Gallery -->
 <div class="mt-16">

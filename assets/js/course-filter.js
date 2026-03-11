@@ -37,22 +37,7 @@ class CourseFilter {
     if (!filterContainer) return;
     
     let html = '<div class="max-w-7xl mx-auto px-6">';
-    html += '<div class="bg-white rounded-2xl shadow-sm p-4 sm:p-6 mb-12">';
     
-    // Desktop: Single line layout, Mobile: Multi-line
-    html += '<div class="grid grid-cols-1 md:grid-cols-12 gap-3 md:gap-4">';
-    
-    // Search field (takes up more space on desktop)
-    html += `
-      <div class="md:col-span-5">
-        <input 
-          type="text" 
-          id="courseSearch" 
-          placeholder="Search courses by name or keyword..." 
-          class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm placeholder-gray-400 transition-all"
-        />
-      </div>
-    `;
     
     // Level and Department filters (only for general page)
     if (this.pageType === 'general') {
@@ -107,31 +92,7 @@ class CourseFilter {
           </button>
         </div>
       `;
-    } else {
-      // For department-specific pages, show search + level filter
-      html += `
-        <div class="md:col-span-4">
-          <select id="levelFilter" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm bg-white transition-all">
-            <option value="">Select Level</option>
-            <option value="UG">Undergraduate</option>
-            <option value="PG">Postgraduate</option>
-            <option value="Diploma">Diploma</option>
-            <option value="PhD">PhD</option>
-          </select>
-        </div>
-      `;
-      
-      html += `
-        <div class="md:col-span-3">
-          <button 
-            id="clearFilters" 
-            class="w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-yellow-500 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-yellow-600 transition-all duration-300 text-sm shadow-md hover:shadow-lg"
-          >
-            Clear
-          </button>
-        </div>
-      `;
-    }
+    } 
     
     html += '</div></div></div>';
     
