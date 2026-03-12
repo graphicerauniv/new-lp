@@ -78,8 +78,10 @@ function renderCourses(list) {
             ${c.level ? "- " + c.level : ""} ${c.duration ? "- " + c.duration : ""}
           </p>
         </div>
-        <p class="about-text text-sm text-gray-700 mb-4">${c.bullets?.map(b => `• ${b}`).join("<br/>") || c.description}</p>
-        <p class="about-text text-sm text-gray-700 mb-4">${c.description}</p>
+       <p class="about-text text-sm text-gray-700 mb-4">
+       ${c.bullets ? c.bullets.map(b => `• ${b}`).join("<br/>") + "<br/><br/>" : ""}
+      ${c.description || ""}
+       </p>
         ${
           c.image
             ? `<img data-src="${c.image}" class="swiper-lazy w-full h-40 object-cover rounded mb-4" alt="${c.title}">

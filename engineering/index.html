@@ -96,88 +96,141 @@
 </div>
 </header>
 <!-- Courses Offered -->
-</section>
-<section class="section-spacing-sm px-6 bg-gray-50">
-<!-- Heading -->
-<h2 class="text-4xl md:text-5xl font-extrabold text-center mb-12 bg-gradient-to-r from-blue-700 via-blue-600 to-yellow-500 bg-clip-text text-transparent">
-    Explore Our Programs
-  </h2>
-<!-- Filters inside card -->
-<div class="bg-white rounded-2xl shadow-md p-6 mb-12 max-w-6xl mx-auto">
-<div class="flex flex-col lg:flex-row lg:items-end gap-4">
-<!-- Search -->
-<div class="relative flex-1 min-w-[220px]">
-<!-- Search Icon -->
-<svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<path d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-</svg>
-<!-- Input -->
-<input class="peer block w-full appearance-none rounded-lg border border-gray-300 bg-white pl-10 pr-3 pt-5 pb-2 text-sm text-gray-900 shadow-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none" id="courseSearch" name="courseSearch" placeholder=" "/>
-<!-- Floating Label -->
-<label class="absolute left-10 top-2 text-gray-700 text-xs bg-white px-1 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-sm peer-focus:top-1 peer-focus:text-xs peer-focus:text-blue-600" for="courseSearch">
-  Search Courses
-</label>
-</div>
-<!-- Level -->
-<div class="relative flex-1 lg:flex-none lg:w-1/4">
-<select class="peer block w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 pt-5 pb-2 text-sm text-gray-900 shadow-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none [&amp;&gt;option]:text-gray-700 [&amp;&gt;option]:py-2" id="levelFilter" name="levelFilter">
-<option disabled="" hidden="" selected="" value=""></option>
-<option value="UG">Undergraduate</option>
-<option value="PG">Postgraduate</option>
-</select>
-<label class="absolute left-3 top-2 text-gray-500 text-xs bg-white px-1 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-sm peer-focus:top-1 peer-focus:text-xs peer-focus:text-blue-600" for="levelFilter">
-          Select Level
-        </label>
-<!-- Chevron Icon -->
-<svg class="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-</svg>
-</div>
-<!-- Department (dynamic options injected by JS) -->
-<div class="relative flex-1 lg:flex-none lg:w-1/4">
-<select class="peer block w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 pt-5 pb-2 text-sm text-gray-900 shadow-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none [&amp;&gt;option]:text-gray-700 [&amp;&gt;option]:py-2" id="deptFilter" name="deptFilter">
-<option disabled="" hidden="" selected="" value=""></option>
-<!-- JS will inject department options here -->
-</select>
-<label class="absolute left-3 top-2 text-gray-500 text-xs bg-white px-1 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-sm peer-focus:top-1 peer-focus:text-xs peer-focus:text-blue-600" for="deptFilter">
-          Select Department
-        </label>
-<!-- Chevron Icon -->
-<svg class="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-</svg>
-</div>
-<!-- Clear Button -->
-<div class="flex items-stretch">
-<button class="h-[48px] flex items-center justify-center rounded-lg px-6 text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-yellow-400 hover:from-blue-700 hover:to-yellow-500 active:from-blue-800 active:to-yellow-600 shadow-md transition transform hover:scale-105" id="clearFilters">
-          Clear
-        </button>
-</div>
-</div>
-</div>
-<!-- Course Slider -->
-<div class="swiper mySwiper max-w-6xl mx-auto pb-16">
-<div class="swiper-wrapper" id="courseSlider">
-<!-- JS injects course cards here -->
-</div>
-<!-- Progress Bar -->
-</div>
-<!-- No Results -->
-<p class="hidden text-center text-gray-600 mt-10 text-lg font-medium" id="noResults">
-    ❌ No courses found. Try adjusting your filters.
-  </p>
-</section>
-</section>
-</section>
-</section>
-</section>
-</section>
-</section>
-</section>
-</section>
-</section>
+
+
 
 </section>
+<section class="section-spacing-sm px-6 bg-gray-50">
+
+  <!-- Heading -->
+  <h2 class="text-4xl md:text-5xl font-extrabold text-center mb-12 bg-gradient-to-r from-blue-700 via-blue-600 to-yellow-500 bg-clip-text text-transparent">
+    Explore Our Programs
+  </h2>
+
+  <!-- Filters inside card -->
+  <div class="bg-white rounded-2xl shadow-md p-6 mb-12 max-w-6xl mx-auto">
+    <div class="flex flex-col lg:flex-row lg:items-end gap-4">
+
+      <!-- Search -->
+      <div class="relative flex-1 min-w-[220px]">
+
+        <!-- Search Icon -->
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+        </svg>
+
+        <!-- Input -->
+        <input
+          class="peer block w-full appearance-none rounded-lg border border-gray-300 bg-white pl-10 pr-3 pt-5 pb-2 text-sm text-gray-900 shadow-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+          id="courseSearch"
+          name="courseSearch"
+          placeholder=" "
+        />
+
+        <!-- Floating Label -->
+        <label
+          class="absolute left-10 top-2 text-gray-700 text-xs bg-white px-1 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-sm peer-focus:top-1 peer-focus:text-xs peer-focus:text-blue-600"
+          for="courseSearch">
+          Search Courses
+        </label>
+      </div>
+
+      <!-- Level -->
+      <div class="relative flex-1 lg:flex-none lg:w-1/4">
+        <select
+          class="peer block w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 pt-5 pb-2 text-sm text-gray-900 shadow-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+          id="levelFilter"
+          name="levelFilter">
+
+          <option disabled hidden selected value=""></option>
+          <option value="UG">Undergraduate</option>
+          <option value="PG">Postgraduate</option>
+
+        </select>
+
+        <label
+          class="absolute left-3 top-2 text-gray-500 text-xs bg-white px-1 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-sm peer-focus:top-1 peer-focus:text-xs peer-focus:text-blue-600"
+          for="levelFilter">
+          Select Level
+        </label>
+
+        <!-- Chevron Icon -->
+        <svg class="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+        </svg>
+      </div>
+
+      <!-- Department -->
+      <div class="relative flex-1 lg:flex-none lg:w-1/4">
+        <select
+          class="peer block w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 pt-5 pb-2 text-sm text-gray-900 shadow-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+          id="deptFilter"
+          name="deptFilter">
+
+          <option disabled hidden selected value=""></option>
+          <!-- JS will inject department options here -->
+
+        </select>
+
+        <label
+          class="absolute left-3 top-2 text-gray-500 text-xs bg-white px-1 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-sm peer-focus:top-1 peer-focus:text-xs peer-focus:text-blue-600"
+          for="deptFilter">
+          Select Department
+        </label>
+
+        <!-- Chevron Icon -->
+        <svg class="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+        </svg>
+      </div>
+
+      <!-- Clear Button -->
+      <div class="flex items-stretch">
+        <button
+          id="clearFilters"
+          class="h-[48px] flex items-center justify-center rounded-lg px-6 text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-yellow-400 hover:from-blue-700 hover:to-yellow-500 active:from-blue-800 active:to-yellow-600 shadow-md transition transform hover:scale-105">
+          Clear
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Course Slider -->
+  <div class="swiper mySwiper max-w-6xl mx-auto pb-16">
+    <div class="swiper-wrapper" id="courseSlider">
+      <!-- JS injects course cards here -->
+    </div>
+  </div>
+
+  <!-- No Results -->
+  <p id="noResults" class="hidden text-center text-gray-600 mt-10 text-lg font-medium">
+    ❌ No courses found. Try adjusting your filters.
+  </p>
+
+</section>
+
+<style>
+.mySwiper {
+  min-height: 350px;
+}
+
+.about-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;   /* show only 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.about-text.expanded {
+  -webkit-line-clamp: unset;
+  display: block;
+}
+
+.course-card {
+  min-height: 320px;
+}
+</style>
 
 <!-- Admission Process -->
 <!-- Application Process -->
@@ -1135,6 +1188,14 @@ function autoSlide() {
 }
 
 setInterval(autoSlide, 3000); // slide every 3 seconds
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-113RL48ZLX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-113RL48ZLX');
 </script>
 </body>
 </html>
