@@ -417,7 +417,7 @@
   },
   {
     "code": "GEN_BCA",
-    "department": "Computer Application",
+    "department": "Computer Applications",
     "title": "BCA",
     "level": "UG",
     "duration": "3 Years",
@@ -430,7 +430,7 @@
   },
   {
     "code": "GEN_BCA__HONS__",
-    "department": "Computer Application",
+    "department": "Computer Applications",
     "title": "BCA (Hons.)",
     "level": "UG",
     "duration": "3 Years",
@@ -443,7 +443,7 @@
   },
   {
     "code": "GEN_BCA_INDUSTRY_INTEGRATED",
-    "department": "Computer Application",
+    "department": "Computer Applications",
     "title": "BCA Industry Integrated",
     "level": "UG",
     "duration": "3 Years",
@@ -456,7 +456,7 @@
   },
   {
     "code": "GEN_BCA",
-    "department": "Computer Application",
+    "department": "Computer Applications",
     "title": "BCA",
     "level": "UG",
     "duration": "3 Years",
@@ -469,7 +469,7 @@
   },
   {
     "code": "GEN_BCA__HONS___AI___DS",
-    "department": "Computer Application",
+    "department": "Computer Applications",
     "title": "BCA (Hons.) AI & DS",
     "level": "UG",
     "duration": "3 Years",
@@ -482,7 +482,7 @@
   },
   {
     "code": "GEN_BCA_CYBER_SECURITY",
-    "department": "Computer Application",
+    "department": "Computer Applications",
     "title": "BCA Cyber Security",
     "level": "UG",
     "duration": "3 Years",
@@ -495,7 +495,7 @@
   },
   {
     "code": "GEN_BCA__HONS___CYBER_SECURITY",
-    "department": "Computer Application",
+    "department": "Computer Applications",
     "title": "BCA (Hons.) Cyber Security",
     "level": "UG",
     "duration": "3 Years",
@@ -508,7 +508,7 @@
   },
   {
     "code": "GEN_MCA",
-    "department": "Computer Application",
+    "department": "Computer Application.",
     "title": "MCA",
     "level": "PG",
     "duration": "2 Years",
@@ -521,7 +521,7 @@
   },
   {
     "code": "GEN_MCA_AI___DS",
-    "department": "Computer Application",
+    "department": "Computer Application.",
     "title": "MCA AI & DS",
     "level": "PG",
     "duration": "2 Years",
