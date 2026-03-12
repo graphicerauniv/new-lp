@@ -71,13 +71,14 @@ function renderCourses(list) {
   wrapper.innerHTML = (list || []).map(c => `
     <div class="swiper-slide">
       <div class="course-card bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 flex flex-col h-full"
-           data-dept="${c.department}" data-level="${c.level}">
+            data-level="${c.level}">
         <div class="mb-4">
           <h3 class="font-bold text-xl text-blue-800 leading-snug">${c.title}</h3>
           <p class="text-sm text-gray-500 mt-1">
-            ${c.department} ${c.level ? "- " + c.level : ""} ${c.duration ? "- " + c.duration : ""}
+            ${c.level ? "- " + c.level : ""} ${c.duration ? "- " + c.duration : ""}
           </p>
         </div>
+        <p class="about-text text-sm text-gray-700 mb-4">${c.bullets?.map(b => `• ${b}`).join("<br/>") || c.description}</p>
         <p class="about-text text-sm text-gray-700 mb-4">${c.description}</p>
         ${
           c.image

@@ -54,32 +54,20 @@ class CourseFilter {
       `;
       
       html += `
-        <div class="md:col-span-3">
+         <div class="md:col-span-3">
           <select id="departmentFilter" class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm bg-white transition-all">
             <option value="">Select Department</option>
             <option value="Aerospace Engineering">Aerospace Engineering</option>
-            <option value="Allied Sciences">Allied Sciences</option>
-            <option value="Biosciences">Biosciences</option>
-            <option value="Biotechnology">Biotechnology</option>
-            <option value="Civil Engineering">Civil Engineering</option>
-            <option value="Commerce">Commerce</option>
-            <option value="Computer Application">Computer Application</option>
             <option value="Computer Science Engineering">Computer Science Engineering</option>
-            <option value="Design">Design</option>
-            <option value="Earth Sciences">Earth Sciences</option>
+            <option value="Civil Engineering">Civil Engineering</option>
+            <option value="Biotechnology">Biotechnology</option>
             <option value="Electrical Engineering">Electrical Engineering</option>
             <option value="Electronics & Communication Engineering">Electronics & Communication Engineering</option>
-            <option value="Food Science & Technology">Food Science & Technology</option>
-            <option value="Hospitality Management">Hospitality Management</option>
-            <option value="Humanities & Social Sciences">Humanities & Social Sciences</option>
-            <option value="Law">Law</option>
-            <option value="Management">Management</option>
             <option value="Mechanical Engineering">Mechanical Engineering</option>
-            <option value="Microbiology">Microbiology</option>
-            <option value="Nursing">Nursing</option>
-            <option value="Paramedical">Paramedical</option>
-          </select>
-        </div>
+            
+            </select>
+            </div>
+        
       `;
       
       html += `

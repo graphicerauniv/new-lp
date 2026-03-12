@@ -48,7 +48,7 @@
 <!-- Hero Text -->
 <div class="text-center md:text-left md:pl-40 pt-8 md:pt-0">
 <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-4 text-white">
-    Admissions Open 2026
+    B.Tech Admissions Open 2026
   </h1>
 <p class="text-base sm:text-lg md:text-xl mb-6 text-white">
     Begin your Career at the university ranked 
@@ -436,12 +436,10 @@
 
           <!-- CTA Buttons -->
           <div class="flex flex-col sm:flex-row gap-3">
-            <a href="#admissionForm" class="flex-1 text-center px-5 py-3 bg-blue-600 text-white font-bold text-sm rounded-lg hover:bg-blue-700 transition-all shadow-md hover:shadow-lg">
-              Apply for GECET Now →
+            <a class="flex-1 text-center px-5 py-3 bg-blue-600 text-white font-bold text-sm rounded-lg hover:bg-blue-700 transition-all shadow-md hover:shadow-lg">
+              Apply for GECET Now 
             </a>
-            <a href="#courseFilterContainer" class="flex-1 text-center px-5 py-3 bg-white text-blue-700 font-bold text-sm rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition-all">
-              Explore Programs ↓
-            </a>
+
           </div>
         </div>
 
@@ -475,11 +473,22 @@
     </div>
 
     <!-- Dynamic Image Slider -->
-    <div class="relative">
-      <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementSlider"></div>
+   <!-- Dynamic Image Slider -->
+     <!-- Dynamic Image Slider with Navigation -->
+    <div class="flex items-center gap-4">
+      <!-- Left Arrow -->
+      <button onclick="document.getElementById('placementSlider').scrollBy({left: -320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-12 h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll left">
+        <svg class="w-6 h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+      </button>
+      <!-- Slider -->
+      <div class="flex-1 overflow-hidden">
+        <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementSlider"></div>
+      </div>
+      <!-- Right Arrow -->
+      <button onclick="document.getElementById('placementSlider').scrollBy({left: 320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-12 h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll right">
+        <svg class="w-6 h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+      </button>
     </div>
-
-  </div>
 </section>
 
 <!-- Placement Stories End -->
@@ -498,7 +507,7 @@
       <br/><br/>
 <span class="text-xs text-gray-500 italic">
         *The above stats are combined for all the campuses under the Brand Graphic Era and the stats are subject to change
-        as the placement session is still going on. Last Updated: 09 January, 2025
+        as the placement session is still going on. Last Updated: 09 January, 2026
       </span>
 </p>
 <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20">
@@ -537,13 +546,7 @@
 </div>
 </div>
 <!-- Part 2: Success Stories -->
-<h2 class="text-4xl md:text-5xl font-extrabold text-blue-900 mb-6">
-      Transforming Dreams into Reality
-    </h2>
-<p class="text-gray-600 mb-14 max-w-2xl mx-auto">
-      Our students continue to set benchmarks with their success stories. From internships to global opportunities,
-      here’s a glimpse of those who turned their dreams into achievements with Graphic Era.
-    </p>
+
 <!-- Dynamic Slider -->
 <div class="relative">
 <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementSlider"></div>
@@ -563,11 +566,10 @@
 <div class="max-w-7xl mx-auto px-6">
 <!-- Section Title -->
 <h2 class="text-4xl font-extrabold text-center mb-14">Key Highlights</h2>
-<!-- Wrapper -->
-<div class="swiper keyHighlightsSwiper">
-<div class="swiper-wrapper" id="highlightsContainer">
+<!-- Grid Layout - All 3 Cards Visible -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8" id="highlightsContainer">
 <!-- Card 1 -->
-<div class="swiper-slide bg-white text-gray-900 rounded-2xl shadow-xl overflow-hidden flex flex-col transition transform hover:-translate-y-2 hover:shadow-2xl duration-500 opacity-0 translate-y-6" data-animate="" data-delay="0">
+<div class="bg-white text-gray-900 rounded-2xl shadow-xl overflow-hidden flex flex-col transition transform hover:-translate-y-2 hover:shadow-2xl duration-500">
 <img alt="Teaching Experts" class="w-full h-72 object-cover" decoding="async" loading="lazy" src="/lp/assets/img/main/expert-teachers.webp"/>
 <div class="p-6 flex flex-col flex-grow">
 <h3 class="text-lg font-bold text-blue-800 mb-3">Specialized Teaching from Experts</h3>
@@ -583,7 +585,7 @@
 </div>
 </div>
 <!-- Card 2 -->
-<div class="swiper-slide bg-white text-gray-900 rounded-2xl shadow-xl overflow-hidden flex flex-col transition transform hover:-translate-y-2 hover:shadow-2xl duration-500 opacity-0 translate-y-6" data-animate="" data-delay="150">
+<div class="bg-white text-gray-900 rounded-2xl shadow-xl overflow-hidden flex flex-col transition transform hover:-translate-y-2 hover:shadow-2xl duration-500">
 <img alt="Placements" class="w-full h-72 object-cover" decoding="async" loading="lazy" src="/lp/assets/img/main/top-placement.webp"/>
 <div class="p-6 flex flex-col flex-grow">
 <h3 class="text-lg font-bold text-blue-800 mb-3">Top Internships and Placements</h3>
@@ -599,7 +601,7 @@
 </div>
 </div>
 <!-- Card 3 -->
-<div class="swiper-slide bg-white text-gray-900 rounded-2xl shadow-xl overflow-hidden flex flex-col transition transform hover:-translate-y-2 hover:shadow-2xl duration-500 opacity-0 translate-y-6" data-animate="" data-delay="300">
+<div class="bg-white text-gray-900 rounded-2xl shadow-xl overflow-hidden flex flex-col transition transform hover:-translate-y-2 hover:shadow-2xl duration-500">
 <img alt="NBA Accredited" class="w-full h-72 object-cover" decoding="async" loading="lazy" src="/lp/assets/img/main/nba-accredited.webp"/>
 <div class="p-6 flex flex-col flex-grow">
 <h3 class="text-lg font-bold text-blue-800 mb-3">NBA Accredited | AICTE Approved Degree</h3>
@@ -613,12 +615,6 @@
 </svg>
 </button>
 </div>
-</div>
-</div>
-<!-- Swiper Controls -->
-<div class="swiper-button-next"></div>
-<div class="swiper-button-prev"></div>
-<div class="swiper-pagination"></div>
 </div>
 </div>
 </section>
@@ -789,7 +785,7 @@
         </p>
 <div class="mt-8">
 <a class="inline-block bg-gradient-to-r from-blue-600 to-yellow-400 text-white font-semibold px-8 py-3 rounded-lg shadow-md hover:opacity-90 transition-all" href="#admissionForm">
-            Join Us for Admissions '25
+            Join Us for Admissions '26
           </a>
 </div>
 </div>
@@ -798,16 +794,7 @@
 </div>
 <!-- Video Carousel -->
 <div class="mt-12 relative overflow-hidden">
-<div class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 scroll-smooth no-scrollbar" id="lifeVideoSlider">
-<!-- Video 1 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="NJ0WSfUej54"></div>
-<!-- Video 2 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="m3Ot4fWaj5U"></div>
-<!-- Video 3 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="ACX5kBzFHMM"></div>
-<!-- Video 4 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="0uHjyg6CdJo"></div>
-</div>
+
 </div>
 <!-- Campus Gallery -->
 <div class="mt-16">
@@ -873,48 +860,98 @@
 <div class="max-w-6xl mx-auto px-6">
 <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
       Frequently Asked Questions
-    </h2>
+</h2>
+
 <div class="space-y-4">
-<!-- FAQ Item -->
+
+<!-- FAQ 1 -->
 <div class="border border-gray-200 rounded-lg shadow-sm">
 <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-          What programs does Graphic Era (Deemed to be University) offer?
-          <span class="ml-2">+</span>
+What engineering courses does GEU offer?
+<span class="ml-2">+</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-          Graphic Era offers a wide range of undergraduate, postgraduate, and doctoral programs across Engineering, Management, Computer Applications, Humanities, and more.
-        </div>
+GEU offers B.Tech in Computer Science and Engineering (CSE), AI & Data Science, AI & ML, Cybersecurity, CSE Cybersecurity, and CSE Hindi. These programs span four years with core subjects like programming, data structures, networks, and electives in AI and cybersecurity for hands-on tech careers.
 </div>
-<!-- FAQ Item -->
+</div>
+
+<!-- FAQ 2 -->
 <div class="border border-gray-200 rounded-lg shadow-sm">
 <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-          Is there hostel accommodation available?
-          <span class="ml-2">+</span>
+What is the process for B.Tech admission at Graphic Era University?
+<span class="ml-2">+</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-          Yes, the university provides comfortable hostel facilities for both boys and girls with modern amenities and a safe campus environment.
-        </div>
+BTech admission at GEU is merit-based on Class 12 PCM marks, JEE Main percentile, or CUET scores. Apply online via the university portal. It is worth noting that no JEE is compulsory for all seats. Eligible candidates, those who studied PCM with Maths, complete enrollment post-selection for 2026 intake.
 </div>
-<!-- FAQ Item -->
+</div>
+
+<!-- FAQ 3 -->
 <div class="border border-gray-200 rounded-lg shadow-sm">
 <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-          What placement opportunities are available?
-          <span class="ml-2">+</span>
+What scholarships are available for BTech CSE admission?
+<span class="ml-2">+</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-          Graphic Era has a strong placement record with top recruiters like Amazon, Microsoft, Adobe, and Deloitte visiting the campus every year. The highest package has gone up to ₹61.99 LPA.
-        </div>
+GEU BTech CSE offers merit scholarships up to ₹75,000 per semester based on 12th PCM (≥75%), JEE ≥85 percentile, or CUET ≥187.5 average. Additional 10% for girls and 5% for defense wards. Around 25% seats are available on a first-come-first-serve basis.
 </div>
-<!-- FAQ Item -->
+</div>
+
+<!-- FAQ 4 -->
 <div class="border border-gray-200 rounded-lg shadow-sm">
 <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-          How can I apply for admission?
-          <span class="ml-2">+</span>
+How much is the fee for BTech CSE admission at Graphic Era University?
+<span class="ml-2">+</span>
 </button>
 <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-          You can apply online through the official admission portal or visit the campus for offline applications. Admissions are open for 2025.
-        </div>
+GEU B.Tech CSE tuition is ₹2.14L per semester in the first year, rising to ₹2.45L by the fourth year. The total program cost ranges around ₹11.7L–₹16.2L over four years depending on installment plans and scholarships. One-time fees include ₹25K for admission, enrollment, and caution deposit.
 </div>
+</div>
+
+<!-- FAQ 5 -->
+<div class="border border-gray-200 rounded-lg shadow-sm">
+<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+Is there hostel accommodation for GEU Engineering students?
+<span class="ml-2">+</span>
+</button>
+<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+Yes, GEU provides separate hostels for engineering students with modern rooms, Wi-Fi, mess facilities, laundry services, and 24/7 security. Fees vary by sharing type and priority is generally given to outstation students.
+</div>
+</div>
+
+<!-- FAQ 6 -->
+<div class="border border-gray-200 rounded-lg shadow-sm">
+<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+What is lateral entry in BTech at GEU and who qualifies?
+<span class="ml-2">+</span>
+</button>
+<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+Lateral entry in B.Tech at GEU allows diploma holders to join directly in the second year. Candidates with a 3-year engineering diploma and at least 50% aggregate can apply through university merit or entrance criteria.
+</div>
+</div>
+
+<!-- FAQ 7 -->
+<div class="border border-gray-200 rounded-lg shadow-sm">
+<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+What is the placement record for BTech programs at GEU?
+<span class="ml-2">+</span>
+</button>
+<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+GEU BTech programs have strong placements with recruiters like Amazon, Microsoft, Google, and Walmart. Students receive training, internships, and placement support for roles in software development, data science, and cybersecurity.
+</div>
+</div>
+
+<!-- FAQ 8 -->
+<div class="border border-gray-200 rounded-lg shadow-sm">
+<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+What is the M.Tech CSE program at GEU?
+<span class="ml-2">+</span>
+</button>
+<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+GEU's M.Tech CSE is a 2-year postgraduate program focusing on advanced topics like algorithms, AI, machine learning, cybersecurity, big data, and cloud computing. The program includes labs, research thesis, and industry projects.
+</div>
+</div>
+
 </div>
 </div>
 </section>
@@ -1011,5 +1048,93 @@
 <script src="/lp/assets/js/schema-generator.js"></script>
 <script src="/lp/assets/js/fixes.js"></script>
 <script type="text/javascript">var s=document.createElement("script"); 	s.type="text/javascript"; s.async=true; s.src="https://widgets.in4.nopaperforms.com/emwgts.js"; 	document.body.appendChild(s);</script>  
+
+<!-- Filter Department Dropdown & Courses for Engineering Page Only -->
+<script>
+  const engineeringKeywords = ['Engineering', 'Biotechnology'];
+  
+  // Override the original renderCourses function to filter courses
+  const originalFetch = window.fetch;
+  let courseFilterApplied = false;
+  
+  window.fetch = function(...args) {
+    const promise = originalFetch.apply(this, args);
+    
+    // Intercept courses.json fetch
+    if (args[0].includes('courses.json') && !courseFilterApplied) {
+      courseFilterApplied = true;
+      return promise.then(res => res.json()).then(data => {
+        // Filter courses to only show engineering departments
+        const engineeringCourses = data.filter(course => 
+          engineeringKeywords.some(keyword => course.department.includes(keyword))
+        );
+        
+        // Override coursesData in the global scope
+        setTimeout(() => {
+          if (typeof coursesData !== 'undefined') {
+            coursesData = engineeringCourses;
+            renderCourses(engineeringCourses);
+            populateDepartments(engineeringCourses);
+            attachFilterEvents();
+          }
+        }, 100);
+        
+        return new Response(JSON.stringify(engineeringCourses), { status: 200 });
+      });
+    }
+    return promise;
+  };
+  
+  // Also filter department dropdown options
+  document.addEventListener('DOMContentLoaded', () => {
+    const deptFilter = document.getElementById('deptFilter');
+    if (deptFilter) {
+      const observer = new MutationObserver(() => {
+        filterEngineeringDepartments();
+      });
+      observer.observe(deptFilter, { childList: true });
+      filterEngineeringDepartments();
+    }
+  });
+
+  function filterEngineeringDepartments() {
+    const deptFilter = document.getElementById('deptFilter');
+    if (!deptFilter) return;
+    
+    const options = deptFilter.querySelectorAll('option');
+    options.forEach(option => {
+      if (option.value === '') {
+        option.style.display = 'block';
+      } else {
+        const isEngineering = engineeringKeywords.some(keyword => 
+          option.textContent.includes(keyword)
+        );
+        option.style.display = isEngineering ? 'block' : 'none';
+      }
+    });
+  }
+</script>
+
+<script>
+const slider = document.getElementById("accreditation-slider");
+const cards = document.querySelectorAll(".accreditation-card");
+
+let index = 0;
+const visibleCards = 3; // cards visible on desktop
+const totalCards = cards.length;
+
+function autoSlide() {
+  index++;
+
+  if (index > totalCards - visibleCards) {
+    index = 0;
+  }
+
+  const cardWidth = cards[0].offsetWidth + 24; // 24 = gap-6
+  slider.style.transform = `translateX(-${index * cardWidth}px)`;
+}
+
+setInterval(autoSlide, 3000); // slide every 3 seconds
+</script>
 </body>
 </html>

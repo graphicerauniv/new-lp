@@ -32,11 +32,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Advanced AI and machine learning algorithms",
+      "Cutting-edge AI/ML frameworks",
       "Deep learning and neural networks",
-      "Industry projects and hands-on labs"
+      "Real-world projects with industry mentors"
     ],
-    "description": "B.Tech CSE (Hons.) with specialization in AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+    "description": "B.Tech CSE (Hons.) in AI & DS equips you with advanced AI and machine learning skills.  Explore computer vision, NLP, neural networks, and ethical AI practices via hands-on labs, collaborative industry projects, and applications in diverse sectors."
   },
   {
     "code": "CSE_B_TECH_CSE__HONS___WITH_SPECIALIZATION_IN_CYBER_SE",
@@ -58,11 +58,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Advanced AI and machine learning algorithms",
-      "Deep learning and neural networks",
-      "Industry projects and hands-on labs"
+      "Generative models and AI frameworks",
+      "Deep learning & Neural networks for content creation",
+      "Industry-driven projects and labs"
     ],
-    "description": "B.Tech CSE (Hons.) with specialization in Generative AI focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+    "description": "B.Tech CSE (Hons.) in Generative AI builds expertise in innovative AI tools for creating text, images, and media. Master generative models, neural networks, NLP, computer vision, and ethical AI through practical labs, industry collaborations, and real-world projects across creative domains."
   },
   {
     "code": "CSE_B_TECH_CSE_AI___DS",
@@ -71,11 +71,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Advanced AI and machine learning algorithms",
-      "Deep learning and neural networks",
-      "Industry projects and hands-on labs"
+      "Hands-on AI industry projects",
+      "Neural networks with deep learning",
+      "Advanced AI algorithms and machine learning techniques"
     ],
-    "description": "B.Tech CSE AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+    "description":"B.Tech CSE AI & DS program delivers cutting-edge artificial intelligence and machine learning training. Build skills in deep learning, neural networks, computer vision, NLP, and AI ethics through real-world projects, industry collaborations, and practical applications for top AI careers."
   },
   {
     "code": "CSE_B_TECH_CSE_AI___ML",
@@ -84,11 +84,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Advanced AI and machine learning algorithms",
-      "Deep learning and neural networks",
-      "Industry projects and hands-on labs"
+      "AI ML algorithms and advanced techniques",
+      "Deep learning via neural networks",
+      " Practical industry projects and hands-on labs"
     ],
-    "description": "B.Tech CSE AI & ML focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+    "description": "B.Tech CSE AI & ML degree empowers you with cutting-edge artificial intelligence and machine learning expertise. Master deep learning, neural networks, computer vision, NLP, and AI ethics through hands-on projects, industry partnerships, and real-world AI ML applications for high-demand careers."
   },
   {
     "code": "CSE_B_TECH_CSE_CYBER_SECURITY",
@@ -97,11 +97,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Network security and ethical hacking",
-      "Cryptography and security protocols",
-      "Hands-on cybersecurity labs"
+      "Ethical hacking and penetration testing",
+      "Cryptography for data protection",
+      "Cyber defence labs and simulations"
     ],
-    "description": "B.Tech CSE Cyber Security prepares students for careers in cybersecurity and information security. Topics include ethical hacking, cryptography, network security, malware analysis, and security operations. Students gain practical experience through labs and industry certifications."
+    "description": "B.Tech CSE Cyber Security course readies you for cybersecurity careers with skills in ethical hacking, cryptography, network defense, malware analysis, and security operations. Earn hands-on experience via labs, simulations, and industry-recognized certifications."
   },
   {
     "code": "CSE_B_TECH_CSE_REGIONAL_LANGUAGE_QUOTA",
@@ -110,11 +110,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Industry-aligned curriculum",
-      "State-of-the-art labs and facilities",
+      "Practical industry-focused training",
+      "Cutting-edge labs and tech infrastructure",
       "Placement support and internships"
     ],
-    "description": "B.Tech CSE Regional Language Quota provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+    "description": "B.Tech CSE Regional Language Quota program blends solid engineering fundamentals with hands-on skills. Access advanced labs, industry ties, research projects, and robust placement support to launch careers in IT, core engineering, research, or advanced studies."
   },
   {
     "code": "CSE_M_TECH_CSE",
@@ -149,11 +149,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Industry-aligned curriculum",
+      "Space tech and aerospace curriculum",
       "State-of-the-art labs and facilities",
-      "Placement support and internships"
+      "Internships with placement guidance"
     ],
-    "description": "B.Tech Aerospace Engineering with specialization in Space Technology provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+    "description": "B.Tech Aerospace Engineering with specialization in Space Technology provides comprehensive education blending strong theoretical foundations with practical skills in propulsion, satellite design, and orbital mechanics. Includes modern labs, industry collaborations, research opportunities, and placement assistance for careers in aviation, space, and beyond."
   },
   {
     "code": "GEN_B_SC_AERONAUTICS",
@@ -162,11 +162,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
+      "Aviation theory and flight principles",
       "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Internships and career pathways"
     ],
-    "description": "B.Sc Aeronautics offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "B.Sc Aeronautics offers a robust program in aviation science, covering aerodynamics, aircraft systems, navigation, and safety protocols. Benefit from seasoned mentors, modern facilities, hands-on training, industry ties, and career support for roles in airlines, maintenance, and aviation management."
   },
   {
     "code": "BT_B_TECH_BIOTECHNOLOGY",
@@ -175,11 +175,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Industry-aligned curriculum",
-      "State-of-the-art labs and facilities",
-      "Placement support and internships"
+      "Biotech processes and genetic engineering",
+      "Advanced molecular biology labs",
+      "Research internships and placements"
     ],
-    "description": "B.Tech Biotechnology provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+    "description": "B.Tech Biotechnology delivers in-depth training in genetic engineering, bioprocessing, microbiology, and bioinformatics. Features cutting-edge labs, industry partnerships, hands-on research projects, and career guidance to prepare graduates for biotech firms, pharmaceuticals, research institutes, and advanced studies."
   },
   {
     "code": "CE_B_TECH_CIVIL_ENGINEERING",
@@ -188,11 +188,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Industry-aligned curriculum",
-      "State-of-the-art labs and facilities",
-      "Placement support and internships"
+      "Structural design and construction tech",
+      "Geotechnical and materials testing labs",
+      "Site internships and job placements"
     ],
-    "description": "B.Tech Civil Engineering provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+    "description": "B.Tech Civil Engineering builds expertise in structural analysis, geotechnics, water resources, and sustainable infrastructure. Includes advanced labs, industry projects, research initiatives, and placement support for careers in construction, urban planning, government projects, and higher engineering studies."
   },
   {
     "code": "CE_B_TECH_CIVIL_ENGINEERING_WITH_SPECIALIZATION_IN_GI",
@@ -201,11 +201,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Industry-aligned curriculum",
-      "State-of-the-art labs and facilities",
-      "Placement support and internships"
+      "GIS mapping and spatial analysis",
+      "Remote sensing labs with satellite data",
+      "Field projects and industry placements"
     ],
-    "description": "B.Tech Civil Engineering with specialization in GIS & Remote Sensing provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+    "description": "B.Tech Civil Engineering in GIS & Remote Sensing integrates structural engineering with geospatial tech, surveying, and earth observation. Our program features high-tech labs, collaborative industry projects, research in urban mapping, and placement aid for roles in infrastructure, disaster management, and environmental consulting."
   },
   {
     "code": "CE_B_TECH_CIVIL_ENGINEERING_WITH_SPECIALIZATION_IN_CO",
@@ -214,11 +214,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Industry-aligned curriculum",
+      "Project planning and BIM tools",
       "State-of-the-art labs and facilities",
       "Placement support and internships"
     ],
-    "description": "B.Tech Civil Engineering with specialization in Construction Management provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+    "description": "B.Tech Civil Engineering with specialization in Construction Management offers thorough training in project execution, cost estimation, quality control, and site supervision. Program covers advanced labs, contractor partnerships, research in building tech, and dedicated placement support for thriving careers in real estate, infrastructure, and project leadership roles."
   },
   {
     "code": "CE_M_TECH_STRUCTURAL_ENGINEERING",
@@ -241,10 +241,10 @@
     "duration": "4 Years",
     "bullets": [
       "Industry-aligned curriculum",
-      "State-of-the-art labs and facilities",
-      "Placement support and internships"
+      "State-of-the-art labs and virtual simulations",
+      "Career advancement placement support and internships"
     ],
-    "description": "B.Tech Civil Engineering (Working Professionals) provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+    "description": "B.Tech Civil Engineering (Working Professionals) delivers flexible, comprehensive training blending theoretical foundations with practical expertise in structures, materials, and infrastructure. Professionals access modern labs, industry networks, research options, and placement support, empowering career growth in construction, consulting, and leadership positions"
   },
   {
     "code": "CE_M_TECH_STRUCTURAL_ENGINEERING__WORKING_PROFESSIONA",
@@ -253,11 +253,11 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
+      "Advanced structural analysis modules",
       "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Leadership and promotion pathways"
     ],
-    "description": "M.Tech Structural Engineering (Working Professionals) offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "M.Tech Structural Engineering (Working Professionals) provides high-quality postgraduate education emphasizing theoretical depth alongside practical application in design, seismic analysis, and materials. Gain industry exposure, flexible internships, and robust placement support to excel in consulting, construction firms, and senior engineering roles."
   },
   {
     "code": "GEN_B_TECH_ELECTRICAL___COMPUTER_ENGINEERING",
@@ -283,7 +283,7 @@
       "Experienced faculty and mentorship",
       "Career development opportunities"
     ],
-    "description": "M.Tech Electric Vehicle Technology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "M.Tech Electric Vehicle Technology delivers advanced postgraduate training in battery systems, electric drivetrains, charging infrastructure, and sustainable mobility. Students benefit from hands-on projects, seasoned mentorship, industry collaborations, internships, and placement assistance for thriving careers in automotive, energy, and green tech sectors."
   },
   {
     "code": "ECE_B_TECH_ECE",
@@ -292,11 +292,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Industry-aligned curriculum",
-      "State-of-the-art labs and facilities",
-      "Placement support and internships"
+      "Signal processing and VLSI design",
+      "Cutting-edge communication labs and facilities",
+      "Placement support and tech internships"
     ],
-    "description": "B.Tech ECE provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+    "description": "B.Tech ECE program combines rigorous theory in electronics, communications, embedded systems, and signal processing with hands-on practice. Students engage modern labs, industry partnerships, research projects, and dedicated placement support, launching careers in telecom, semiconductors, IoT, and advanced tech fields."
   },
   {
     "code": "ECE_B_TECH_ECE_WITH_OPTIONAL_SPECIALIZATION_IN_EMBEDDE",
@@ -305,11 +305,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Industry-aligned curriculum",
-      "State-of-the-art labs and facilities",
-      "Placement support and internships"
+      "Embedded programming and IoT integration",
+      "Robotics and automation labs",
+      "Specialized tech placements and internships"
     ],
-    "description": "B.Tech ECE with optional specialization in Embedded Sytems and Robotics (ESR) provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+    "description": "B.Tech ECE with ESR option merges core electronics and communications training with electives in microcontrollers, robot design, AI automation, and sensor tech. Access state-of-the-art labs, industry collaborations, research avenues, and placement aid for dynamic careers in robotics, automation, and smart systems."
   },
   {
     "code": "ECE_B_TECH_ECE_WITH_OPTIONAL_SPECIALIZATION_IN_INTERNE",
@@ -318,11 +318,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Industry-aligned curriculum",
-      "State-of-the-art labs and facilities",
-      "Placement support and internships"
+      "IoT protocols and sensor networks",
+      "Smart device prototyping labs",
+      "IoT career placements"
     ],
-    "description": "B.Tech ECE with optional specialization in Internet of Things (IoT) provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+    "description": "B.Tech ECE with IoT elective fuses electronics, communication systems, and connected tech training in cloud integration, edge computing, wireless sensors, and data analytics. Students utilize advanced labs, industry links, research projects, and placement support for roles in smart cities, manufacturing, and digital transformation."
   },
   {
     "code": "ECE_B_TECH_ECE__VLSI_DESIGN_AND_TECHNOLOGY_",
@@ -331,11 +331,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Industry-aligned curriculum",
-      "State-of-the-art labs and facilities",
+      "VLSI chip design and fabrication",
+      "Semiconductor testing labs",
       "Placement support and internships"
     ],
-    "description": "B.Tech ECE (VLSI Design and Technology) provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+    "description": "B.Tech ECE (VLSI Design and Technology) integrates electronics fundamentals with specialized skills in IC layout, Verilog modeling, ASIC/FPGA development, and nanotech fabrication. Leverage modern labs, industry collaborations, research initiatives, and placement services for high-tech careers in semiconductors, hardware design, and microelectronics."
   },
   {
     "code": "ECE_B_TECH_ECE__WORKING_PROFESSIONALS_",
@@ -357,11 +357,11 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
+      "Medical imaging and biomechanics",
+      "Bioinstrumentation labs",
       "Career development opportunities"
     ],
-    "description": "M.Tech Biomedical Engineering offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "M.Tech Biomedical Engineering advances knowledge in biomaterials, medical device design, signal processing for diagnostics, and tissue engineering through integrated theory and lab work. Students access expert mentorship, industry hospital partnerships, research theses, internships, and placements in medtech, pharma R&D, and clinical innovation."
   },
   {
     "code": "ME_B_TECH_ME",
@@ -370,11 +370,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Industry-aligned curriculum",
-      "State-of-the-art labs and facilities",
-      "Placement support and internships"
+      "Thermodynamics and machine design",
+      "Manufacturing and robotics labs",
+      "Engineering placements and internships"
     ],
-    "description": "B.Tech ME provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+    "description": "B B.Tech ME program delivers core mechanical engineering expertise in thermodynamics, fluid mechanics, materials science, and CAD/CAM systems. Students utilize advanced labs, forge industry partnerships, pursue research projects, and receive placement guidance for rewarding paths in manufacturing, automotive, energy, and design innovation."
   },
   {
     "code": "ME_B_TECH_ME__HONS___WITH_SPECIALIZATION_IN_AUTOMOBIL",
@@ -383,11 +383,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Industry-aligned curriculum",
-      "State-of-the-art labs and facilities",
-      "Placement support and internships"
+      "Vehicle dynamics and engine systems",
+      "Automotive testing labs",
+      "Auto sector placement support and internships"
     ],
-    "description": "B.Tech ME (Hons.) with specialization in Automobile provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+    "description": "B.Tech ME (Hons.) Automobile specialization advances mechanical engineering with focused study in chassis design, powertrains, vehicle electronics, and emissions control. Access specialized labs, OEM collaborations, hands-on research, and placement networks for dynamic careers in automotive manufacturing, R&D, and mobility innovation."
   },
   {
     "code": "ME_B_TECH_ME__HONS___WITH_SPECIALIZATION_IN_ROBOTICS_",
@@ -396,11 +396,11 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Industry-aligned curriculum",
+      "Robot kinematics and control systems",
       "State-of-the-art labs and facilities",
-      "Placement support and internships"
+      "Robotics placement support and internships"
     ],
-    "description": "B.Tech ME (Hons.) with specialization in Robotics & Automation provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+    "description": "B.Tech ME (Hons.) Robotics & Automation enhances mechanical foundations with expertise in mechatronics, industrial robots, PLC programming, and smart factories. Engage cutting-edge labs, industry tie-ups, innovative research, and targeted placements for leadership roles in manufacturing, aerospace, and intelligent systems development."
   },
   {
     "code": "ME_B_TECH_ME_WITH_MINOR_SPECIALIZATION_IN_COMPUTER_SC",
@@ -409,55 +409,67 @@
     "level": "UG",
     "duration": "4 Years",
     "bullets": [
-      "Industry-aligned curriculum",
-      "State-of-the-art labs and facilities",
-      "Placement support and internships"
+      "Mechano-computing simulations",
+      "CAD programming labs",
+      "Hybrid tech placement support and internships"
     ],
-    "description": "B.Tech ME with minor specialization in Computer Science provides comprehensive engineering education with strong theoretical foundation and practical skills. The program includes modern labs, industry collaborations, research opportunities, and placement assistance. Graduates are equipped for careers in core industries, IT, research, and higher studies."
+    "description": "B.Tech ME with Computer Science minor unites mechanical principles like CAD/CAM and simulations with programming, data analysis, AI modeling, and software tools. Tap into shared labs, cross-industry projects, research blends, and placements bridging manufacturing, automotive software, product design, and digital engineering fields."
   },
   {
     "code": "GEN_BCA",
-    "department": "Computer Applications",
+    "department": "Computer Application",
     "title": "BCA",
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Programming and database mastery",
-      "Expert coding mentorship",
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
       "Career development opportunities"
     ],
-    "description": "BCA program builds strong foundations in software development, web tech, databases, algorithms, and cloud computing through balanced theory and hands-on projects. Students gain industry exposure, internships with tech firms, and dedicated placement support for entry into software engineering, app development, and digital roles."
+    "description": "BCA offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
   },
   {
     "code": "GEN_BCA__HONS__",
-    "department": "Computer Applications",
+    "department": "Computer Application",
     "title": "BCA (Hons.)",
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Advanced algorithms and AI electives",
-      "Experienced faculty and research-focused mentorship",
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
       "Career development opportunities"
     ],
-    "description": "BCA (Hons.) elevates core computing with honors depth in data science, cybersecurity, machine learning, and software architecture via rigorous theory, capstone projects, and labs. Secure industry internships, expert guidance, and elite placement support for high-impact roles in tech innovation and leadership."
+    "description": "BCA (Hons.) offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
   },
   {
     "code": "GEN_BCA_INDUSTRY_INTEGRATED",
-    "department": "Computer Applications",
+    "department": "Computer Application",
     "title": "BCA Industry Integrated",
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Live industry projects and tools",
-      "Experienced faculty and corporate mentorship sessions",
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
       "Career development opportunities"
     ],
-    "description": "BCA Industry Integrated immerses students in real-world computing via partnerships with tech firms, blending coursework in app development, cloud services, and agile methods with embedded internships and live assignments. Receive on-site mentorship, skill certifications, and seamless transitions to full-time roles in software and IT services."
+    "description": "BCA Industry Integrated offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
   },
-  
+  {
+    "code": "GEN_BCA",
+    "department": "Computer Application",
+    "title": "BCA",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
+    ],
+    "description": "BCA offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+  },
   {
     "code": "GEN_BCA__HONS___AI___DS",
-    "department": "Computer Applications",
+    "department": "Computer Application",
     "title": "BCA (Hons.) AI & DS",
     "level": "UG",
     "duration": "3 Years",
@@ -468,10 +480,9 @@
     ],
     "description": "BCA (Hons.) AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
   },
- 
   {
     "code": "GEN_BCA_CYBER_SECURITY",
-    "department": "Computer Applications",
+    "department": "Computer Application",
     "title": "BCA Cyber Security",
     "level": "UG",
     "duration": "3 Years",
@@ -484,42 +495,42 @@
   },
   {
     "code": "GEN_BCA__HONS___CYBER_SECURITY",
-    "department": "Computer Applications",
+    "department": "Computer Application",
     "title": "BCA (Hons.) Cyber Security",
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Ethical hacking and threat hunting",
-      "Encryption and secure coding",
-      "Cyber simulation labs"
+      "Network security and ethical hacking",
+      "Cryptography and security protocols",
+      "Hands-on cybersecurity labs"
     ],
-    "description": "BCA (Hons.) Cyber Security arms students with vital defenses in ethical hacking techniques, cryptography standards, network fortification, malware dissection, and incident response. Build expertise through intensive labs, industry certifications like CompTIA, and practical scenarios for IT security and compliance careers."
+    "description": "BCA (Hons.) Cyber Security prepares students for careers in cybersecurity and information security. Topics include ethical hacking, cryptography, network security, malware analysis, and security operations. Students gain practical experience through labs and industry certifications."
   },
   {
     "code": "GEN_MCA",
-    "department": "Computer Application.",
+    "department": "Computer Application",
     "title": "MCA",
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Full-stack development and databases",
-      "Advanced software mentorship",
-      "Career development opportunities & enterprise-level placements"
+      "Comprehensive curriculum",
+      "Experienced faculty and mentorship",
+      "Career development opportunities"
     ],
-    "description": "MCA program cultivates elite software professionals with deep dives into cloud architecture, DevOps practices, enterprise systems, cybersecurity, and scalable applications via theory, coding bootcamps, and projects. Benefit from industry collaborations, internships, expert faculty, and strong placement pipelines for top IT consulting roles."
+    "description": "MCA offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
   },
   {
     "code": "GEN_MCA_AI___DS",
-    "department": "Computer Application.",
+    "department": "Computer Application",
     "title": "MCA AI & DS",
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Scalable ML pipelines and big data",
+      "Advanced AI and machine learning algorithms",
       "Deep learning and neural networks",
-      "Enterprise AI deployments and hands-on labs"
+      "Industry projects and hands-on labs"
     ],
-    "description": "MCA AI & DS program propels postgrads into sophisticated AI realms covering reinforcement learning, generative models, computer vision frameworks, NLP systems, and responsible AI deployment. Tackle industry-scale projects, collaborative ventures, and labs applying solutions to finance, logistics, healthcare analytics, and beyond."
+    "description": "MCA AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
   },
   {
     "code": "GEN_B_SC__HONS___COMPUTER_SCIENCE",
