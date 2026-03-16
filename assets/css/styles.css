@@ -194,19 +194,28 @@
 
 /* ================== Cursor Effects ================== */
 .cursor-grabbing { cursor: grabbing !important; }
-#lifeVideoSlider, #placementSlider { cursor: grab; }
+#lifeVideoSlider,
+#placementSlider,
+#placementStoriesSlider,
+#placementStatsSlider { cursor: grab; }
 
 /* ================== Success Stories Depth Effect ================== */
-#placementSlider > div {
+#placementSlider > div,
+#placementStoriesSlider > div,
+#placementStatsSlider > div {
   transform: scale(0.95);
   opacity: 0.85;
   transition: transform 0.5s ease, opacity 0.5s ease;
 }
-#placementSlider > div.snap-center {
+#placementSlider > div.snap-center,
+#placementStoriesSlider > div.snap-center,
+#placementStatsSlider > div.snap-center {
   transform: scale(1);
   opacity: 1;
 }
-#placementSlider > div:hover {
+#placementSlider > div:hover,
+#placementStoriesSlider > div:hover,
+#placementStatsSlider > div:hover {
   box-shadow: none !important;
   transform: scale(0.95); /* maintain depth */
 }

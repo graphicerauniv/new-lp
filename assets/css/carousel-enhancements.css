@@ -1,6 +1,23 @@
 /* Enhanced Carousel Styling - Key Highlights & Accreditations */
 
 /* ========================================
+   SUCCESS STORIES (PLACEMENT STORIES)
+======================================== */
+
+.success-story-card {
+  flex: 0 0 47%;
+  width: 47%;
+}
+
+/* Mobile: show 2 success-story cards per row */
+@media (max-width: 639px) {
+  [data-success-stories-slider] > div,
+  #placementSlider > div {
+    min-width: calc(50% - 0.75rem) !important; /* gap-6 = 1.5rem */
+  }
+}
+
+/* ========================================
    KEY HIGHLIGHTS SWIPER
 ======================================== */
 
