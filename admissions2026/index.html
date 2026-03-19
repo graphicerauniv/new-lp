@@ -83,9 +83,7 @@ src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
 <!-- BACK TO TOP BUTTON - RIGHT ALIGN FIX -->
 <style>
 #backToTop,
-.back-to-top,
-[id*="top"],
-button[onclick*="scroll"] {
+.back-to-top {
   position: fixed !important;
   bottom: 2rem !important;
   right: 2rem !important;
@@ -97,9 +95,7 @@ button[onclick*="scroll"] {
 
 @media (max-width: 768px) {
   #backToTop,
-  .back-to-top,
-  [id*="top"],
-  button[onclick*="scroll"] {
+  .back-to-top {
     right: 1.5rem !important;
     bottom: 1.5rem !important;
     left: auto !important;
@@ -536,12 +532,24 @@ button[onclick*="scroll"] {
     </div>
 
     <!-- Dynamic Image Slider -->
-    <div class="relative">
-      <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementStoriesSlider" data-success-stories-slider></div>
+     <!-- Dynamic Image Slider with Navigation -->
+    <div class="flex items-center gap-4">
+      <!-- Left Arrow -->
+      <button onclick="document.getElementById('placementStoriesSlider').scrollBy({left: -320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-9 h-9 sm:w-12 sm:h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll left">
+        <svg class="w-4 h-4 sm:w-6 sm:h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+      </button>
+      <!-- Slider -->
+      <div class="flex-1 overflow-hidden">
+        <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementStoriesSlider" data-success-stories-slider></div>
+      </div>
+      <!-- Right Arrow -->
+      <button onclick="document.getElementById('placementStoriesSlider').scrollBy({left: 320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-9 h-9 sm:w-12 sm:h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll right">
+        <svg class="w-4 h-4 sm:w-6 sm:h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+      </button>
     </div>
-
-  </div>
 </section>
+
+
 
 <!-- Placement Stories End -->
 <!-- ================= Placement Section ================= -->
@@ -600,9 +608,7 @@ button[onclick*="scroll"] {
 <!-- Part 2: Success Stories -->
 
 <!-- Dynamic Slider -->
-<div class="relative">
-<div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementStatsSlider" data-success-stories-slider></div>
-</div>
+
 <!-- Part 3: Recruiters -->
 <h2 class="text-4xl md:text-5xl font-extrabold text-blue-900 mt-20 mb-6">
       Our Top Recruiters
@@ -757,18 +763,7 @@ button[onclick*="scroll"] {
 <div class="youtube-lazy group rounded-2xl overflow-hidden shadow-xl relative w-full h-72 md:h-96" data-id="X6MCS7SmNO8"></div>
 </div>
 <!-- Video Carousel -->
-<div class="mt-12 relative overflow-hidden">
-<div class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 scroll-smooth no-scrollbar" id="lifeVideoSlider">
-<!-- Video 1 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="NJ0WSfUej54"></div>
-<!-- Video 2 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="m3Ot4fWaj5U"></div>
-<!-- Video 3 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="ACX5kBzFHMM"></div>
-<!-- Video 4 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="0uHjyg6CdJo"></div>
-</div>
-</div>
+
 <!-- Campus Gallery -->
 <div class="mt-16">
 <h3 class="text-2xl font-bold text-gray-800 text-center mb-10">Campus Highlights</h3>
