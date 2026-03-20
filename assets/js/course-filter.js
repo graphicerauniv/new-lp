@@ -50,6 +50,17 @@ console.error("Courses load error",error)
 
 }
 
+getDepartmentOptions(){
+
+return [...new Set(
+this.coursesData
+.map(course=>course.department)
+.filter(Boolean)
+)]
+.sort((a,b)=>a.localeCompare(b))
+
+}
+
 setupUI(){
 
 const container = document.getElementById("courseFilterContainer")
@@ -65,6 +76,12 @@ let html = `
 `
 
 if(this.pageType === "general"){
+
+const departmentOptions = this.getDepartmentOptions()
+.map(department=>`
+<option value="${department}">${department}</option>
+`)
+.join("")
 
 html += `
 
@@ -90,11 +107,7 @@ class="w-full px-4 py-3 border border-gray-200 rounded-xl text-sm">
 class="w-full px-4 py-3 border border-gray-200 rounded-xl text-sm">
 
 <option value="">Select Department</option>
-<option value="Computer Science Engineering">Computer Science Engineering</option>
-<option value="Civil Engineering">Civil Engineering</option>
-<option value="Mechanical Engineering">Mechanical Engineering</option>
-<option value="Electrical Engineering">Electrical Engineering</option>
-<option value="Biotechnology">Biotechnology</option>
+${departmentOptions}
 
 </select>
 
