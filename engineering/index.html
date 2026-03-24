@@ -30,14 +30,42 @@
     if (el) el.classList.add("loaded");
   });
 </script>
-<!-- Google Analytics -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NV8M5F4');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-113RL48ZLX"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-113RL48ZLX');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-113RL48ZLX');
+  gtag('config', 'AW-823971696');
 </script>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '248650016295389');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 <link href="/lp/assets/css/layout-fixes.css" rel="stylesheet"/>
 <link href="/lp/assets/css/verification-fix.css" rel="stylesheet"/>
 </link></link><link href="/lp/assets/css/carousel-enhancements.css" rel="stylesheet"/>
@@ -538,16 +566,16 @@ gtag('config', 'G-113RL48ZLX');
      <!-- Dynamic Image Slider with Navigation -->
     <div class="flex items-center gap-4">
       <!-- Left Arrow -->
-      <button onclick="document.getElementById('placementStoriesSlider').scrollBy({left: -320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-9 h-9 sm:w-12 sm:h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll left">
-        <svg class="w-4 h-4 sm:w-6 sm:h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+      <button onclick="document.getElementById('placementSlider').scrollBy({left: -320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-12 h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll left">
+        <svg class="w-6 h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
       </button>
       <!-- Slider -->
       <div class="flex-1 overflow-hidden">
-        <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementStoriesSlider" data-success-stories-slider></div>
+        <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementSlider"></div>
       </div>
       <!-- Right Arrow -->
-      <button onclick="document.getElementById('placementStoriesSlider').scrollBy({left: 320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-9 h-9 sm:w-12 sm:h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll right">
-        <svg class="w-4 h-4 sm:w-6 sm:h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+      <button onclick="document.getElementById('placementSlider').scrollBy({left: 320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-12 h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll right">
+        <svg class="w-6 h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
       </button>
     </div>
 </section>
@@ -610,7 +638,7 @@ gtag('config', 'G-113RL48ZLX');
 
 <!-- Dynamic Slider -->
 <div class="relative">
-<div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementStatsSlider" data-success-stories-slider></div>
+<div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementSlider"></div>
 </div>
 <!-- Part 3: Recruiters -->
 <h2 class="text-4xl md:text-5xl font-extrabold text-blue-900 mt-20 mb-6">
