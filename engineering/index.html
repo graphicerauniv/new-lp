@@ -30,8 +30,8 @@
     if (el) el.classList.add("loaded");
   });
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<!-- Google Tag Manager - Deferred -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -40,7 +40,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-113RL48ZLX"></script>
-<script>
+<script async>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -49,8 +49,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('config', 'AW-823971696');
 </script>
 
-<!-- Meta Pixel Code -->
-<script>
+<!-- Meta Pixel Code - Deferred -->
+<script async>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -66,9 +66,14 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=248650016295389&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-<link href="/lp/assets/css/layout-fixes.css" rel="stylesheet"/>
-<link href="/lp/assets/css/verification-fix.css" rel="stylesheet"/>
-</link></link><link href="/lp/assets/css/carousel-enhancements.css" rel="stylesheet"/>
+<link href="/lp/assets/css/layout-fixes.css" rel="stylesheet" media="print" onload="this.media='all'"/>
+<link href="/lp/assets/css/verification-fix.css" rel="stylesheet" media="print" onload="this.media='all'"/>
+<link href="/lp/assets/css/carousel-enhancements.css" rel="stylesheet" media="print" onload="this.media='all'"/>
+<noscript>
+  <link href="/lp/assets/css/layout-fixes.css" rel="stylesheet"/>
+  <link href="/lp/assets/css/verification-fix.css" rel="stylesheet"/>
+  <link href="/lp/assets/css/carousel-enhancements.css" rel="stylesheet"/>
+</noscript>
 </head>
 <body class="font-sans text-gray-900 bg-white">
 <script type="text/javascript">var s=document.createElement("script"); 	s.type="text/javascript"; s.async=true; s.src="https://widgets.in4.nopaperforms.com/emwgts.js"; 	document.body.appendChild(s);</script>
@@ -1126,7 +1131,7 @@ GEU's M.Tech CSE is a 2-year postgraduate program focusing on advanced topics li
 <button aria-label="Back to top" class="back-to-top" id="backToTop" title="Back to top">↑</button>
 <!-- Footer End -->
 <!-- ===== JS ===== -->
-<!-- jQuery (required by some components) -->
+<!-- jQuery (required by some components) - Critical -->
 <script defer src="/lp/assets/js/jquery-3.6.0.min.js"></script>
 
 <!-- Core API & OTP Handlers (load first - no dependencies) -->
@@ -1134,8 +1139,18 @@ GEU's M.Tech CSE is a 2-year postgraduate program focusing on advanced topics li
 <!-- Data loaders (courses.js must load before form) -->
 <script defer src="/lp/assets/js/courses.js"></script>
 
+<!-- Critical inline fixes -->
+<script>
+  // Minimal critical path fixes
+  document.addEventListener('DOMContentLoaded', function() {
+    // Quick LCP optimization: mark images as loaded
+    document.querySelectorAll('img[loading="lazy"]').forEach(img => {
+      img.loading = 'lazy';
+    });
+  });
+</script>
 
-<!-- UI Components -->
+<!-- UI Components - Deferred -->
 <script defer src="/lp/assets/js/faq.js"></script>
 <script defer src="/lp/assets/js/swiper-bundle.min.js"></script>
 <script defer src="/lp/assets/js/sliders.js"></script>
@@ -1146,8 +1161,8 @@ GEU's M.Tech CSE is a 2-year postgraduate program focusing on advanced topics li
 <script defer src="/lp/assets/js/key-highlights.js"></script>
 
 <!-- Utilities -->
-<script src="/lp/assets/js/schema-generator.js"></script>
-<script src="/lp/assets/js/fixes.js"></script>
+<script defer src="/lp/assets/js/schema-generator.js"></script>
+<script defer src="/lp/assets/js/fixes.js"></script>
 
 <!-- Filter Department Dropdown & Courses for Engineering Page Only -->
 <script>

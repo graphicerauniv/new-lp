@@ -30,9 +30,12 @@
     if (el) el.classList.add("loaded");
   });
 </script>
-<link href="/lp/assets/css/layout-fixes.css" rel="stylesheet"/>
-<link href="/lp/assets/css/verification-fix.css" rel="stylesheet"/>
-</link></link>
+<link href="/lp/assets/css/layout-fixes.css" rel="stylesheet" media="print" onload="this.media='all'"/>
+<link href="/lp/assets/css/verification-fix.css" rel="stylesheet" media="print" onload="this.media='all'"/>
+<noscript>
+  <link href="/lp/assets/css/layout-fixes.css" rel="stylesheet"/>
+  <link href="/lp/assets/css/verification-fix.css" rel="stylesheet"/>
+</noscript>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -42,7 +45,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-113RL48ZLX"></script>
-<script>
+<script async>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -51,8 +54,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     gtag('config', 'AW-823971696');
 
 </script>
-<!-- Meta Pixel Code -->
-<script>
+<!-- Meta Pixel Code - Deferred -->
+<script async>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
