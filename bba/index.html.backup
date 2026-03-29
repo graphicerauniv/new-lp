@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Admissions Open 2025 at Graphic Era University. Ranked 48 by NIRF 2025 with top placements and highest package ₹61.99 LPA at Atlassian. Explore our programs today." name="description"/>
+<!-- Open Graph / Social Share -->
+<meta content="Admissions Open 2025 | Graphic Era University" property="og:title"/>
+<meta content="Ranked 48 by NIRF 2025 • Highest package ₹61.99 LPA • Apply Now!" property="og:description"/>
+<meta content="../assets/img/main/bg-image.webp" property="og:image"/>
+<meta content="website" property="og:type"/>
+<!-- Page Title -->
+<title>Admissions Open 2025 | Graphic Era University</title>
+<!-- Tailwind & jQuery -->
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="/assets/img/main/favicon.svg" rel="icon" sizes="any"/>
+<link href="/assets/img/main/favicon.svg" rel="icon" type="image/svg+xml"/>
+<!-- Swiper -->
+<link href="../assets/css/swiper-bundle.min.css" rel="stylesheet"/>
+<link href="../assets/css/styles.css" rel="stylesheet"/>
+<!-- Preload the hero image with responsive candidates -->
+<link as="image" href="../assets/img/main/bg-image-480.webp" media="(max-width: 767px)" rel="preload" type="image/webp">
+<link as="image" href="../assets/img/main/bg-image-768.webp" media="(min-width: 768px) and (max-width: 1279px)" rel="preload" type="image/webp">
+<link as="image" href="../assets/img/main/bg-image-1280.webp" media="(min-width: 1280px) and (max-width: 1919px)" rel="preload" type="image/webp"/>
+<link as="image" href="../assets/img/main/bg-image-1920.webp" media="(min-width: 1920px)" rel="preload" type="image/webp"/>
+<script>
+  window.addEventListener("load", () => {
+    const el = document.querySelector(".hero-bg");
+    if (el) el.classList.add("loaded");
+  });
+</script>
+<link href="assets/css/layout-fixes.css" rel="stylesheet"/>
+</link></link></head>
+<body class="font-sans text-gray-900 bg-white">
+<!-- Logo Bar -->
+<div class="sticky top-0 z-50 flex items-center justify-center py-3 shadow-md bg-blue-900">
+<img alt="Graphic Era Logo" class="h-12" src="../assets/img/main/logo.svg"/>
+</div>
+<!-- Hero Section -->
+<header class="relative text-white overflow-hidden" style="background: radial-gradient(circle at center, #1e3a8a 0%, #1e40af 40%, #111827 100%);">
+<div class="absolute inset-0 hero-bg opacity-40"></div>
+<div class="relative z-10 grid md:grid-cols-2 gap-8 items-center min-h-[80vh] px-4 sm:px-6">
+<!-- Hero Text -->
+<!-- Hero Text -->
+<!-- Hero Text -->
+<div class="text-center md:text-left md:pl-40 pt-8 md:pt-0">
+<h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-4 text-white">
+    Admissions Open 2025
+  </h1>
+<p class="text-base sm:text-lg md:text-xl mb-6 text-white">
+    Begin your Career at the university ranked 
+    <span class="font-bold underline decoration-amber-400 decoration-2">
+      52 amongst top universities of India by NIRF 2025
+    </span> 
+    with consistently high placements and highest package of 
+    <span class="font-bold underline decoration-amber-400 decoration-2">
+      ₹61.99 Lacs at Atlassian
+    </span>.
+  </p>
+<div class="grid grid-cols-2 gap-3 max-w-sm mx-auto md:mx-0">
+<!-- Highest Placement -->
+<div class="flex flex-col items-center bg-white rounded-xl p-4 shadow-md relative">
+<div class="absolute inset-0 rounded-xl border-2 border-dashed border-amber-500 pointer-events-none" style="border-spacing: 6px; box-shadow: inset 0 0 0 2px white;"></div>
+<svg class="h-7 w-7 text-amber-600 mb-2 relative z-10" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M7 2v2H4a1 1 0 0 0-1 1v2c0 2.21 1.79 4 4 4h.08A6.002 6.002 0 0 0 11 17.92V20H9a1 1 0 0 0-1 1v1h8v-1a1 1 0 0 0-1-1h-2v-2.08A6.002 6.002 0 0 0 15.92 11H16c2.21 0 4-1.79 4-4V5a1 1 0 0 0-1-1h-3V2H7zm-3 4h3v2a4.002 4.002 0 0 1-3-2zm16 0a4.002 4.002 0 0 1-3 2V6h3z"></path>
+</svg>
+<p class="text-lg font-extrabold text-blue-900 relative z-10">₹61.99 Lacs</p>
+<p class="text-xs text-gray-700 text-center relative z-10">
+        Highest Placement<br/>
+<span class="font-bold underline decoration-amber-500 decoration-2">At Atlassian</span>
+</p>
+</div>
+<!-- NIRF Ranking -->
+<div class="flex flex-col items-center bg-white rounded-xl p-4 shadow-md relative">
+<div class="absolute inset-0 rounded-xl border-2 border-dashed border-blue-600 pointer-events-none" style="border-spacing: 6px; box-shadow: inset 0 0 0 2px white;"></div>
+<svg class="h-7 w-7 text-blue-700 mb-2 relative z-10" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 2a7 7 0 0 0-7 7c0 2.61 1.27 4.9 3.22 6.3L6 22l6-3 6 3-2.22-6.7A7 7 0 0 0 19 9a7 7 0 0 0-7-7z"></path>
+</svg>
+<p class="text-lg font-extrabold text-blue-900 relative z-10">Ranked 48</p>
+<p class="text-xs text-gray-700 text-center relative z-10">
+        Amongst Top Universities<br/>
+<span class="font-bold underline decoration-blue-600 decoration-2">NIRF 2025</span>
+</p>
+</div>
+</div>
+</div>
+<!-- Form -->
+<div class="bg-white/95 text-gray-900 rounded-lg shadow-lg p-4 w-full max-w-xs mx-auto border border-gray-200 mb-8 md:mb-0" id="formContainer">
+<h2 class="text-base font-bold text-center text-blue-800 mb-3">Apply Now</h2>
+<form class="flex flex-col gap-2 text-xs" id="admissionForm" novalidate="">
+<!-- Name -->
+<div>
+<label class="block text-[11px] font-semibold text-gray-700 mb-0.5" for="name">Full Name</label>
+<input class="rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 px-2 py-1.5 w-full text-xs transition" id="name" name="name" placeholder="Your Name" required="" type="text"/>
+<small class="text-red-500 hidden text-[11px]" id="error-name">Enter valid name (min 3 letters, alphabets only).</small>
+</div>
+<!-- Email -->
+<div>
+<label class="block text-[11px] font-semibold text-gray-700 mb-0.5" for="email">Email</label>
+<input class="rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 px-2 py-1.5 w-full text-xs transition" id="email" name="email" placeholder="Your Email" required="" type="email"/>
+<small class="text-red-500 hidden text-[11px]" id="error-email">Enter valid email.</small>
+</div>
+<!-- Phone -->
+<div>
+<label class="block text-[11px] font-semibold text-gray-700 mb-0.5" for="phone">Phone Number</label>
+<input class="rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 px-2 py-1.5 w-full text-xs transition" id="phone" maxlength="10" name="phone" placeholder="10-digit Number" required="" type="tel"/>
+<small class="text-red-500 hidden text-[11px]" id="error-phone">Enter valid 10-digit phone.</small>
+</div>
+<!-- State -->
+<div>
+<label class="block text-[11px] font-semibold text-gray-700 mb-0.5" for="state">State</label>
+<select class="rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 px-2 py-1.5 w-full text-xs transition" id="state" name="state"></select>
+</div>
+<!-- City -->
+<div>
+<label class="block text-[11px] font-semibold text-gray-700 mb-0.5" for="city">City</label>
+<select class="rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 px-2 py-1.5 w-full text-xs transition" disabled="" id="city" name="city"></select>
+</div>
+<!-- Department -->
+<div>
+<label class="block text-[11px] font-semibold text-gray-700 mb-0.5" for="department">Department</label>
+<select class="rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 px-2 py-1.5 w-full text-xs transition" id="department" name="department"></select>
+</div>
+<!-- Course -->
+<div>
+<label class="block text-[11px] font-semibold text-gray-700 mb-0.5" for="course">Course</label>
+<select class="rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 px-2 py-1.5 w-full text-xs transition" disabled="" id="course" name="course"></select>
+</div>
+<!-- Consent -->
+<div>
+<label class="flex items-start gap-1 text-[11px] bg-gray-50 p-2 rounded border border-gray-200 leading-tight" for="consent">
+<input class="mt-0.5 h-3.5 w-3.5 text-blue-600 rounded focus:ring-blue-500" id="consent" name="consent" required="" type="checkbox"/>
+        I authorize Graphic Era to contact me via Email, SMS, WhatsApp and Call. This will override DND / NDNC.
+      </label>
+<small class="text-red-500 hidden text-[11px]" id="error-consent">You must agree before submitting.</small>
+</div>
+<!-- Submit -->
+<button class="bg-gradient-to-r from-blue-600 to-yellow-400 hover:from-blue-700 hover:to-yellow-500 text-white rounded py-1.5 font-semibold shadow-md text-sm transition transform hover:scale-[1.02]" type="submit">
+      Submit
+    </button>
+</form>
+<!-- Thank You -->
+<div class="hidden text-center mt-4" id="thankYou">
+<p class="text-green-700 font-semibold text-sm">Thank you, one of our counselor will be in touch with you.</p>
+<div class="w-full bg-gray-200 h-1.5 rounded-full mt-2 overflow-hidden">
+<div class="h-1.5 rounded-full animate-progress" id="progressBar"></div>
+</div>
+<span class="text-[11px] block mt-1 text-green-600" id="countdown"></span>
+</div>
+</div>
+<!-- form end-->
+</div>
+</header>
+<!-- Courses Offered -->
+<section class="section-spacing-sm px-6 bg-gray-50">
+<!-- Heading -->
+<h2 class="text-4xl md:text-5xl font-extrabold text-center mb-12 bg-gradient-to-r from-blue-700 via-blue-600 to-yellow-500 bg-clip-text text-transparent">
+    Explore Our Programs
+  </h2>
+<!-- Filters inside card -->
+<div class="bg-white rounded-2xl shadow-md p-6 mb-12 max-w-6xl mx-auto">
+<div class="flex flex-col lg:flex-row lg:items-end gap-4">
+<!-- Search -->
+<div class="relative flex-1 min-w-[220px]">
+<!-- Search Icon -->
+<svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<!-- Input -->
+<input class="peer block w-full appearance-none rounded-lg border border-gray-300 bg-white pl-10 pr-3 pt-5 pb-2 text-sm text-gray-900 shadow-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none" id="courseSearch" name="courseSearch" placeholder=" "/>
+<!-- Floating Label -->
+<label class="absolute left-10 top-2 text-gray-700 text-xs bg-white px-1 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-sm peer-focus:top-1 peer-focus:text-xs peer-focus:text-blue-600" for="courseSearch">
+  Search Courses
+</label>
+</div>
+<!-- Level -->
+<div class="relative flex-1 lg:flex-none lg:w-1/4">
+<select class="peer block w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 pt-5 pb-2 text-sm text-gray-900 shadow-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none [&amp;&gt;option]:text-gray-700 [&amp;&gt;option]:py-2" id="levelFilter" name="levelFilter">
+<option disabled="" hidden="" selected="" value=""></option>
+<option value="UG">Undergraduate</option>
+<option value="PG">Postgraduate</option>
+</select>
+<label class="absolute left-3 top-2 text-gray-500 text-xs bg-white px-1 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-sm peer-focus:top-1 peer-focus:text-xs peer-focus:text-blue-600" for="levelFilter">
+          Select Level
+        </label>
+<!-- Chevron Icon -->
+<svg class="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<!-- Department (dynamic options injected by JS) -->
+<div class="relative flex-1 lg:flex-none lg:w-1/4">
+<select class="peer block w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 pt-5 pb-2 text-sm text-gray-900 shadow-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none [&amp;&gt;option]:text-gray-700 [&amp;&gt;option]:py-2" id="deptFilter" name="deptFilter">
+<option disabled="" hidden="" selected="" value=""></option>
+<!-- JS will inject department options here -->
+</select>
+<label class="absolute left-3 top-2 text-gray-500 text-xs bg-white px-1 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-sm peer-focus:top-1 peer-focus:text-xs peer-focus:text-blue-600" for="deptFilter">
+          Select Department
+        </label>
+<!-- Chevron Icon -->
+<svg class="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<!-- Clear Button -->
+<div class="flex items-stretch">
+<button class="h-[48px] flex items-center justify-center rounded-lg px-6 text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-yellow-400 hover:from-blue-700 hover:to-yellow-500 active:from-blue-800 active:to-yellow-600 shadow-md transition transform hover:scale-105" id="clearFilters">
+          Clear
+        </button>
+</div>
+</div>
+</div>
+<!-- Course Slider -->
+<div class="swiper mySwiper max-w-6xl mx-auto pb-16">
+<div class="swiper-wrapper" id="courseSlider">
+<!-- JS injects course cards here -->
+</div>
+<!-- Progress Bar -->
+</div>
+<!-- No Results -->
+<p class="hidden text-center text-gray-600 mt-10 text-lg font-medium" id="noResults">
+    ❌ No courses found. Try adjusting your filters.
+  </p>
+</section>
+<!-- Scholarship Highlights Start-->
+<section class="section-spacing px-6 bg-gradient-to-r from-blue-50 via-white to-yellow-50">
+<div class="max-w-7xl mx-auto">
+<!-- Heading -->
+<h2 class="text-4xl md:text-5xl font-extrabold text-center text-blue-900 mb-16">
+      Scholarship <span class="text-yellow-500">Highlights</span>
+</h2>
+<div class="grid gap-10 md:grid-cols-3">
+<!-- Card 1 -->
+<div class="bg-white rounded-2xl shadow-xl p-10 text-center transform hover:-translate-y-3 transition duration-300 relative overflow-hidden">
+<!-- Gradient Bar (kept same for visual) -->
+<div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-yellow-500 to-yellow-600"></div>
+<!-- Fixed contrast (darker yellow for text) -->
+<div class="text-5xl font-extrabold text-yellow-800 mb-4">70%</div>
+<p class="text-lg font-semibold">Merit Based Scholarships</p>
+<p class="text-gray-700 mt-2">Awarded to high-performing students across programs.</p>
+</div>
+<!-- Card 2 -->
+<div class="bg-white rounded-2xl shadow-xl p-10 text-center transform hover:-translate-y-3 transition duration-300 relative overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-blue-500 to-blue-600"></div>
+<div class="text-5xl font-extrabold text-blue-600 mb-4">10%</div>
+<p class="text-lg font-semibold">For Female Candidates</p>
+<p class="text-gray-600 mt-2">Additional support to empower women in higher education.</p>
+</div>
+<!-- Card 3 -->
+<div class="bg-white rounded-2xl shadow-xl p-10 text-center transform hover:-translate-y-3 transition duration-300 relative overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-blue-400 to-yellow-500"></div>
+<div class="text-5xl font-extrabold text-blue-700 mb-4">5%</div>
+<p class="text-lg font-semibold">Wards of Defence Personnel</p>
+<p class="text-gray-600 mt-2">Tuition fee waiver as a token of gratitude for service.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Scholarship Highlights STOP -->
+<!-- Admission Process -->
+<!-- Admission Process -->
+<section class="section-spacing px-6 bg-gradient-to-r from-yellow-50 via-white to-gray-50 overflow-hidden">
+<div class="relative max-w-6xl mx-auto">
+<!-- Gradient Heading -->
+<h2 class="text-4xl font-extrabold text-center mb-20 bg-gradient-to-r from-blue-800 via-blue-600 to-yellow-500 bg-clip-text text-transparent animate-gradient">
+      Admission Process
+    </h2>
+<div class="relative">
+<!-- Timeline line -->
+<div class="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-yellow-400 via-blue-500 to-yellow-400 animate-pulse -z-10"></div>
+<!-- Steps -->
+<div class="flex flex-col md:flex-row items-stretch justify-between gap-10 md:gap-6 relative z-10">
+<!-- Step 1 -->
+<div class="group bg-white rounded-xl shadow-lg p-8 text-center flex-1 opacity-0 translate-y-6 transition-all duration-700 ease-out hover:shadow-2xl hover:-translate-y-2" data-animate="">
+<div class="w-16 h-16 mx-auto bg-yellow-400 text-blue-900 rounded-full flex items-center justify-center font-bold shadow-md text-xl transition transform group-hover:scale-125 group-hover:rotate-6 animate-bounce-slow">1</div>
+<h3 class="mt-6 text-lg font-bold text-blue-700 group-hover:text-yellow-500 transition relative inline-block after:block after:h-0.5 after:bg-yellow-400 after:scale-x-0 group-hover:after:scale-x-100 after:transition after:origin-left">
+            Application Form
+          </h3>
+<p class="text-gray-600 text-sm mt-3 animate-fade-in">Apply online with personal &amp; academic details.</p>
+</div>
+<!-- Step 2 -->
+<div class="group bg-white rounded-xl shadow-lg p-8 text-center flex-1 opacity-0 translate-y-6 transition-all duration-700 ease-out delay-150 hover:shadow-2xl hover:-translate-y-2" data-animate="">
+<div class="w-16 h-16 mx-auto bg-yellow-400 text-blue-900 rounded-full flex items-center justify-center font-bold shadow-md text-xl transition transform group-hover:scale-125 group-hover:rotate-6 animate-bounce-slow">2</div>
+<h3 class="mt-6 text-lg font-bold text-blue-700 group-hover:text-yellow-500 transition relative inline-block after:block after:h-0.5 after:bg-yellow-400 after:scale-x-0 group-hover:after:scale-x-100 after:transition after:origin-left">
+            Entrance Exam
+          </h3>
+<p class="text-gray-600 text-sm mt-3 animate-fade-in">Appear for JEE, CAT, MAT, XAT, or NATA.</p>
+</div>
+<!-- Step 3 -->
+<div class="group bg-white rounded-xl shadow-lg p-8 text-center flex-1 opacity-0 translate-y-6 transition-all duration-700 ease-out delay-300 hover:shadow-2xl hover:-translate-y-2" data-animate="">
+<div class="w-16 h-16 mx-auto bg-yellow-400 text-blue-900 rounded-full flex items-center justify-center font-bold shadow-md text-xl transition transform group-hover:scale-125 group-hover:rotate-6 animate-bounce-slow">3</div>
+<h3 class="mt-6 text-lg font-bold text-blue-700 group-hover:text-yellow-500 transition relative inline-block after:block after:h-0.5 after:bg-yellow-400 after:scale-x-0 group-hover:after:scale-x-100 after:transition after:origin-left">
+            Shortlisted
+          </h3>
+<p class="text-gray-600 text-sm mt-3 animate-fade-in">Candidates shortlisted for interview.</p>
+</div>
+<!-- Step 4 -->
+<div class="group bg-white rounded-xl shadow-lg p-8 text-center flex-1 opacity-0 translate-y-6 transition-all duration-700 ease-out delay-500 hover:shadow-2xl hover:-translate-y-2" data-animate="">
+<div class="w-16 h-16 mx-auto bg-yellow-400 text-blue-900 rounded-full flex items-center justify-center font-bold shadow-md text-xl transition transform group-hover:scale-125 group-hover:rotate-6 animate-bounce-slow">4</div>
+<h3 class="mt-6 text-lg font-bold text-blue-700 group-hover:text-yellow-500 transition relative inline-block after:block after:h-0.5 after:bg-yellow-400 after:scale-x-0 group-hover:after:scale-x-100 after:transition after:origin-left">
+            Personal Interview
+          </h3>
+<p class="text-gray-600 text-sm mt-3 animate-fade-in">Online or in-person interviews for assessment.</p>
+</div>
+<!-- Step 5 -->
+<div class="group bg-white rounded-xl shadow-lg p-8 text-center flex-1 opacity-0 translate-y-6 transition-all duration-700 ease-out delay-700 hover:shadow-2xl hover:-translate-y-2" data-animate="">
+<div class="w-16 h-16 mx-auto bg-yellow-400 text-blue-900 rounded-full flex items-center justify-center font-bold shadow-md text-xl transition transform group-hover:scale-125 group-hover:rotate-6 animate-bounce-slow">5</div>
+<h3 class="mt-6 text-lg font-bold text-blue-700 group-hover:text-yellow-500 transition relative inline-block after:block after:h-0.5 after:bg-yellow-400 after:scale-x-0 group-hover:after:scale-x-100 after:transition after:origin-left">
+            Offer of Admission
+          </h3>
+<p class="text-gray-600 text-sm mt-3 animate-fade-in">Final offer communicated via call, email, or post.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section: Diagonal Parallelogram -->
+<section class="section-spacing bg-gradient-to-r from-blue-900 via-blue-800 to-yellow-600 overflow-hidden">
+<div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center px-6">
+<!-- Left Side (Parallelogram Frame with Student Image) -->
+<div class="flex items-center justify-center relative">
+<div class="relative w-80 h-96 md:w-96 md:h-[28rem] overflow-hidden group" style="clip-path: polygon(15% 0, 100% 0, 85% 100%, 0% 100%); border: 8px solid #facc15;">
+<!-- Glow -->
+<div class="absolute inset-0 bg-blue-500 blur-2xl opacity-40 animate-pulse"></div>
+<!-- Student Image -->
+<img alt="Graphic Era Student" class="w-full h-full object-cover relative z-10 scale-110 transition-transform duration-700 ease-out group-hover:scale-125" decoding="async" loading="lazy" src="../assets/img/main/about-student.webp" style="width:90%"/>
+</div>
+</div>
+<!-- Right Side (CTA Card) -->
+<div class="relative">
+<div class="backdrop-blur-lg bg-white/90 rounded-2xl shadow-2xl p-8 md:p-10 text-center md:text-left border border-zinc-200">
+<!-- Headline -->
+<h2 class="text-3xl md:text-4xl font-extrabold text-blue-800 mb-4">
+          Unleash Your Potential!
+        </h2>
+<p class="text-gray-700 mb-6">
+          Discover Your Future at Graphic Era (Deemed to be University)<br/>
+          Admissions 2025
+        </p>
+<!-- Highlight Stats -->
+<div class="grid grid-cols-3 gap-4 mb-6">
+<div class="bg-blue-50 rounded-lg p-3 shadow text-center">
+<p class="text-lg font-bold text-blue-700">₹61.99 L</p>
+<p class="text-xs">Highest Package</p>
+</div>
+<div class="bg-blue-50 rounded-lg p-3 shadow text-center">
+<p class="text-lg font-bold text-blue-700">Rank 48</p>
+<p class="text-xs">NIRF 2025</p>
+</div>
+<div class="bg-blue-50 rounded-lg p-3 shadow text-center">
+<p class="text-lg font-bold text-blue-700">27K+</p>
+<p class="text-xs">Alumni Network</p>
+</div>
+</div>
+<!-- CTA Button -->
+<a class="inline-block bg-gradient-to-r from-blue-600 to-yellow-400 text-white font-semibold px-8 py-3 rounded-lg shadow-md hover:opacity-90 transition-all" href="#form">
+  Apply Now
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= Placement Section ================= -->
+<section class="relative py-20 bg-gradient-to-b from-white via-blue-50 to-white">
+<div class="max-w-7xl mx-auto px-6 text-center">
+<!-- Part 1: Stats -->
+<h2 class="text-4xl md:text-5xl font-extrabold text-blue-900 mb-6">
+      Placements '24-25 at Graphic Era
+    </h2>
+<p class="text-gray-600 mb-14 max-w-3xl mx-auto">
+      Placements are at the core of University Education, especially in a rapidly growing country like India.
+      Graphic Era (Deemed to be University) has earned widespread recognition since its establishment for maintaining
+      an exceptional track record of consistently high student placements. At Graphic Era, we prioritize preparing
+      our students for top careers.
+      <br/><br/>
+<span class="text-xs text-gray-500 italic">
+        *The above stats are combined for all the campuses under the Brand Graphic Era and the stats are subject to change
+        as the placement session is still going on. Last Updated: 09 January, 2025
+      </span>
+</p>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20">
+<!-- Example Stat Card -->
+<div class="stat-card bg-white border border-blue-100 rounded-2xl p-6 shadow hover:shadow-xl transition transform hover:scale-105">
+<p class="text-3xl font-extrabold text-blue-900">2300+</p>
+<p class="text-sm text-gray-600">Offers Above</p>
+</div>
+<div class="stat-card bg-white border border-blue-100 rounded-2xl p-6 shadow hover:shadow-xl transition transform hover:scale-105">
+<p class="text-3xl font-extrabold text-blue-900">₹61.99 L</p>
+<p class="text-sm text-gray-600">Highest Package</p>
+</div>
+<div class="stat-card bg-white border border-blue-100 rounded-2xl p-6 shadow hover:shadow-xl transition transform hover:scale-105">
+<p class="text-3xl font-extrabold text-blue-900">10</p>
+<p class="text-sm text-gray-600">Offers 40 L+</p>
+</div>
+<div class="stat-card bg-white border border-blue-100 rounded-2xl p-6 shadow hover:shadow-xl transition transform hover:scale-105">
+<p class="text-3xl font-extrabold text-blue-900">18</p>
+<p class="text-sm text-gray-600">Offers 30 L+</p>
+</div>
+<div class="stat-card bg-white border border-blue-100 rounded-2xl p-6 shadow hover:shadow-xl transition transform hover:scale-105">
+<p class="text-3xl font-extrabold text-blue-900">33</p>
+<p class="text-sm text-gray-600">Offers 15 L+</p>
+</div>
+<div class="stat-card bg-white border border-blue-100 rounded-2xl p-6 shadow hover:shadow-xl transition transform hover:scale-105">
+<p class="text-3xl font-extrabold text-blue-900">123</p>
+<p class="text-sm text-gray-600">Offers 9 L+</p>
+</div>
+<div class="stat-card bg-white border border-blue-100 rounded-2xl p-6 shadow hover:shadow-xl transition transform hover:scale-105">
+<p class="text-3xl font-extrabold text-blue-900">5L+</p>
+<p class="text-sm text-gray-600">Average Last Year</p>
+</div>
+<div class="stat-card bg-white border border-blue-100 rounded-2xl p-6 shadow hover:shadow-xl transition transform hover:scale-105">
+<p class="text-3xl font-extrabold text-blue-900">70K+</p>
+<p class="text-sm text-gray-600">Alumni Network</p>
+</div>
+</div>
+<!-- Part 2: Success Stories -->
+<h2 class="text-4xl md:text-5xl font-extrabold text-blue-900 mb-6">
+      Transforming Dreams into Reality
+    </h2>
+<p class="text-gray-600 mb-14 max-w-2xl mx-auto">
+      Our students continue to set benchmarks with their success stories. From internships to global opportunities,
+      here’s a glimpse of those who turned their dreams into achievements with Graphic Era.
+    </p>
+<!-- Dynamic Slider -->
+<div class="relative">
+<div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementSlider"></div>
+</div>
+<!-- Part 3: Recruiters -->
+<h2 class="text-4xl md:text-5xl font-extrabold text-blue-900 mt-20 mb-6">
+      Our Top Recruiters
+    </h2>
+<p class="text-gray-600 mb-14 max-w-2xl mx-auto">
+      Graphic Era students have been placed in leading global organizations across technology, finance, consulting, and more.
+    </p>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 items-center" id="recruitersGrid"></div>
+</div>
+</section>
+<!-- Key Highlights Section -->
+<section class="section-spacing bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white">
+<div class="max-w-7xl mx-auto px-6">
+<!-- Section Title -->
+<h2 class="text-4xl font-extrabold text-center mb-14">Key Highlights</h2>
+<!-- Wrapper -->
+<div class="swiper keyHighlightsSwiper">
+<div class="swiper-wrapper" id="highlightsContainer">
+<!-- Card 1 -->
+<div class="swiper-slide bg-white text-gray-900 rounded-2xl shadow-xl overflow-hidden flex flex-col transition transform hover:-translate-y-2 hover:shadow-2xl duration-500 opacity-0 translate-y-6" data-animate="" data-delay="0">
+<img alt="Teaching Experts" class="w-full h-72 object-cover" decoding="async" loading="lazy" src="../assets/img/main/expert-teachers.webp"/>
+<div class="p-6 flex flex-col flex-grow">
+<h3 class="text-lg font-bold text-blue-800 mb-3">Specialized Teaching from Experts</h3>
+<p class="text-sm text-gray-600 max-h-20 overflow-hidden transition-all duration-500 ease-in-out" id="text1">
+              The academic rigor and the task of the creative transformation of an individual are the centre pieces of this program - both these targets are achievable only by ensuring just the right combination of teaching experts. Graphic Era ensures that students are taught by top faculty members in their respective fields, renowned for their excellence. This is evident across all domains, starting from the Program Head, who is a seasoned management professional holding an undergraduate degree from Graphic Era in engineering and advanced qualifications from a prestigious institution.
+            </p>
+<button class="mt-3 text-blue-600 font-semibold text-sm flex items-center gap-1 hover:underline" onclick="toggleReadMore(1)">
+<span id="toggleBtn1">Read More</span>
+<svg class="h-4 w-4 transform transition-transform" fill="none" id="icon1" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="swiper-slide bg-white text-gray-900 rounded-2xl shadow-xl overflow-hidden flex flex-col transition transform hover:-translate-y-2 hover:shadow-2xl duration-500 opacity-0 translate-y-6" data-animate="" data-delay="150">
+<img alt="Placements" class="w-full h-72 object-cover" decoding="async" loading="lazy" src="../assets/img/main/top-placement.webp"/>
+<div class="p-6 flex flex-col flex-grow">
+<h3 class="text-lg font-bold text-blue-800 mb-3">Top Internships and Placements</h3>
+<p class="text-sm text-gray-600 max-h-20 overflow-hidden transition-all duration-500 ease-in-out" id="text2">
+              We have held great pride in being one of the first few private Universities in India who took on the task of ensuring Top of the Line placements for our students, and with MBA, we will write a new success story for the world to see. The University is equipped with one of the best placement teams in the country and this has resulted in Top Placements for our Flagship Programs consistently over the year, with the highest package for the year 2023 under Brand Graphic Era currently sits at INR 84.88 Lacs (Domestic Package - CSE).
+            </p>
+<button class="mt-3 text-blue-600 font-semibold text-sm flex items-center gap-1 hover:underline" onclick="toggleReadMore(2)">
+<span id="toggleBtn2">Read More</span>
+<svg class="h-4 w-4 transform transition-transform" fill="none" id="icon2" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="swiper-slide bg-white text-gray-900 rounded-2xl shadow-xl overflow-hidden flex flex-col transition transform hover:-translate-y-2 hover:shadow-2xl duration-500 opacity-0 translate-y-6" data-animate="" data-delay="300">
+<img alt="NBA Accredited" class="w-full h-72 object-cover" decoding="async" loading="lazy" src="../assets/img/main/nba-accredited.webp"/>
+<div class="p-6 flex flex-col flex-grow">
+<h3 class="text-lg font-bold text-blue-800 mb-3">NBA Accredited | AICTE Approved Degree</h3>
+<p class="text-sm text-gray-600 max-h-20 overflow-hidden transition-all duration-500 ease-in-out" id="text3">
+              Unlike some of the other B-Schools in India, Graphic Era (Deemed to be University) is offering a Full-Time NBA Accredited and AICTE Approved Degree and not a diploma. These accreditations are attained through rigorous compliances of the Academic Processes of the University and carry great relevance for students who visualise a career that spans across geographical boundaries. NBA Accredited and AICTE Approved Degrees enable students to enjoy easy Credit Transfers across Top International Universities, opening up unlimited avenues of Research and Employment Opportunities Globally.
+            </p>
+<button class="mt-3 text-blue-600 font-semibold text-sm flex items-center gap-1 hover:underline" onclick="toggleReadMore(3)">
+<span id="toggleBtn3">Read More</span>
+<svg class="h-4 w-4 transform transition-transform" fill="none" id="icon3" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+<!-- Swiper Controls -->
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-pagination"></div>
+</div>
+</div>
+</section>
+<!-- Accreditations and Rankings Section -->
+<section class="section-spacing-sm bg-gray-50">
+<div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+<h2 class="text-4xl font-bold text-gray-900 mb-12">Accreditations and Rankings</h2>
+<div class="relative overflow-hidden">
+<div class="flex gap-6 transition-transform duration-700 ease-in-out will-change-transform mb-12" id="accreditation-slider">
+<!-- NIRF Rankings -->
+<div class="accreditation-card flex-shrink-0 w-full md:w-1/3 bg-white rounded-2xl shadow-lg p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+<img alt="NIRF Rankings" class="mx-auto h-20 mb-6" decoding="async" loading="lazy" src="../assets/img/main/nirf.svg"/>
+<h3 class="text-xl font-semibold text-gray-900 mb-4">NIRF Rankings</h3>
+<p class="text-gray-600 text-justify">
+            NIRF 2025 Ranking placed Graphic Era among the Top 48 Universities of India. Ranked 48 in Engineering, 52 in Management, and 72 Overall.
+          </p>
+</div>
+<!-- NBA Accredited Programs -->
+<div class="accreditation-card flex-shrink-0 w-full md:w-1/3 bg-white rounded-2xl shadow-lg p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+<img alt="NBA Accredited Programs" class="mx-auto h-20 mb-6" decoding="async" loading="lazy" src="../assets/img/main/nba.svg"/>
+<h3 class="text-xl font-semibold text-gray-900 mb-4">NBA Accredited Programs</h3>
+<p class="text-gray-600 text-justify">
+            The only university in Uttarakhand with 7 NBA Accredited Programs: B.Tech CSE, ECE, Mechanical, Biotech, Civil, Electrical, and MBA.
+          </p>
+</div>
+<!-- NAAC A+ Accredited -->
+<div class="accreditation-card flex-shrink-0 w-full md:w-1/3 bg-white rounded-2xl shadow-lg p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+<img alt="NAAC Accreditation" class="mx-auto h-20 mb-6" decoding="async" loading="lazy" src="../assets/img/main/naac.svg"/>
+<h3 class="text-xl font-semibold text-gray-900 mb-4">NAAC A+ Accredited</h3>
+<p class="text-gray-600 text-justify">
+            Accredited with NAAC A+ in 2022 after maintaining NAAC A grade since 2015, with the highest grade score in the region.
+          </p>
+</div>
+<!-- AICTE Approval -->
+<div class="accreditation-card flex-shrink-0 w-full md:w-1/3 bg-white rounded-2xl shadow-lg p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+<img alt="AICTE Approval" class="mx-auto h-20 mb-6" decoding="async" loading="lazy" src="../assets/img/main/aicte.svg"/>
+<h3 class="text-xl font-semibold text-gray-900 mb-4">AICTE Approval</h3>
+<p class="text-gray-600 text-justify">
+            Approved by AICTE, Graphic Era ensures academic excellence across all technical courses. UGC recognized with Regularized Status by the Ministry of Education.
+          </p>
+</div>
+<!-- UGC Recognition -->
+<div class="accreditation-card flex-shrink-0 w-full md:w-1/3 bg-white rounded-2xl shadow-lg p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+<img alt="UGC Recognition" class="mx-auto h-20 mb-6" decoding="async" loading="lazy" src="../assets/img/main/ugc.svg"/>
+<h3 class="text-xl font-semibold text-gray-900 mb-4">UGC Recognition</h3>
+<p class="text-gray-600 text-justify">
+            Approved by UGC and accorded the coveted Regularized Status by the Ministry of Education, Government of India.
+          </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Accreditations and Rankings Section -->
+<!-- Life at Graphic Era Section -->
+<section class="relative py-20 bg-white">
+<div class="max-w-7xl mx-auto px-6 lg:px-8">
+<!-- Split Hero -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<!-- Text Block -->
+<div class="text-center lg:text-left">
+<h2 class="text-4xl md:text-5xl font-extrabold text-gray-900">Life at Graphic Era</h2>
+<p class="mt-6 text-lg text-gray-600 leading-relaxed">
+          More than just academics — it’s an experience. From vibrant hostels to iconic academic blocks, 
+          from high-tech labs to a buzzing student community, life at Graphic Era is about growth, 
+          energy, and memories you’ll never forget.
+        </p>
+<div class="mt-8">
+<a class="inline-block bg-gradient-to-r from-blue-600 to-yellow-400 text-white font-semibold px-8 py-3 rounded-lg shadow-md hover:opacity-90 transition-all" href="#form">
+            Join Us for Admissions '25
+          </a>
+</div>
+</div>
+<!-- Featured Video -->
+<div class="youtube-lazy group rounded-2xl overflow-hidden shadow-xl relative w-full h-72 md:h-96" data-id="X6MCS7SmNO8"></div>
+</div>
+<!-- Video Carousel -->
+<div class="mt-12 relative overflow-hidden">
+<div class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 scroll-smooth no-scrollbar" id="lifeVideoSlider">
+<!-- Video 1 -->
+<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="NJ0WSfUej54"></div>
+<!-- Video 2 -->
+<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="m3Ot4fWaj5U"></div>
+<!-- Video 3 -->
+<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="ACX5kBzFHMM"></div>
+<!-- Video 4 -->
+<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="0uHjyg6CdJo"></div>
+</div>
+</div>
+<!-- Campus Gallery -->
+<div class="mt-16">
+<h3 class="text-2xl font-bold text-gray-800 text-center mb-10">Campus Highlights</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+<!-- Card 1 -->
+<div class="relative group rounded-xl overflow-hidden shadow-lg">
+<img alt="Admin Block" class="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-110" decoding="async" loading="lazy" src="../assets/img/main/Admin-Block1.webp"/>
+<div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+<span class="text-white font-semibold text-lg">Admin Block</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="relative group rounded-xl overflow-hidden shadow-lg">
+<img alt="Guest House" class="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-110" decoding="async" loading="lazy" src="../assets/img/main/Guest-House2.webp"/>
+<div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+<span class="text-white font-semibold text-lg">Guest House</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="relative group rounded-xl overflow-hidden shadow-lg">
+<img alt="Hostel" class="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-110" decoding="async" loading="lazy" src="../assets/img/main/Hostel3.webp"/>
+<div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+<span class="text-white font-semibold text-lg">Hostel</span>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="relative group rounded-xl overflow-hidden shadow-lg">
+<img alt="Prof KP Nautiyal Block" class="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-110" decoding="async" loading="lazy" src="../assets/img/main/Prof-KP-Nautiyal-Block4.webp"/>
+<div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+<span class="text-white font-semibold text-lg">KP Nautiyal Block</span>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="relative group rounded-xl overflow-hidden shadow-lg">
+<img alt="Chanakya Block" class="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-110" decoding="async" loading="lazy" src="../assets/img/main/Chanakya-Block5.webp"/>
+<div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+<span class="text-white font-semibold text-lg">Chanakya Block</span>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="relative group rounded-xl overflow-hidden shadow-lg">
+<img alt="CSIT Block" class="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-110" decoding="async" loading="lazy" src="../assets/img/main/CSIT-Block6.webp"/>
+<div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+<span class="text-white font-semibold text-lg">CSIT Block</span>
+</div>
+</div>
+<!-- Card 7 -->
+<div class="relative group rounded-xl overflow-hidden shadow-lg">
+<img alt="Library" class="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-110" decoding="async" loading="lazy" src="../assets/img/main/Library7.webp"/>
+<div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+<span class="text-white font-semibold text-lg">Library</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Life at Graphic Era Section -->
+<!-- FAQ Section -->
+<!-- FAQ Section -->
+<section class="section-spacing-sm bg-gray-50">
+<div class="max-w-6xl mx-auto px-6">
+<h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+      Frequently Asked Questions
+    </h2>
+<div class="space-y-4">
+<!-- FAQ Item -->
+<div class="border border-gray-200 rounded-lg shadow-sm">
+<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          What programs does Graphic Era University offer?
+          <span class="ml-2">+</span>
+</button>
+<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          Graphic Era offers a wide range of undergraduate, postgraduate, and doctoral programs across Engineering, Management, Computer Applications, Humanities, and more.
+        </div>
+</div>
+<!-- FAQ Item -->
+<div class="border border-gray-200 rounded-lg shadow-sm">
+<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          Is there hostel accommodation available?
+          <span class="ml-2">+</span>
+</button>
+<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          Yes, the university provides comfortable hostel facilities for both boys and girls with modern amenities and a safe campus environment.
+        </div>
+</div>
+<!-- FAQ Item -->
+<div class="border border-gray-200 rounded-lg shadow-sm">
+<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          What placement opportunities are available?
+          <span class="ml-2">+</span>
+</button>
+<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          Graphic Era has a strong placement record with top recruiters like Amazon, Microsoft, Adobe, and Deloitte visiting the campus every year. The highest package has gone up to ₹61.99 LPA.
+        </div>
+</div>
+<!-- FAQ Item -->
+<div class="border border-gray-200 rounded-lg shadow-sm">
+<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          How can I apply for admission?
+          <span class="ml-2">+</span>
+</button>
+<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          You can apply online through the official admission portal or visit the campus for offline applications. Admissions are open for 2025.
+        </div>
+</div>
+</div>
+</div>
+</section>
+<!--- FAQ-->
+<!--- Footer Start-->
+<!-- Footer Section -->
+<!-- Redesigned Footer -->
+<!-- Modern Footer -->
+<!-- Clean Modern Footer -->
+<!-- Sleek Modern Footer -->
+<footer class="bg-blue-950 text-white section-spacing">
+<div class="max-w-7xl mx-auto px-6 py-16">
+<!-- Grid Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-4 gap-12">
+<!-- Address -->
+<div>
+<img alt="Graphic Era University Logo" class="w-44 mb-6" src="../assets/img/main/logo.svg"/>
+<p class="text-sm text-gray-300 leading-relaxed">
+          566/6, Bell Road, Society Area,<br/>
+          Clement Town, Dehradun, Uttarakhand<br/>
+<strong>PIN:</strong> 248002
+        </p>
+</div>
+<!-- Departments -->
+<div class="lg:col-span-3 grid grid-cols-2 md:grid-cols-3 gap-10">
+<!-- Engineering -->
+<div>
+<h3 class="font-semibold text-amber-400 mb-4 uppercase text-xs tracking-wider">Engineering &amp; Tech</h3>
+<ul class="space-y-1.5 text-sm text-gray-300">
+<li>Computer Science</li>
+<li>Civil</li>
+<li>Electronics &amp; Communication</li>
+<li>Electrical</li>
+<li>Mechanical</li>
+<li>Aerospace</li>
+<li>Petroleum</li>
+<li>Biotechnology</li>
+<li>Food Tech</li>
+<li>Mechatronics</li>
+<li>AI &amp; Data Science</li>
+</ul>
+</div>
+<!-- Sciences -->
+<div>
+<h3 class="font-semibold text-amber-400 mb-4 uppercase text-xs tracking-wider">Sciences &amp; Health</h3>
+<ul class="space-y-1.5 text-sm text-gray-300">
+<li>Microbiology</li>
+<li>Life Sciences</li>
+<li>Mathematics</li>
+<li>Physics</li>
+<li>Chemistry</li>
+<li>Environmental Science</li>
+<li>Paramedical</li>
+<li>Nursing</li>
+<li>Allied Health</li>
+</ul>
+</div>
+<!-- Other -->
+<div>
+<h3 class="font-semibold text-amber-400 mb-4 uppercase text-xs tracking-wider">Other Departments</h3>
+<ul class="space-y-1.5 text-sm text-gray-300">
+<li>Computer Applications</li>
+<li>Information Technology</li>
+<li>Management</li>
+<li>Commerce</li>
+<li>Humanities &amp; Social Sciences</li>
+<li>Psychology</li>
+<li>English</li>
+<li>Economics</li>
+<li>Hospitality &amp; Tourism</li>
+<li>Law</li>
+<li>Education</li>
+<li>Journalism &amp; Mass Comm.</li>
+<li>Agriculture</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Bottom -->
+<div class="mt-12 pt-6 border-t border-gray-800 text-center text-gray-400 text-xs">
+      © 2025 Graphic Era University. All Rights Reserved.
+    </div>
+</div>
+</footer>
+<button aria-label="Back to top" class="back-to-top" id="backToTop" title="Back to top">↑</button>
+<!-- Footer End -->
+<!-- ===== JS ===== -->
+<script defer="" src="/assets/js/jquery-3.6.0.min.js"></script>
+<script defer="" src="/assets/js/faq.js"></script>
+<script defer="" src="/assets/js/swiper-bundle.min.js"></script>
+<script defer="" src="/assets/js/sliders.js"></script>
+<script defer="" src="/assets/js/animations.js"></script>
+<script defer="" src="/assets/js/recruiters.js"></script>
+<script defer="" src="/assets/js/success-stories.js"></script>
+<script defer="" src="/assets/js/courses.js"></script>
+<script defer="" src="/assets/js/form.js"></script>
+<script defer="" src="/assets/js/youtube.js"></script>
+<script defer="" src="/assets/js/key-highlights.js"></script>
+<script src="/assets/js/schema-generator.js"></script>
+<script src="assets/js/fixes.js"></script>
+
+</body>
+</html>
