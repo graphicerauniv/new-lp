@@ -1444,6 +1444,7 @@
     ],
     "description": "B.Voc BFSI offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
   },
+
   {
     "code": "GEN_BHM",
     "department": "Hospitality Management",
@@ -1451,24 +1452,76 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Hotel operations and management training",
+      "Hands-on practical exposure in kitchens and services",
+      "Internships with leading hotel brands"
     ],
-    "description": "BHM offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "BHM is a comprehensive undergraduate program focused on hotel operations, food production, front office, housekeeping, and hospitality management. It combines classroom learning with practical training and internships in top hotels, preparing students for careers in the global hospitality and tourism industry."
   },
   {
     "code": "GEN_HOTEL_OPERATIONS",
     "department": "Hospitality Management",
     "title": "Hotel Operations",
     "level": "Certificate Course",
-    "duration": "Varies",
+    "duration": "6 Months - 1 Year",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Core hospitality skills training",
+      "Focus on front office and guest handling",
+      "Quick entry into hotel industry roles"
     ],
-    "description": "Hotel Operations offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "Hotel Operations focuses on the core functional areas of the hospitality industry including front office, housekeeping, food and beverage service, and guest handling. This program is ideal for students seeking hands-on training and quick entry into hotel and service roles."
+  },
+  {
+    "code": "GEN_DIPLOMA_HM",
+    "department": "Hospitality Management",
+    "title": "Diploma in Hotel Management (Industry Integrated)",
+    "level": "Diploma",
+    "duration": "1 - 2 Years",
+    "bullets": [
+      "Industry-integrated curriculum",
+      "Live hotel training and internships",
+      "Job-ready practical skill development"
+    ],
+    "description": "This industry-integrated diploma program combines classroom learning with real-time hotel training. Students gain practical exposure through internships and live projects, making them job-ready for operational roles in hotels, resorts, and hospitality chains."
+  },
+  {
+    "code": "GEN_BSC_HM",
+    "department": "Hospitality Management",
+    "title": "B.Sc. in Hotel Management",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Strong foundation in hospitality and tourism",
+      "Culinary arts and hotel administration training",
+      "Career pathways in management roles"
+    ],
+    "description": "B.Sc. in Hotel Management provides a strong academic and practical foundation in hospitality, covering hotel administration, culinary arts, customer service, and tourism management. The program prepares students for supervisory and managerial roles in the hospitality sector."
+  },
+  {
+    "code": "GEN_CCHO",
+    "department": "Hospitality Management",
+    "title": "Certificate Course in Hotel Operations (CCHO)",
+    "level": "Certificate Course",
+    "duration": "3 - 6 Months",
+    "bullets": [
+      "Short-term skill development program",
+      "Basic training in hospitality services",
+      "Ideal for entry-level job roles"
+    ],
+    "description": "The Certificate Course in Hotel Operations (CCHO) is a short-term program designed to develop essential hospitality skills such as guest service, housekeeping basics, and food service operations. It is ideal for quick skill development and entry-level job opportunities."
+  },
+  {
+    "code": "GEN_EXEC_HM",
+    "department": "Hospitality Management",
+    "title": "Executive Development Program in Hospitality Management",
+    "level": "Executive Program",
+    "duration": "6 Months",
+    "bullets": [
+      "Advanced hospitality management training",
+      "Leadership and operations strategy focus",
+      "Designed for professionals and career growth"
+    ],
+    "description": "This executive program is designed for professionals and aspiring leaders in the hospitality industry. It focuses on advanced management skills, leadership, operations strategy, and service excellence required for senior roles in hotels and global hospitality organizations."
   },
   {
     "code": "GEN_MHM",
@@ -1477,13 +1530,13 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Advanced hospitality and business management",
+      "Strategic and leadership-focused curriculum",
+      "Opportunities in global hospitality sectors"
     ],
-    "description": "MHM offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "MHM is a postgraduate program that focuses on advanced hospitality management, strategic operations, leadership, and global hospitality trends. It prepares students for managerial and leadership roles in hotels, resorts, airlines, and international tourism organizations."
   },
-  {
+    {
     "code": "GEN_B_SC__HONS___BIOTECHNOLOGY",
     "department": "Biosciences",
     "title": "B.Sc (Hons.) Biotechnology",
