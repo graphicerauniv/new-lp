@@ -1,5 +1,15 @@
 // course-filter.js
 
+
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
+
 class CourseFilter {
 
 constructor(options = {}) {
@@ -15,6 +25,8 @@ this.swiper = null
 this.init()
 
 }
+
+
 
 async init(){
 
@@ -265,6 +277,8 @@ container.innerHTML = html
 
 }
 
+
+
 attachEventListeners(){
 
 const levelFilter = document.getElementById("levelFilter")
@@ -290,6 +304,8 @@ clearBtn.addEventListener("click",()=>this.clearFilters())
 }
 
 }
+
+
 
 filterCourses(){
 
@@ -321,6 +337,7 @@ return matchesLevel && matchesDepartment
 this.renderCourses()
 
 }
+
 
 renderCourses(){
 
@@ -401,10 +418,8 @@ ${course.description}
 </p>
 
 <button class="apply-btn"
-onclick="selectCourse('${course.title}','${course.department}')">
-
-Apply Now
-
+onclick="selectCourse('${course.title}','${course.department}'); scrollToTop();">
+  Apply Now
 </button>
 
 </div>
