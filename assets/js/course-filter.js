@@ -453,6 +453,8 @@ disableOnInteraction:true
 
 })
 
+window.currentSwiper = this.swiper
+
 },100)
 
 }
@@ -482,11 +484,19 @@ extra.classList.remove("hidden")
 
 el.innerHTML="Collapse ▲"
 
+if(window.currentSwiper && window.currentSwiper.autoplay){
+window.currentSwiper.autoplay.stop()
+}
+
 }else{
 
 extra.classList.add("hidden")
 
 el.innerHTML="Read More ▼"
+
+if(window.currentSwiper && window.currentSwiper.autoplay){
+window.currentSwiper.autoplay.start()
+}
 
 }
 
