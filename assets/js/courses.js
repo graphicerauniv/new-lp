@@ -6,6 +6,17 @@ let manualPause = false; // track Read More state
 fetch("/lp/assets/etc/courses.json")
   .then(res => res.json())
   .then(data => {
+
+    // ── Page-level department filter ──────────────────────────
+    // Only filters if the section has data-departments attribute.
+    // Other pages without it are completely unaffected.
+    const section = document.getElementById("exploreProgramsSection");
+    if (section && section.dataset.departments) {
+      const allowed = section.dataset.departments.split(",").map(d => d.trim());
+      data = data.filter(c => allowed.includes(c.department));
+    }
+    // ─────────────────────────────────────────────────────────
+
     coursesData = data;
     renderCourses(data);
     populateDepartments(data);
@@ -51,7 +62,7 @@ function renderCourses(list) {
         if (!manualPause && swiperInstance?.autoplay) swiperInstance.autoplay.start();
       });
 
-      // ✅ Pause when slider is scrolled out of view
+      // Pause when slider is scrolled out of view
       const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
@@ -60,7 +71,7 @@ function renderCourses(list) {
             if (swiperInstance?.autoplay) swiperInstance.autoplay.stop();
           }
         });
-      }, { threshold: 0.2 }); // 20% visibility threshold
+      }, { threshold: 0.2 });
       observer.observe(swiperEl);
     }
   }
@@ -78,10 +89,10 @@ function renderCourses(list) {
             ${c.level ? "- " + c.level : ""} ${c.duration ? "- " + c.duration : ""}
           </p>
         </div>
-       <p class="about-text text-sm text-gray-700 mb-4">
-       ${c.bullets ? c.bullets.map(b => `• ${b}`).join("<br/>") + "<br/><br/>" : ""}
-      ${c.description || ""}
-       </p>
+        <p class="about-text text-sm text-gray-700 mb-4">
+          ${c.bullets ? c.bullets.map(b => `• ${b}`).join("<br/>") + "<br/><br/>" : ""}
+          ${c.description || ""}
+        </p>
         ${
           c.image
             ? `<img data-src="${c.image}" class="swiper-lazy w-full h-40 object-cover rounded mb-4" alt="${c.title}">
@@ -116,8 +127,8 @@ function renderCourses(list) {
 function attachCardEvents() {
   document.querySelectorAll(".read-more").forEach(btn => {
     btn.addEventListener("click", () => {
-      const card = btn.closest(".course-card");
-      const text = card.querySelector(".about-text");
+      const card     = btn.closest(".course-card");
+      const text     = card.querySelector(".about-text");
       const applyBtn = card.querySelector(".apply-btn");
       const expanded = text.classList.contains("expanded");
 
@@ -134,7 +145,7 @@ function attachCardEvents() {
         btn.querySelector(".label").textContent = "Collapse";
         applyBtn.classList.remove("hidden");
 
-        manualPause = true; // ✅ mark manual pause
+        manualPause = true;
         if (swiperInstance?.autoplay) swiperInstance.autoplay.stop();
         if (swiperInstance) swiperInstance.allowTouchMove = false;
       } else {
@@ -143,7 +154,7 @@ function attachCardEvents() {
         btn.querySelector(".label").textContent = "Read More";
         applyBtn.classList.add("hidden");
 
-        manualPause = false; // ✅ release manual pause
+        manualPause = false;
         if (swiperInstance?.autoplay) swiperInstance.autoplay.start();
         if (swiperInstance) swiperInstance.allowTouchMove = true;
       }
@@ -161,7 +172,7 @@ function attachCardEvents() {
 /* Populate Departments */
 function populateDepartments(data) {
   const depts = [...new Set(data.map(c => c.department))];
-  const deptSelect = document.getElementById("department");
+  const deptSelect   = document.getElementById("department");
   const filterSelect = document.getElementById("deptFilter");
 
   [deptSelect, filterSelect].forEach(sel => {
@@ -180,13 +191,13 @@ function populateDepartments(data) {
 /* Populate States + Cities */
 function populateStates() {
   const states = {
-    "Uttarakhand": ["Dehradun", "Haridwar", "Nainital"],
-    "Delhi": ["New Delhi", "Dwarka"],
+    "Uttarakhand":   ["Dehradun", "Haridwar", "Nainital"],
+    "Delhi":         ["New Delhi", "Dwarka"],
     "Uttar Pradesh": ["Noida", "Lucknow"],
-    "Maharashtra": ["Mumbai", "Pune"]
+    "Maharashtra":   ["Mumbai", "Pune"]
   };
   const stateSelect = document.getElementById("state");
-  const citySelect = document.getElementById("city");
+  const citySelect  = document.getElementById("city");
 
   if (!stateSelect) return;
   stateSelect.innerHTML = '<option value="">Select State</option>';
@@ -221,7 +232,7 @@ function attachFilterEvents() {
   const levelFilter = document.getElementById("levelFilter") || document.getElementById("level");
   const clearBtn    = document.getElementById("clearFilters");
 
-  const norm = s => (s || "").toString().trim().toLowerCase();
+  const norm    = s => (s || "").toString().trim().toLowerCase();
   const letters = s => norm(s).replace(/[^a-z]/g, "");
 
   const DEPT_MAP = {
@@ -252,17 +263,17 @@ function attachFilterEvents() {
     const level = normLevel(levelFilter?.value);
 
     const filtered = coursesData.filter(c => {
-      if (q && !norm(c.title).includes(q)) return false;
-      if (dept && mapDept(c.department) !== dept) return false;
-      if (level && normLevel(c.level) !== level) return false;
+      if (q     && !norm(c.title).includes(q))          return false;
+      if (dept  && mapDept(c.department) !== dept)       return false;
+      if (level && normLevel(c.level)    !== level)      return false;
       return true;
     });
 
     renderCourses(filtered);
   };
 
-  searchInput?.addEventListener("input", applyFilters);
-  deptFilter?.addEventListener("change", applyFilters);
+  searchInput?.addEventListener("input",  applyFilters);
+  deptFilter?.addEventListener("change",  applyFilters);
   levelFilter?.addEventListener("change", applyFilters);
 
   clearBtn?.addEventListener("click", () => {
