@@ -97,7 +97,7 @@
 
 <section class="section-spacing-sm px-6 bg-gray-50"
          id="exploreProgramsSection"
-         data-departments="Biosciences,Allied Sciences,Earth Sciences,Humanities & Social Sciences">
+         data-departments="Biosciences,Microbiology,Food Science & Technology,Allied Sciences,Earth Sciences,Humanities & Social Sciences">
 
   <h2 class="text-4xl md:text-5xl font-extrabold text-center mb-12 bg-gradient-to-r from-blue-700 via-blue-600 to-yellow-500 bg-clip-text text-transparent">
     Explore Our Programs
@@ -133,7 +133,12 @@
       <div class="relative flex-1 lg:flex-none lg:w-1/4">
         <select class="peer block w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 pt-5 pb-2 text-sm text-gray-900 shadow-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none" id="deptFilter">
           <option disabled hidden selected value=""></option>
-          <!-- populated dynamically from filtered data -->
+          <option value="Biosciences">Biosciences</option>
+          <option value="Microbiology">Microbiology</option>
+          <option value="Food Science & Technology">Food Science &amp; Technology</option>
+          <option value="Allied Sciences">Allied Sciences</option>
+          <option value="Earth Sciences">Earth Sciences</option>
+          <option value="Humanities & Social Sciences">Humanities &amp; Social Sciences</option>
         </select>
         <label class="absolute left-3 top-2 text-gray-500 text-xs bg-white px-1" for="deptFilter">Select Department</label>
         <svg class="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
