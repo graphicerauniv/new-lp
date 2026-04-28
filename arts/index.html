@@ -11,7 +11,7 @@
 <meta content="https://lp.geuni.in/lp/assets/img/main/bg-image.webp" property="og:image"/>
 <meta content="website" property="og:type"/>
 <!-- Page Title -->
-<title>Admissions Open 2026 | Graphic Era (Deemed to be University)</title>
+<title> BA/MA Admissions Open 2026 | Graphic Era (Deemed to be University)</title>
 <!-- Tailwind CSS - Local Compiled -->
 <link href="/lp/assets/css/tailwind.css" rel="stylesheet"/>
 <link href="/lp/assets/img/main/favicon.svg" rel="icon" sizes="any"/>
@@ -44,11 +44,10 @@
 <div class="absolute inset-0 hero-bg opacity-40"></div>
 <div class="relative z-10 grid md:grid-cols-2 gap-8 items-center min-h-[80vh] px-4 sm:px-6">
 <!-- Hero Text -->
-<!-- Hero Text -->
-<!-- Hero Text -->
+
 <div class="text-center md:text-left md:pl-40 pt-8 md:pt-0">
 <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-4 text-white">
-    Admissions Open 2026
+    BA/MA Admissions Open 2026
   </h1>
 <p class="text-base sm:text-lg md:text-xl mb-6 text-white">
     Begin your Career at the university ranked 
@@ -90,92 +89,69 @@
 <!-- Form -->
 <div class="bg-white/95 text-gray-900 rounded-lg shadow-lg p-4 w-full max-w-xs mx-auto border border-gray-200 mb-8 md:mb-0" id="formContainer">
 <h2 class="text-base font-bold text-center text-blue-800 mb-3">Apply Now</h2>
-<form class="flex flex-col gap-2 text-xs" id="admissionForm" novalidate="">
-<!-- Name -->
-<div>
-<label class="block text-[11px] font-semibold text-gray-700 mb-0.5" for="name">Full Name</label>
-<input class="rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 px-2 py-1.5 w-full text-xs transition" id="name" name="name" placeholder="Your Name" required="" type="text"/>
-<small class="text-red-500 hidden text-[11px]" id="error-name">Enter valid name (min 3 letters, alphabets only).</small>
-</div>
-<!-- Email -->
-<div>
-<label class="block text-[11px] font-semibold text-gray-700 mb-0.5" for="email">Email</label>
-<input class="rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 px-2 py-1.5 w-full text-xs transition" id="email" name="email" placeholder="Your Email" required="" type="email"/>
-<small class="text-red-500 hidden text-[11px]" id="error-email">Enter valid email.</small>
-</div>
-<!-- Phone -->
-<div>
-<label class="block text-[11px] font-semibold text-gray-700 mb-0.5" for="phone">Phone Number</label>
-<div class="flex gap-2">
-<input class="rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 px-2 py-1.5 w-full text-xs transition" id="phone" maxlength="10" name="phone" placeholder="10-digit Number" required="" type="tel"/>
-<button type="button" id="verifyPhoneBtn" onclick="triggerOTPVerification()" class="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded text-xs font-semibold whitespace-nowrap transition disabled:opacity-50 disabled:cursor-not-allowed" disabled>
-Verify
-</button>
-</div>
-<small class="text-red-500 hidden text-[11px]" id="error-phone">Enter valid 10-digit phone.</small>
-<small class="text-green-600 hidden text-[11px] font-semibold flex items-center gap-1 mt-1" id="phone-verified" style="display: none !important;">
-Verified ✓
-</small>
-</div>
-<!-- State -->
-<div>
-<label class="block text-[11px] font-semibold text-gray-700 mb-0.5" for="state">State</label>
-<select class="rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 px-2 py-1.5 w-full text-xs transition" id="state" name="state"></select>
-</div>
-<!-- City -->
-<div>
-<label class="block text-[11px] font-semibold text-gray-700 mb-0.5" for="city">City</label>
-<select class="rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 px-2 py-1.5 w-full text-xs transition" disabled="" id="city" name="city"></select>
-</div>
-<!-- Department -->
-<div>
-<label class="block text-[11px] font-semibold text-gray-700 mb-0.5" for="department">Department</label>
-<select class="rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 px-2 py-1.5 w-full text-xs transition" id="department" name="department"></select>
-</div>
-<!-- Course -->
-<div>
-<label class="block text-[11px] font-semibold text-gray-700 mb-0.5" for="course">Course</label>
-<select class="rounded border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 px-2 py-1.5 w-full text-xs transition" disabled="" id="course" name="course"></select>
-</div>
-<!-- Consent -->
-<div>
-<label class="flex items-start gap-1 text-[11px] bg-gray-50 p-2 rounded border border-gray-200 leading-tight" for="consent">
-<input class="mt-0.5 h-3.5 w-3.5 text-blue-600 rounded focus:ring-blue-500" id="consent" name="consent" required="" type="checkbox"/>
-        I authorize Graphic Era to contact me via Email, SMS, WhatsApp and Call. This will override DND / NDNC.
-      </label>
-<small class="text-red-500 hidden text-[11px]" id="error-consent">You must agree before submitting.</small>
-</div>
-<!-- Submit -->
-<button class="bg-gradient-to-r from-blue-600 to-yellow-400 hover:from-blue-700 hover:to-yellow-500 text-white rounded py-1.5 font-semibold shadow-md text-sm transition transform hover:scale-[1.02]" type="submit">
-      Submit
-    </button>
-</form>
-<!-- Thank You -->
-<div class="hidden text-center mt-4" id="thankYou">
-<p class="text-green-700 font-semibold text-sm">Thank you, one of our counselor will be in touch with you.</p>
-<div class="w-full bg-gray-200 h-1.5 rounded-full mt-2 overflow-hidden">
-<div class="h-1.5 rounded-full animate-progress" id="progressBar"></div>
-</div>
-<span class="text-[11px] block mt-1 text-green-600" id="countdown"></span>
-</div>
-</div>
-<!-- form end-->
+<div class="npf_wgts" data-height="400px" data-w="0fbd2a389052cbcbd8ba56e626b93a46"></div>
 </div>
 </header>
 <!-- Courses Offered -->
 </section>
 
-<section class="section-spacing-sm px-6 bg-gray-50">
-  <div class="container mx-auto">
-    <!-- Heading -->
-    <h2 class="text-4xl md:text-5xl font-extrabold text-center mb-12 bg-gradient-to-r from-blue-700 via-blue-600 to-yellow-500 bg-clip-text text-transparent">
-      Explore Our Programs
-    </h2>
+<section class="section-spacing-sm px-6 bg-gray-50"
+         id="exploreProgramsSection"
+         data-departments="Humanities & Social Sciences">
 
-    <!-- Course Filter Container - Dynamic Filter System -->
-    <!-- MBA Page: Department-specific (hides department filter, shows only MBA courses) -->
-    <div id="courseFilterContainer" data-page-type="department" data-department=""></div>
+  <h2 class="text-4xl md:text-5xl font-extrabold text-center mb-12 bg-gradient-to-r from-blue-700 via-blue-600 to-yellow-500 bg-clip-text text-transparent">
+    Explore Our Programs
+  </h2>
+
+  <!-- Filters -->
+  <div class="bg-white rounded-2xl shadow-md p-6 mb-12 max-w-6xl mx-auto">
+    <div class="flex flex-col lg:flex-row lg:items-end gap-4">
+
+      <!-- Search -->
+      <div class="relative flex-1 min-w-[220px]">
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </svg>
+        <input class="peer block w-full appearance-none rounded-lg border border-gray-300 bg-white pl-10 pr-3 pt-5 pb-2 text-sm text-gray-900 shadow-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none" id="courseSearch" placeholder=" "/>
+        <label class="absolute left-10 top-2 text-gray-700 text-xs bg-white px-1 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-sm peer-focus:top-1 peer-focus:text-xs peer-focus:text-blue-600" for="courseSearch">Search Courses</label>
+      </div>
+
+      <!-- Level -->
+      <div class="relative flex-1 lg:flex-none lg:w-1/4">
+        <select class="peer block w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 pt-5 pb-2 text-sm text-gray-900 shadow-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none" id="levelFilter">
+          <option disabled hidden selected value=""></option>
+          <option value="UG">Undergraduate</option>
+          <option value="PG">Postgraduate</option>
+        </select>
+        <label class="absolute left-3 top-2 text-gray-500 text-xs bg-white px-1" for="levelFilter">Select Level</label>
+        <svg class="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </svg>
+      </div>
+
+
+     <!-- Clear -->
+<div class="flex items-stretch w-full justify-center lg:w-auto">
+  <button class="h-[48px] flex items-center justify-center rounded-lg px-6 text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-yellow-400 hover:from-blue-700 hover:to-yellow-500 shadow-md transition transform hover:scale-105" id="clearFilters">
+    Clear
+  </button>
+</div>
+
+    </div>
   </div>
+
+  <!-- Swiper -->
+  <div class="swiper mySwiper max-w-6xl mx-auto pb-16">
+    <div class="swiper-wrapper" id="courseSlider"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- No Results -->
+  <p class="hidden text-center text-gray-600 mt-10 text-lg font-medium" id="noResults">
+    ❌ No courses found. Try adjusting your filters.
+  </p>
 
 </section>
 
@@ -312,8 +288,7 @@ Verified ✓
 <!-- GECET Section - With Updated Icon -->
 <section class="py-12 bg-gradient-to-b from-blue-100 via-blue-50 to-white">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    
-    <!-- Header -->
+
     <div class="text-center mb-10">
       <div class="inline-block bg-blue-600 text-white text-xs font-bold px-4 py-1.5 rounded-full mb-3 uppercase tracking-wide">
         Scholarship Entrance Test 2026
@@ -326,23 +301,20 @@ Verified ✓
       </p>
     </div>
 
-    <!-- Main Card -->
     <div class="bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden">
-      
-      <!-- Blue Header -->
+
       <div class="bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-4 text-center">
         <p class="text-white text-sm font-semibold">
           Fostering excellence in education and research across Uttarakhand
         </p>
       </div>
 
-      <!-- Content Grid -->
       <div class="p-8 grid md:grid-cols-2 gap-8">
-        
-        <!-- Left Column -->
-        <div>
-          <!-- Scholarship Amount -->
-          <div class="text-center mb-6 p-6 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl border-2 border-yellow-300 shadow-sm">
+
+        <!-- LEFT COLUMN: Scholarship Amount + Quick Facts -->
+        <div class="flex flex-col gap-6">
+
+          <div class="text-center p-6 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl border-2 border-yellow-300 shadow-sm">
             <p class="text-xs text-gray-700 font-semibold mb-2">Unlock Scholarships worth</p>
             <div class="flex items-baseline justify-center gap-2 mb-2">
               <span class="text-5xl font-black text-gray-900">₹100</span>
@@ -351,11 +323,61 @@ Verified ✓
             <div class="h-1 w-32 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full mx-auto"></div>
           </div>
 
-          <!-- Key Benefits -->
+          <div>
+            <h3 class="text-base font-bold text-gray-900 mb-4">Quick Facts</h3>
+            <div class="grid grid-cols-2 gap-4 mt-8">
+
+              <div class="p-4 bg-white rounded-xl border-2 border-gray-200 shadow-sm flex flex-col justify-center">
+                <div class="flex items-center gap-2 mb-1">
+                  <div class="text-xl">🌍</div>
+                  <p class="text-xs font-bold text-gray-900">Coverage</p>
+                </div>
+                <p class="text-xs text-gray-600">All India Exam</p>
+              </div>
+
+              <div class="p-4 bg-white rounded-xl border-2 border-gray-200 shadow-sm flex flex-col justify-center">
+                <div class="flex items-center gap-2 mb-1">
+                  <div class="text-xl">📚</div>
+                  <p class="text-xs font-bold text-gray-900">Programs</p>
+                </div>
+                <p class="text-xs text-gray-600">Multiple Options</p>
+              </div>
+
+              <div class="p-4 bg-white rounded-xl border-2 border-gray-200 shadow-sm flex flex-col justify-center">
+                <div class="flex items-center gap-2 mb-1">
+                  <div class="text-xl">📅</div>
+                  <p class="text-xs font-bold text-gray-900">Launched</p>
+                </div>
+                <p class="text-xs text-gray-600">2024</p>
+              </div>
+
+              <div class="p-4 bg-white rounded-xl border-2 border-gray-200 shadow-sm flex flex-col justify-center">
+                <div class="flex items-center gap-2 mb-1">
+                  <div class="text-xl">🛡️</div>
+                  <p class="text-xs font-bold text-gray-900">Evaluation</p>
+                </div>
+                <p class="text-xs text-gray-600">Fair Process</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN: About GECET + Key Benefits -->
+        <div class="flex flex-col gap-6">
+
+          <div>
+            <h3 class="text-base font-bold text-gray-900 mb-3">About GECET</h3>
+            <p class="text-sm text-gray-700 leading-relaxed">
+              The Graphic Era Common Entrance Test (GECET) is an initiative by the Graphic Era Group of Institutions. Located in Dehradun, Bhimtal and Haldwani, Uttarakhand, these prestigious institutions are dedicated to fostering excellence in education and research.
+            </p>
+          </div>
+
           <div>
             <h3 class="text-base font-bold text-gray-900 mb-4">Key Benefits</h3>
             <div class="space-y-4">
-              
+
               <div class="flex items-start gap-3 p-4 bg-white rounded-xl border-2 border-gray-200 shadow-sm">
                 <div class="text-2xl flex-shrink-0">🎓</div>
                 <div>
@@ -379,86 +401,23 @@ Verified ✓
                   <p class="text-xs text-gray-600">Secure your seat at top programs</p>
                 </div>
               </div>
-              
-            </div>
-          </div>
-        </div>
-
-        <!-- Right Column -->
-        <div>
-          <!-- About GECET -->
-          <div class="mb-6">
-            <h3 class="text-base font-bold text-gray-900 mb-3">About GECET</h3>
-            <p class="text-sm text-gray-700 leading-relaxed">
-              The Graphic Era Common Entrance Test (GECET) is an initiative by the Graphic Era Group of Institutions. Located in Dehradun, Bhimtal and Haldwani, Uttarakhand, these prestigious institutions are dedicated to fostering excellence in education and research.
-            </p>
-          </div>
-
-          <!-- Quick Facts -->
-          <div class="mb-6">
-            <h3 class="text-base font-bold text-gray-900 mb-3">Quick Facts</h3>
-            <div class="grid grid-cols-2 gap-3">
-              
-              <div class="p-4 bg-white rounded-xl border-2 border-gray-200 shadow-sm">
-                <div class="flex items-center gap-2 mb-2">
-                  <div class="text-xl">🌍</div>
-                  <p class="text-xs font-bold text-gray-900">Coverage</p>
-                </div>
-                <p class="text-xs text-gray-600">All India Exam</p>
-              </div>
-
-              <div class="p-4 bg-white rounded-xl border-2 border-gray-200 shadow-sm">
-                <div class="flex items-center gap-2 mb-2">
-                  <div class="text-xl">📚</div>
-                  <p class="text-xs font-bold text-gray-900">Programs</p>
-                </div>
-                <p class="text-xs text-gray-600">Multiple Options</p>
-              </div>
-
-              <div class="p-4 bg-white rounded-xl border-2 border-gray-200 shadow-sm">
-                <div class="flex items-center gap-2 mb-2">
-                  <div class="text-xl">📅</div>
-                  <p class="text-xs font-bold text-gray-900">Launched</p>
-                </div>
-                <p class="text-xs text-gray-600">2024</p>
-              </div>
-
-              <div class="p-4 bg-white rounded-xl border-2 border-gray-200 shadow-sm">
-                <div class="flex items-center gap-2 mb-2">
-                  <div class="text-xl">🛡️</div>
-                  <p class="text-xs font-bold text-gray-900">Evaluation</p>
-                </div>
-                <p class="text-xs text-gray-600">Fair Process</p>
-              </div>
 
             </div>
           </div>
 
-          <!-- CTA Buttons -->
-          <div class="flex flex-col sm:flex-row gap-3">
-            <a href="#admissionForm" class="flex-1 text-center px-5 py-3 bg-blue-600 text-white font-bold text-sm rounded-lg hover:bg-blue-700 transition-all shadow-md hover:shadow-lg">
-              Apply for GECET Now →
-            </a>
-            <a href="#courseFilterContainer" class="flex-1 text-center px-5 py-3 bg-white text-blue-700 font-bold text-sm rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition-all">
-              Explore Programs ↓
-            </a>
-          </div>
         </div>
 
       </div>
 
-      <!-- Footer -->
       <div class="bg-gray-50 px-6 py-3 border-t border-gray-200 text-center">
         <p class="text-xs text-gray-600">
-          <span class="font-semibold">Locations:</span> Dehradun • Bhimtal • Haldwani, Uttarakhand | 
+          <span class="font-semibold">Locations:</span> Dehradun • Bhimtal • Haldwani, Uttarakhand |
           <span class="font-semibold">Institution:</span> Graphic Era Group of Institutions
         </p>
       </div>
     </div>
 
   </div>
-</section>
-</section>
 </section>
 <!-- Placement Stories Section - Image Slider -->
 <section class="section-spacing-sm bg-white">
@@ -475,11 +434,21 @@ Verified ✓
     </div>
 
     <!-- Dynamic Image Slider -->
-    <div class="relative">
-      <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementSlider"></div>
+      <div class="flex items-center gap-4">
+      <!-- Left Arrow -->
+      <button onclick="document.getElementById('placementSlider').scrollBy({left: -320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-12 h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll left">
+        <svg class="w-6 h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+      </button>
+      <!-- Slider -->
+      <div class="flex-1 overflow-hidden">
+        <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementSlider"></div>
+      </div>
+      <!-- Right Arrow -->
+      <button onclick="document.getElementById('placementSlider').scrollBy({left: 320, behavior: 'smooth'})" class="flex-shrink-0 bg-white border-2 border-blue-900 shadow-md rounded-full w-12 h-12 flex items-center justify-center hover:bg-blue-900 hover:text-white transition group" aria-label="Scroll right">
+        <svg class="w-6 h-6 text-blue-900 group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+      </button>
     </div>
 
-  </div>
 </section>
 
 <!-- Placement Stories End -->
@@ -498,7 +467,7 @@ Verified ✓
       <br/><br/>
 <span class="text-xs text-gray-500 italic">
         *The above stats are combined for all the campuses under the Brand Graphic Era and the stats are subject to change
-        as the placement session is still going on. Last Updated: 09 January, 2025
+        as the placement session is still going on. Last Updated: 09 January, 2026
       </span>
 </p>
 <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20">
@@ -536,18 +505,8 @@ Verified ✓
 <p class="text-sm text-gray-600">Alumni Network</p>
 </div>
 </div>
-<!-- Part 2: Success Stories -->
-<h2 class="text-4xl md:text-5xl font-extrabold text-blue-900 mb-6">
-      Transforming Dreams into Reality
-    </h2>
-<p class="text-gray-600 mb-14 max-w-2xl mx-auto">
-      Our students continue to set benchmarks with their success stories. From internships to global opportunities,
-      here’s a glimpse of those who turned their dreams into achievements with Graphic Era.
-    </p>
-<!-- Dynamic Slider -->
-<div class="relative">
-<div class="flex gap-6 overflow-x-auto scroll-smooth snap-x pb-6 no-scrollbar" id="placementSlider"></div>
-</div>
+
+
 <!-- Part 3: Recruiters -->
 <h2 class="text-4xl md:text-5xl font-extrabold text-blue-900 mt-20 mb-6">
       Our Top Recruiters
@@ -558,7 +517,7 @@ Verified ✓
 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 items-center" id="recruitersGrid"></div>
 </div>
 </section>
-<!-- Key Highlights Section -->
+
 <section class="section-spacing bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white">
 <div class="max-w-7xl mx-auto px-6">
 <!-- Section Title -->
@@ -624,54 +583,126 @@ Verified ✓
 </section>
 <!-- Accreditations and Rankings Section -->
 <section class="section-spacing-sm bg-gray-50">
-<div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
-<h2 class="text-4xl font-bold text-gray-900 mb-12">Accreditations and Rankings</h2>
-<div class="relative overflow-hidden">
-<div class="flex gap-6 transition-transform duration-700 ease-in-out will-change-transform mb-12" id="accreditation-slider">
-<!-- NIRF Rankings -->
-<div class="accreditation-card flex-shrink-0 w-full md:w-1/3 bg-white rounded-2xl shadow-lg p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
-<img alt="NIRF Rankings" class="mx-auto h-20 mb-6" decoding="async" loading="lazy" src="/lp/assets/img/main/nirf.svg"/>
-<h3 class="text-xl font-semibold text-gray-900 mb-4">NIRF Rankings</h3>
-<p class="text-gray-600 text-justify">
-            NIRF 2025 Ranking placed Graphic Era among the Top 48 Universities of India. Ranked 48 in Engineering, 52 in Management, and 72 Overall.
-          </p>
-</div>
-<!-- NBA Accredited Programs -->
-<div class="accreditation-card flex-shrink-0 w-full md:w-1/3 bg-white rounded-2xl shadow-lg p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
-<img alt="NBA Accredited Programs" class="mx-auto h-20 mb-6" decoding="async" loading="lazy" src="/lp/assets/img/main/nba.svg"/>
-<h3 class="text-xl font-semibold text-gray-900 mb-4">NBA Accredited Programs</h3>
-<p class="text-gray-600 text-justify">
-            The only university in Uttarakhand with 7 NBA Accredited Programs: B.Tech CSE, ECE, Mechanical, Biotech, Civil, Electrical, and MBA.
-          </p>
-</div>
-<!-- NAAC A+ Accredited -->
-<div class="accreditation-card flex-shrink-0 w-full md:w-1/3 bg-white rounded-2xl shadow-lg p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
-<img alt="NAAC Accreditation" class="mx-auto h-20 mb-6" decoding="async" loading="lazy" src="/lp/assets/img/main/naac.svg"/>
-<h3 class="text-xl font-semibold text-gray-900 mb-4">NAAC A+ Accredited</h3>
-<p class="text-gray-600 text-justify">
-            Accredited with NAAC A+ in 2022 after maintaining NAAC A grade since 2015, with the highest grade score in the region.
-          </p>
-</div>
-<!-- AICTE Approval -->
-<div class="accreditation-card flex-shrink-0 w-full md:w-1/3 bg-white rounded-2xl shadow-lg p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
-<img alt="AICTE Approval" class="mx-auto h-20 mb-6" decoding="async" loading="lazy" src="/lp/assets/img/main/aicte.svg"/>
-<h3 class="text-xl font-semibold text-gray-900 mb-4">AICTE Approval</h3>
-<p class="text-gray-600 text-justify">
-            Approved by AICTE, Graphic Era ensures academic excellence across all technical courses. UGC recognized with Regularized Status by the Ministry of Education.
-          </p>
-</div>
-<!-- UGC Recognition -->
-<div class="accreditation-card flex-shrink-0 w-full md:w-1/3 bg-white rounded-2xl shadow-lg p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
-<img alt="UGC Recognition" class="mx-auto h-20 mb-6" decoding="async" loading="lazy" src="/lp/assets/img/main/ugc.svg"/>
-<h3 class="text-xl font-semibold text-gray-900 mb-4">UGC Recognition</h3>
-<p class="text-gray-600 text-justify">
-            Approved by UGC and accorded the coveted Regularized Status by the Ministry of Education, Government of India.
-          </p>
-</div>
-</div>
-</div>
-</div>
+  <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+    <h2 class="text-4xl font-bold text-gray-900 mb-12">Accreditations and Rankings</h2>
+
+    <div class="swiper accreditationSwiper pb-12">
+      <div class="swiper-wrapper">
+
+        <!-- NIRF Rankings -->
+        <div class="swiper-slide bg-white rounded-2xl shadow-lg p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <img alt="NIRF Rankings" class="mx-auto h-20 mb-6" decoding="async" loading="lazy" src="/lp/assets/img/main/nirf.svg"/>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">NIRF Rankings</h3>
+          <p class="text-gray-600 text-justify">NIRF 2025 Ranking placed Graphic Era among the Top 48 Universities of India. Ranked 48 in Engineering, 52 in Management, and 72 Overall.</p>
+        </div>
+
+        <!-- NBA Accredited Programs -->
+        <div class="swiper-slide bg-white rounded-2xl shadow-lg p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <img alt="NBA Accredited Programs" class="mx-auto h-20 mb-6" decoding="async" loading="lazy" src="/lp/assets/img/main/nba.svg"/>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">NBA Accredited Programs</h3>
+          <p class="text-gray-600 text-justify">The only university in Uttarakhand with 7 NBA Accredited Programs: B.Tech CSE, ECE, Mechanical, Biotech, Civil, Electrical, and MBA.</p>
+        </div>
+
+        <!-- NAAC A+ Accredited -->
+        <div class="swiper-slide bg-white rounded-2xl shadow-lg p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <img alt="NAAC Accreditation" class="mx-auto h-20 mb-6" decoding="async" loading="lazy" src="/lp/assets/img/main/naac.svg"/>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">NAAC A+ Accredited</h3>
+          <p class="text-gray-600 text-justify">Accredited with NAAC A+ in 2022 after maintaining NAAC A grade since 2015, with the highest grade score in the region.</p>
+        </div>
+
+        <!-- AICTE Approval -->
+        <div class="swiper-slide bg-white rounded-2xl shadow-lg p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <img alt="AICTE Approval" class="mx-auto h-20 mb-6" decoding="async" loading="lazy" src="/lp/assets/img/main/aicte.svg"/>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">AICTE Approval</h3>
+          <p class="text-gray-600 text-justify">Approved by AICTE, Graphic Era ensures academic excellence across all technical courses. UGC recognized with Regularized Status by the Ministry of Education.</p>
+        </div>
+
+        <!-- UGC Recognition -->
+        <div class="swiper-slide bg-white rounded-2xl shadow-lg p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <img alt="UGC Recognition" class="mx-auto h-20 mb-6" decoding="async" loading="lazy" src="/lp/assets/img/main/ugc.svg"/>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">UGC Recognition</h3>
+          <p class="text-gray-600 text-justify">Approved by UGC and accorded the coveted Regularized Status by the Ministry of Education, Government of India.</p>
+        </div>
+
+      </div>
+    
+    </div>
+
+  </div>
 </section>
+
+<script>
+  /* ================== Accreditations Swiper ================== */
+document.addEventListener('DOMContentLoaded', () => {
+  new Swiper('.accreditationSwiper', {
+    slidesPerView: 1,
+    spaceBetween: 24,
+    loop: true,
+    autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      640:  { slidesPerView: 2, spaceBetween: 20 },
+      1024: { slidesPerView: 3, spaceBetween: 24 },
+    },
+  });
+});
+
+/* ================== Key Highlights Swiper ================== */
+new Swiper('.keyHighlightsSwiper', {
+  slidesPerView: 1,
+  spaceBetween: 24,
+  loop: true,                          // ← enable loop for seamless autoscroll
+  autoplay: {
+    delay: 3500,                       // ← ms between slides
+    disableOnInteraction: false,       // ← keeps scrolling after user swipes
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    640:  { slidesPerView: 2, spaceBetween: 20 },
+    1024: { slidesPerView: 3, spaceBetween: 24 },
+  },
+});
+
+/* ================== Accreditations Swiper ================== */
+new Swiper('.accreditationSwiper', {
+  slidesPerView: 1,
+  spaceBetween: 24,
+  loop: true,
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    640:  { slidesPerView: 2, spaceBetween: 20 },
+    1024: { slidesPerView: 3, spaceBetween: 24 },
+  },
+});
+</script>
 <!-- Accreditations and Rankings Section -->
 <!-- Why GEU Section - Fixed Faculty Icon -->
 <section class="section-spacing bg-gradient-to-b from-gray-50 to-white">
@@ -796,19 +827,7 @@ Verified ✓
 <!-- Featured Video -->
 <div class="youtube-lazy group rounded-2xl overflow-hidden shadow-xl relative w-full h-72 md:h-96" data-id="X6MCS7SmNO8"></div>
 </div>
-<!-- Video Carousel -->
-<div class="mt-12 relative overflow-hidden">
-<div class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 scroll-smooth no-scrollbar" id="lifeVideoSlider">
-<!-- Video 1 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="NJ0WSfUej54"></div>
-<!-- Video 2 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="m3Ot4fWaj5U"></div>
-<!-- Video 3 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="ACX5kBzFHMM"></div>
-<!-- Video 4 -->
-<div class="youtube-lazy group relative min-w-full sm:min-w-full md:min-w-[45%] lg:min-w-[30%] h-56 sm:h-64 md:h-72 lg:h-80 rounded-xl overflow-hidden shadow-md snap-center" data-id="0uHjyg6CdJo"></div>
-</div>
-</div>
+
 <!-- Campus Gallery -->
 <div class="mt-16">
 <h3 class="text-2xl font-bold text-gray-800 text-center mb-10">Campus Highlights</h3>
@@ -870,53 +889,80 @@ Verified ✓
 <!-- FAQ Section -->
 <!-- FAQ Section -->
 <section class="section-spacing-sm bg-gray-50">
-<div class="max-w-6xl mx-auto px-6">
-<h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
       Frequently Asked Questions
     </h2>
-<div class="space-y-4">
-<!-- FAQ Item -->
-<div class="border border-gray-200 rounded-lg shadow-sm">
-<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-          What programs does Graphic Era (Deemed to be University) offer?
+    <div class="space-y-4">
+
+      <!-- FAQ 1 -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          What BA and MA programs does Graphic Era (Deemed to be University) offer?
           <span class="ml-2">+</span>
-</button>
-<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-          Graphic Era offers a wide range of undergraduate, postgraduate, and doctoral programs across Engineering, Management, Computer Applications, Humanities, and more.
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          Graphic Era offers BA programs in subjects like English, Economics, Psychology, Sociology, and Political Science, along with MA programs in English, Economics, and Journalism & Mass Communication, designed to build strong conceptual and professional foundations.
         </div>
-</div>
-<!-- FAQ Item -->
-<div class="border border-gray-200 rounded-lg shadow-sm">
-<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-          Is there hostel accommodation available?
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          What is the eligibility criteria for BA and MA admissions?
           <span class="ml-2">+</span>
-</button>
-<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-          Yes, the university provides comfortable hostel facilities for both boys and girls with modern amenities and a safe campus environment.
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          For BA programs, candidates must have passed 10+2 from a recognized board with at least 45% marks. For MA programs, a Bachelor's degree in a relevant subject with a minimum of 50% marks from a recognized university is required.
         </div>
-</div>
-<!-- FAQ Item -->
-<div class="border border-gray-200 rounded-lg shadow-sm">
-<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-          What placement opportunities are available?
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          What is the duration of the BA and MA programs?
           <span class="ml-2">+</span>
-</button>
-<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-          Graphic Era has a strong placement record with top recruiters like Amazon, Microsoft, Adobe, and Deloitte visiting the campus every year. The highest package has gone up to ₹61.99 LPA.
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          The BA program is a 3-year undergraduate degree divided into 6 semesters. The MA program is a 2-year postgraduate degree spread across 4 semesters, with options for specialization in the chosen discipline.
         </div>
-</div>
-<!-- FAQ Item -->
-<div class="border border-gray-200 rounded-lg shadow-sm">
-<button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
-          How can I apply for admission?
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          What career opportunities are available after completing BA or MA from Graphic Era?
           <span class="ml-2">+</span>
-</button>
-<div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
-          You can apply online through the official admission portal or visit the campus for offline applications. Admissions are open for 2025.
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          Graduates can pursue careers in education, journalism, civil services, content writing, social work, HR management, research, and public administration. The university also provides dedicated placement support and career counselling to help students secure roles in leading organizations.
         </div>
-</div>
-</div>
-</div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          Does Graphic Era provide scholarships for BA and MA students?
+          <span class="ml-2">+</span>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          Yes, Graphic Era offers merit-based and need-based scholarships for eligible students. Scholarships are also available under government schemes such as the National Scholarship Portal (NSP) and state-level scholarship programs for Uttarakhand residents.
+        </div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div class="border border-gray-200 rounded-lg shadow-sm">
+        <button class="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-gray-800 hover:bg-gray-100 focus:outline-none" onclick="toggleFAQ(this)">
+          Is the BA/MA degree from Graphic Era recognized and valued by employers?
+          <span class="ml-2">+</span>
+        </button>
+        <div class="faq-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-gray-600">
+          Absolutely. Graphic Era is a NAAC A+ accredited Deemed to be University recognized by the UGC. Its degrees are widely accepted across India and internationally, making graduates competitive for government exams, higher education, and private sector employment.
+        </div>
+      </div>
+
+    </div>
+  </div>
 </section>
 <!--- FAQ-->
 <!--- Footer Start-->
@@ -1015,6 +1061,6 @@ Verified ✓
 <!-- Utilities -->
 <script src="/lp/assets/js/schema-generator.js"></script>
 <script src="/lp/assets/js/fixes.js"></script>
-
+<script type="text/javascript">var s=document.createElement("script"); 	s.type="text/javascript"; s.async=true; s.src="https://widgets.in4.nopaperforms.com/emwgts.js"; 	document.body.appendChild(s);</script>
 </body>
 </html>
