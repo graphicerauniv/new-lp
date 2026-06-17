@@ -619,11 +619,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Strategic management and leadership",
-      "Business analytics and decision making",
-      "Industry internships and live projects"
+      "Management, finance, marketing and operations",
+      "Case studies, simulations and live projects",
+      "Internships and placement training"
     ],
-    "description": "BBA provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+    "description": "A three-year undergraduate program that builds a strong base across the core business functions, from finance and marketing to operations and human resources. Learning blends classroom theory with case studies, simulations and live industry projects, so you graduate ready for management roles or higher studies like an MBA."
   },
   {
     "code": "MBA_BBA__HONS__",
@@ -632,11 +632,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Strategic management and leadership",
-      "Business analytics and decision making",
-      "Industry internships and live projects"
+      "Research-driven electives and advanced curriculum",
+      "Analytics, projects and dissertation",
+      "Pathway to MBA and leadership roles"
     ],
-    "description": "BBA (Hons.) provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+    "description": "An advanced version of the BBA for students who want academic depth alongside practical skills. Beyond the core business subjects you take research-focused electives and an in-depth project that sharpens analytical and decision-making ability, preparing you for competitive management careers and higher studies."
   },
   {
     "code": "MBA_BBA_WITH_SPECIALIZATION_IN_ENTREPRENEURSHIP",
@@ -645,11 +645,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Strategic management and leadership",
-      "Business analytics and decision making",
-      "Industry internships and live projects"
+      "Business models, startup finance and fundraising",
+      "Innovation and go-to-market strategy",
+      "Mentorship and on-campus incubation"
     ],
-    "description": "BBA with specialization in Entrepreneurship provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+    "description": "Designed for students who want to build and run their own ventures. The program covers idea validation, business planning, startup funding and scaling, backed by mentorship and on-campus incubation, so you can turn a concept into a working business while you study."
   },
   {
     "code": "MBA_BBA_WITH_SPECIALIZATION_IN_HOSPITAL_ADMINISTRATION",
@@ -658,11 +658,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Strategic management and leadership",
-      "Business analytics and decision making",
-      "Industry internships and live projects"
+      "Healthcare operations and patient services",
+      "Quality standards and health regulations",
+      "Internships across hospitals and health-tech"
     ],
-    "description": "BBA with specialization in Hospital Administration provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+    "description": "A management program focused on the fast-growing healthcare sector. You learn how hospitals and health systems run day to day, from operations and patient services to quality, compliance and finance, with internships that prepare you for administrative roles in hospitals, clinics and health-tech."
   },
   {
     "code": "MBA_BBA_WITH_SPECIALIZATION_IN_AI___DS",
@@ -671,11 +671,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Advanced AI and machine learning algorithms",
-      "Deep learning and neural networks",
-      "Industry projects and hands-on labs"
+      "Data analytics and machine learning",
+      "Predictive modeling for decisions",
+      "Hands-on projects with real datasets"
     ],
-    "description": "BBA with specialization in AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+    "description": "A program that combines core management with the analytics and AI skills employers now expect. You learn to work with data, build predictive models and use business intelligence tools to drive decisions, bridging the gap between business strategy and technology."
   },
   {
     "code": "MBA_BBA_WITH_SPECIALIZATION_IN_E_COMMERCE_AND_DIGITAL_",
@@ -684,11 +684,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Digital marketing and brand management",
-      "Consumer behavior and market research",
-      "Marketing analytics and strategy"
+      "SEO, social media and performance ads",
+      "E-commerce operations and marketplaces",
+      "Campaign analytics and live projects"
     ],
-    "description": "BBA with specialization in E-Commerce and Digital Marketing focuses on modern marketing strategies, digital marketing, and brand management. Students learn consumer behavior, market research, marketing analytics, and strategic planning for the digital age."
+    "description": "Built for the digital-first economy, this program covers how brands sell and market online, from SEO and social media to paid advertising and marketplace strategy. You work on live campaigns and analytics, so you graduate ready for roles in digital marketing, e-commerce and brand management."
   },
   {
     "code": "MBA_BBA_WITH_SPECIALIZATION_IN_AVIATION_MANAGEMENT",
@@ -697,11 +697,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Strategic management and leadership",
-      "Business analytics and decision making",
-      "Industry internships and live projects"
+      "Airport, airline and ground operations",
+      "Aviation safety and regulations",
+      "Industry exposure with aviation partners"
     ],
-    "description": "BBA with specialization in Aviation Management provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+    "description": "A specialized program for careers in one of the world's fastest-moving industries. You learn how airlines, airports and ground operations are managed, alongside safety, regulation and service standards, with industry exposure that opens roles across aviation and travel."
   },
   {
     "code": "MBA_BBA__HONS___WITH_SPECIALIZATION_IN_ENTREPRENEURSHI",
@@ -710,11 +710,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Strategic management and leadership",
-      "Business analytics and decision making",
-      "Industry internships and live projects"
+      "Venture creation with research and analytics",
+      "Startup finance and scaling strategy",
+      "Extended incubation and capstone project"
     ],
-    "description": "BBA (Hons.) with specialization in Entrepreneurship provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+    "description": "An in-depth entrepreneurship track for students serious about building scalable ventures. Alongside startup fundamentals you take research-driven electives and a capstone project, with extended incubation and mentorship that help you launch and grow a real business."
   },
   {
     "code": "MBA_BBA__HONS___WITH_SPECIALIZATION_IN_HOSPITAL_ADMINI",
@@ -723,11 +723,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Strategic management and leadership",
-      "Business analytics and decision making",
-      "Industry internships and live projects"
+      "Advanced healthcare and hospital systems",
+      "Health analytics, quality and policy",
+      "Research project and hospital internships"
     ],
-    "description": "BBA (Hons.) with specialization in Hospital Administration provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+    "description": "An advanced healthcare management program for students aiming at leadership roles in hospitals and health organizations. It deepens the study of operations, quality and policy with research and analytics, supported by extended internships across the healthcare sector."
   },
   {
     "code": "MBA_BBA__HONS___WITH_SPECIALIZATION_IN_AVIATION_MANAGE",
@@ -736,11 +736,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Strategic management and leadership",
-      "Business analytics and decision making",
-      "Industry internships and live projects"
+      "Advanced airline and airport management",
+      "Regulation, safety and revenue management",
+      "Research project and industry exposure"
     ],
-    "description": "BBA (Hons.) with specialization in Aviation Management provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
+    "description": "A rigorous aviation management track that goes deeper into airline and airport business, revenue management and regulation. Research-focused study and strong industry exposure prepare you for management and leadership roles across aviation, travel and logistics."
   },
   {
     "code": "MBA_BBA__HONS___WITH_SPECIALIZATION_IN_AI___DS",
@@ -749,11 +749,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Advanced AI and machine learning algorithms",
-      "Deep learning and neural networks",
-      "Industry projects and hands-on labs"
+      "Advanced analytics and AI applications",
+      "Automation and decision science",
+      "Research project with real-world data"
     ],
-    "description": "BBA (Hons.) with specialization in AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+    "description": "An advanced track that blends management with strong analytics and AI capability. You go deeper into machine learning, decision science and automation through research and real-world data projects, preparing you for analytics-driven roles and higher studies."
   },
   {
     "code": "MBA_BBA__HONS___WITH_SPECIALIZATION_IN_E_COMMERCE_AND_",
@@ -762,11 +762,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Digital marketing and brand management",
-      "Consumer behavior and market research",
-      "Marketing analytics and strategy"
+      "Growth and performance marketing strategy",
+      "E-commerce analytics and brand building",
+      "Research project and live campaigns"
     ],
-    "description": "BBA (Hons.) with specialization in E-Commerce and Digital Marketing focuses on modern marketing strategies, digital marketing, and brand management. Students learn consumer behavior, market research, marketing analytics, and strategic planning for the digital age."
+    "description": "An advanced digital marketing and e-commerce program for students who want strategic depth. Alongside hands-on campaign work you take research-focused study in analytics, consumer behaviour and growth, preparing you for leadership roles in digital marketing and online business."
   },
   {
     "code": "MBA_BBA_INTERNATIONAL_FINANCE_AND_ACCOUNTING_WITH_ACCA",
@@ -775,11 +775,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Financial modeling and analysis",
-      "Investment and portfolio management",
-      "Banking and fintech exposure"
+      "Curriculum aligned with ACCA",
+      "Global accounting, audit and taxation",
+      "Exemptions toward a global credential"
     ],
-    "description": "BBA International Finance and Accounting with ACCA equips students with financial analysis, investment management, and corporate finance skills. The curriculum covers financial markets, risk analysis, banking, and fintech trends. Graduates can work in investment banking, corporate finance, financial consulting, and wealth management."
+    "description": "A globally oriented program that combines a BBA with preparation for the ACCA qualification. You study international accounting, audit, taxation and financial reporting to global standards, gaining ACCA exemptions and a credential recognised by employers worldwide, ideal for careers in finance, audit and accounting across markets."
   },
   {
     "code": "MBA_BBA__HONS___INTERNATIONAL_FINANCE_AND_ACCOUNTING_W",
@@ -788,12 +788,52 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Financial modeling and analysis",
-      "Investment and portfolio management",
-      "Banking and fintech exposure"
+      "Curriculum aligned with ACCA",
+      "Global accounting, audit and taxation",
+      "Exemptions toward a global credential"
     ],
-    "description": "BBA (Hons.) International Finance and Accounting with ACCA equips students with financial analysis, investment management, and corporate finance skills. The curriculum covers financial markets, risk analysis, banking, and fintech trends. Graduates can work in investment banking, corporate finance, financial consulting, and wealth management."
+    "description": "A globally oriented honours program that combines advanced business education with preparation for the ACCA qualification. Students study international accounting, audit, taxation and financial reporting while developing stronger analytical and research capabilities, preparing for leadership careers in finance, audit and accounting worldwide."
   },
+  {
+  "code": "MBA_BBA_WITH_SPECIALIZATION_IN_FINANCE_MARKETING_HR",
+  "department": "Management",
+  "title": "BBA with Specialization in Finance / Marketing / HR",
+  "level": "UG",
+  "duration": "3 Years",
+  "bullets": [
+    "Track in Finance, Marketing or HR",
+    "Function-focused specialization depth",
+    "Case studies, internships and training"
+  ],
+  "description": "A flexible BBA that lets you specialize in the function you want to build a career in, whether that is finance, marketing or human resources. You get strong management fundamentals plus focused depth in your chosen track, backed by internships and case-based learning that prepare you for roles across corporates, agencies and consulting."
+ },
+ {
+  "code": "MBA_BBA_WITH_BUSINESS_ANALYTICS_GRANT_THORNTON",
+  "department": "Management",
+  "title": "BBA with Business Analytics (Industry Partner Grant Thornton)",
+  "level": "UG",
+  "duration": "3 Years",
+  "bullets": [
+    "Analytics curriculum with Grant Thornton",
+    "Visualization, statistics and modeling",
+    "Industry projects and certifications"
+  ],
+  "description": "A management program built in partnership with Grant Thornton to make you job-ready in analytics. You learn to turn data into business decisions using visualization, statistical and modeling tools, with industry projects and mentorship that give you a strong edge in consulting, finance and analytics roles."
+ },
+ {
+  "code": "MBA_BBA_WITH_SPECIALIZATION_IN_FINANCIAL_TECHNOLOGY_EY",
+  "department": "Management",
+  "title": "BBA with Specialization in Financial Technology (Knowledge Partner EY India)",
+  "level": "UG",
+  "duration": "3 Years",
+  "bullets": [
+    "FinTech curriculum with EY India",
+    "Digital payments, blockchain and lending",
+    "Industry projects and certifications"
+  ],
+  "description": "A forward-looking program developed with EY India for careers at the intersection of finance and technology. You explore digital payments, blockchain, lending platforms and emerging FinTech models, with industry projects and certifications that prepare you for roles in banks, FinTech startups and consulting."
+ },
+
   {
     "code": "MBA_AI___DS",
     "department": "Managements",
@@ -1341,109 +1381,123 @@
     "description": "LLM offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
   },
   {
-    "code": "COM_B_COM__HONS__",
-    "department": "Commerce",
-    "title": "B.Com (Hons.)",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Com (Hons.) offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "COM_B_COM__HONS___WITH_RESEARCH",
-    "department": "Commerce",
-    "title": "B.Com (Hons.) with research",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Com (Hons.) with research offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "COM_B_COM__HONS___INTERNATIONAL_FINANCE_AND_ACCOUNTING",
-    "department": "Commerce",
-    "title": "B.Com (Hons.) International Finance and Accounting with ACCA, UK",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Com (Hons.) International Finance and Accounting with ACCA, UK offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "COM_B_COM__HONS___BANKING___FINANCE",
-    "department": "Commerce",
-    "title": "B.Com (Hons.) Banking & Finance",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Com (Hons.) Banking & Finance offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "COM_B_COM__HONS___ACCOUNTING__AUDITING___TAXATION",
-    "department": "Commerce",
-    "title": "B.Com (Hons.) Accounting, Auditing & Taxation",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Com (Hons.) Accounting, Auditing & Taxation offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "COM_B_COM__HONS___CORPORATE_ACCOUNTING_AND_FINANCIAL_A",
-    "department": "Commerce",
-    "title": "B.Com (Hons.) Corporate Accounting and Financial Analysis with CMA, US",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Com (Hons.) Corporate Accounting and Financial Analysis with CMA, US offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "COM_B_COM__HONS___INTEGRATED_WITH_US_CPA_IN_CORPORATE_",
-    "department": "Commerce",
-    "title": "B.Com (Hons.) Integrated with US CPA in Corporate Finance",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Com (Hons.) Integrated with US CPA in Corporate Finance offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "COM_B_VOC_BFSI",
-    "department": "Commerce",
-    "title": "B.Voc BFSI",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Voc BFSI offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
+"code": "COM_B_COM__HONS__",
+"department": "Commerce",
+"title": "B.Com (Hons.)",
+"level": "UG",
+"duration": "3 Years",
+"bullets": [
+"Accounting, economics, law & finance",
+"Strong base for CA, MBA",
+"Scholarships up to 70%"
+],
+"description": "A 3-year B.Com (Hons.) degree covering accounting, economics, business law, and taxation at Graphic Era, Dehradun, with strong placements and pathways to CA, MBA, and M.Com."
+},
+{
+"code": "COM_B_COM__HONS___WITH_RESEARCH",
+"department": "Commerce",
+"title": "B.Com (Hons.) with Research",
+"level": "UG",
+"duration": "3 Years",
+"bullets": [
+"Dissertation, research methodology, mentorship",
+"Pathway to M.Com, PhD, analytics",
+"Faculty from IIMs, IITs, corporates"
+],
+"description": "Combines the commerce curriculum with research methodology and a guided dissertation, mentored by faculty from IIMs and IITs. Ideal for M.Com, PhD, and analytics or consulting careers."
+},
+{
+"code": "COM_B_COM__HONS___INTERNATIONAL_FINANCE_AND_ACCOUNTING",
+"department": "Commerce",
+"title": "B.Com (Hons.) International Finance and Accounting with ACCA, UK",
+"level": "UG",
+"duration": "3 Years",
+"bullets": [
+"Integrated with ACCA (UK)",
+"IFRS & international taxation built-in",
+"Career pathways to Industry Leading Companies"
+],
+"description": "B.Com integrated with the ACCA (UK) qualification. IFRS, international taxation, and audit built into the degree. One of the few B.Com with ACCA programs in North India, opening global careers with Big 4 firms and multinational finance teams."
+},
+{
+"code": "COM_B_COM__HONS___BANKING___FINANCE",
+"department": "Commerce",
+"title": "B.Com (Hons.) Banking & Finance",
+"level": "UG",
+"duration": "3 Years",
+"bullets": [
+"Banking, markets & risk management",
+"Careers in banking, NBFC, fintech",
+"2,300+ placement offers 2024–25"
+],
+"description": "A specialised commerce degree in banking operations, financial markets, investment, and risk management. This prepares students for careers in banking, NBFCs, fintech, and wealth management."
+},
+{
+"code": "COM_B_COM__HONS___ACCOUNTING__AUDITING___TAXATION",
+"department": "Commerce",
+"title": "B.Com (Hons.) Accounting, Auditing & Taxation",
+"level": "UG",
+"duration": "3 Years",
+"bullets": [
+"Accounting, auditing, GST & tax",
+"Launchpad for CA, CMA careers",
+"Practical audit & compliance exposure"
+],
+"description": "In-depth training in financial accounting, auditing, GST, and direct taxation with practical compliance exposure. A strong launchpad for CA, CMA, audit firms, and tax consultancy careers."
+},
+{
+"code": "COM_B_COM__HONS___CORPORATE_ACCOUNTING_AND_FINANCIAL_A",
+"department": "Commerce",
+"title": "B.Com (Hons.) Corporate Accounting and Financial Analysis with CMA, US",
+"level": "UG",
+"duration": "3 Years",
+"bullets": [
+"Integrated with CMA (US)",
+"Corporate accounting & financial analysis",
+"Global scope: MNCs, consulting"
+],
+"description": "B.Com integrated with the CMA (US) certification, focused on corporate accounting, cost management, and financial analysis — a globally recognised credential for careers in MNCs, consulting, and strategic finance."
+},
+{
+"code": "COM_B_COM__HONS___INTEGRATED_WITH_US_CPA_IN_CORPORATE_",
+"department": "Commerce",
+"title": "B.Com (Hons.) Integrated with US CPA in Corporate Finance",
+"level": "UG",
+"duration": "3 Years",
+"bullets": [
+"Integrated with CPA (US)",
+"US GAAP, reporting & assurance",
+"Careers with big firms, MNCs"
+],
+"description": "This program combines a B.Com (Hons.) degree with the US CPA pathway, covering US GAAP, corporate finance, financial reporting, and assurance. Graduates earn a globally respected public accounting credential alongside their degree."
+},
+{
+"code": "COM_B_VOC_BFSI",
+"department": "Commerce",
+"title": "B.Voc BFSI",
+"level": "UG",
+"duration": "3 Years",
+"bullets": [
+"UG degree in BFSI",
+"Industry training & job certifications",
+"Careers in banking, insurance, fintech"
+],
+"description": "B.Voc BFSI is a 3-year vocational degree designed for job-readiness in the banking, financial services, and insurance sector. With practical training, industry internships, and placement support, students move directly into roles in banking operations, insurance, NBFCs, and fintech."
+},
+
+{
+  "code": "COM_B_COM__HONS___FINANCIAL_ANALYTICS_AND_BUSINESS_INTELLIGENCE",
+  "department": "Commerce",
+  "title": "B.Com (Hons.) in Financial Analytics and Business Intelligence",
+  "level": "UG",
+  "duration": "3 Years",
+  "bullets": [
+    "Accounting, analytics, AI & data tools",
+    "Visualisation and financial modelling",
+    "Careers in analytics, fintech, consulting"
+  ],
+  "description": "A future-focused B.Com (Hons.) program that combines core commerce subjects with business analytics, artificial intelligence, and data analysis. Students develop skills in data-driven decision-making, visualization, and financial modelling, preparing them for high-demand careers in business analytics, fintech, consulting, and finance operations."
+},
 
   {
     "code": "GEN_BHM",
