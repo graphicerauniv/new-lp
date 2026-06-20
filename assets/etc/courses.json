@@ -415,6 +415,7 @@
     ],
     "description": "B.Tech ME with Computer Science minor unites mechanical principles like CAD/CAM and simulations with programming, data analysis, AI modeling, and software tools. Tap into shared labs, cross-industry projects, research blends, and placements bridging manufacturing, automotive software, product design, and digital engineering fields."
   },
+
   {
     "code": "GEN_BCA",
     "department": "Computer Applications",
@@ -422,11 +423,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Programming and database mastery",
-      "Expert coding mentorship",
-      "Career development opportunities"
+      "Programming and software development",
+      "Databases, networks and web technologies",
+      "Live projects and internships"
     ],
-    "description": "BCA program builds strong foundations in software development, web tech, databases, algorithms, and cloud computing through balanced theory and hands-on projects. Students gain industry exposure, internships with tech firms, and dedicated placement support for entry into software engineering, app development, and digital roles."
+    "description": "A three-year undergraduate degree that builds strong foundations in programming, databases, networking and web development. With hands-on labs, live projects and internships, you graduate ready for roles in software development, IT support and analytics, or for higher studies like an MCA."
   },
   {
     "code": "GEN_BCA__HONS__",
@@ -435,11 +436,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Advanced algorithms and AI electives",
-      "Experienced faculty and research-focused mentorship",
-      "Career development opportunities"
+      "Advanced programming and software engineering",
+      "Data structures, cloud and emerging tech",
+      "Research project and industry training"
     ],
-    "description": "BCA (Hons.) elevates core computing with honors depth in data science, cybersecurity, machine learning, and software architecture via rigorous theory, capstone projects, and labs. Secure industry internships, expert guidance, and elite placement support for high-impact roles in tech innovation and leadership."
+    "description": "An honours version of the BCA for students who want greater technical depth and a research edge. Alongside core programming you go deeper into software engineering, data structures and emerging technologies, completing a research project that prepares you for advanced roles in IT, development and postgraduate study."
   },
   {
     "code": "GEN_BCA_INDUSTRY_INTEGRATED",
@@ -448,13 +449,12 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Live industry projects and tools",
-      "Experienced faculty and corporate mentorship sessions",
-      "Career development opportunities"
+      "Industry-integrated curriculum and tools",
+      "Live projects and corporate mentorship",
+      "Internships with hiring partners"
     ],
-    "description": "BCA Industry Integrated immerses students in real-world computing via partnerships with tech firms, blending coursework in app development, cloud services, and agile methods with embedded internships and live assignments. Receive on-site mentorship, skill certifications, and seamless transitions to full-time roles in software and IT services."
+    "description": "A three-year undergraduate degree designed and delivered with industry partners so your learning maps directly to what employers need. Alongside core computing you work on live industry projects, use current professional tools and get corporate mentorship and internships, graduating job-ready for software, IT and analytics roles."
   },
-  
   {
     "code": "GEN_BCA__HONS___AI___DS",
     "department": "Computer Applications",
@@ -462,13 +462,12 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Advanced AI and machine learning algorithms",
-      "Deep learning and neural networks",
-      "Industry projects and hands-on labs"
+      "Machine learning and data science",
+      "Python, analytics and AI applications",
+      "Research project with real datasets"
     ],
-    "description": "BCA (Hons.) AI & DS focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+    "description": "A three-year honours degree focused on the most in-demand areas of computing. You combine core programming with machine learning, data science and AI, working on real datasets and a research project that prepares you for careers as a data scientist, AI engineer or analyst."
   },
- 
   {
     "code": "GEN_BCA_CYBER_SECURITY",
     "department": "Computer Applications",
@@ -476,11 +475,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Network security and ethical hacking",
-      "Cryptography and security protocols",
-      "Hands-on cybersecurity labs"
+      "Network and information security",
+      "Ethical hacking and digital forensics",
+      "Hands-on labs and live projects"
     ],
-    "description": "BCA Cyber Security prepares students for careers in cybersecurity and information security. Topics include ethical hacking, cryptography, network security, malware analysis, and security operations. Students gain practical experience through labs and industry certifications."
+    "description": "A three-year undergraduate degree built for the fast-growing field of cyber security. You learn network security, ethical hacking, cryptography and digital forensics through practical labs, preparing for roles as a security analyst, ethical hacker or SOC professional."
   },
   {
     "code": "GEN_BCA__HONS___CYBER_SECURITY",
@@ -489,11 +488,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Ethical hacking and threat hunting",
-      "Encryption and secure coding",
-      "Cyber simulation labs"
+      "Advanced cyber security and ethical hacking",
+      "Digital forensics and threat analysis",
+      "Research project and security labs"
     ],
-    "description": "BCA (Hons.) Cyber Security arms students with vital defenses in ethical hacking techniques, cryptography standards, network fortification, malware dissection, and incident response. Build expertise through intensive labs, industry certifications like CompTIA, and practical scenarios for IT security and compliance careers."
+    "description": "An honours degree that takes cyber security deeper into threat analysis, advanced ethical hacking and digital forensics. With specialised security labs and a research project, you prepare for advanced roles in cyber security, penetration testing and security research, or for postgraduate study."
   },
   {
     "code": "GEN_MCA",
@@ -503,10 +502,10 @@
     "duration": "2 Years",
     "bullets": [
       "Full-stack development and databases",
-      "Advanced software mentorship",
-      "Career development opportunities & enterprise-level placements"
+      "Software engineering and cloud computing",
+      "Live projects and enterprise placements"
     ],
-    "description": "MCA program cultivates elite software professionals with deep dives into cloud architecture, DevOps practices, enterprise systems, cybersecurity, and scalable applications via theory, coding bootcamps, and projects. Benefit from industry collaborations, internships, expert faculty, and strong placement pipelines for top IT consulting roles."
+    "description": "A two-year postgraduate degree that builds advanced software development and problem-solving skills. You cover full-stack development, databases, software engineering and cloud computing through project-based learning, preparing for senior roles in software development, systems and IT consulting."
   },
   {
     "code": "GEN_MCA_AI___DS",
@@ -515,103 +514,14 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Scalable ML pipelines and big data",
+      "Machine learning and big data pipelines",
       "Deep learning and neural networks",
-      "Enterprise AI deployments and hands-on labs"
+      "Enterprise AI projects and hands-on labs"
     ],
-    "description": "MCA AI & DS program propels postgrads into sophisticated AI realms covering reinforcement learning, generative models, computer vision frameworks, NLP systems, and responsible AI deployment. Tackle industry-scale projects, collaborative ventures, and labs applying solutions to finance, logistics, healthcare analytics, and beyond."
+    "description": "A two-year postgraduate degree specialising in artificial intelligence and data science. You build scalable machine learning and big data pipelines, work with deep learning and neural networks, and deploy enterprise AI in hands-on labs, preparing for high-demand roles as an AI engineer, data scientist or ML specialist."
   },
-  {
-    "code": "GEN_B_SC__HONS___COMPUTER_SCIENCE",
-    "department": "Computer Application",
-    "title": "B.Sc (Hons.) Computer Science",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Sc (Hons.) Computer Science offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "GEN_B_SC_COMPUTER_SCIENCE",
-    "department": "Computer Application",
-    "title": "B.Sc Computer Science",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Sc Computer Science offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "GEN_B_SC___HONS___IT",
-    "department": "Computer Application",
-    "title": "B.Sc. (Hons.) IT",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Sc. (Hons.) IT offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "GEN_B_SC_IT",
-    "department": "Computer Application",
-    "title": "B.Sc IT",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Sc IT offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "GEN_B_SC",
-    "department": "Computer Application",
-    "title": "B.Sc",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Sc offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "GEN_B_SC_IT_INDUSTRY_INTEGRATED",
-    "department": "Computer Application",
-    "title": "B.Sc IT Industry Integrated",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Sc IT Industry Integrated offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "GEN_M_SC_IT",
-    "department": "Computer Application",
-    "title": "M.Sc IT",
-    "level": "PG",
-    "duration": "2 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "M.Sc IT offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
+
+
   {
     "code": "MBA_BBA",
     "department": "Management",
@@ -1029,123 +939,122 @@
     ],
     "description": "MBA with specialization in Sports Management provides comprehensive management education covering finance, marketing, operations, and strategy. Students develop leadership skills, business acumen, and strategic thinking through case studies, industry projects, and internships."
   },
-  {
-    "code": "DESIGN_M_DES",
-    "department": "Design",
+  { "code": "DESIGN_M_DES",
+   "department": "Design",
     "title": "M.Des",
-    "level": "PG",
-    "duration": "2 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "M.Des offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
+     "level": "PG",
+      "duration": "2 Years",
+       "bullets": [
+         "Design research and innovation",
+          "Studio projects and industry exposure",
+           "Thesis and portfolio development" ],
+            "description": "A two-year postgraduate design program that develops advanced creative, strategic and research skills across diverse design disciplines. Students engage in design thinking, innovation, industry collaborations and studio-based learning while building a strong professional portfolio through research projects and a final thesis, preparing them for leadership roles in design, innovation and creative industries." 
+          },
   {
-    "code": "DESIGN_M_DES_DESIGN_FUTURES",
-    "department": "Design",
-    "title": "M.Des Design Futures",
-    "level": "PG",
-    "duration": "2 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "M.Des Design Futures offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "DESIGN_M_DES_GRAPHIC___VISUAL_COMMUNICATION_DESIGN",
-    "department": "Design",
-    "title": "M.Des Graphic & Visual Communication Design",
-    "level": "PG",
-    "duration": "2 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "M.Des Graphic & Visual Communication Design offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "DESIGN_M_DES_INDUSTRIAL_PRODUCT_DESIGN",
-    "department": "Design",
-    "title": "M.Des Industrial Product Design",
-    "level": "PG",
-    "duration": "2 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "M.Des Industrial Product Design offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "DESIGN_M_DES_USER_EXPERIENCE___INTERACTION_DESIGN",
-    "department": "Design",
-    "title": "M.Des User Experience & Interaction Design",
-    "level": "PG",
-    "duration": "2 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "M.Des User Experience & Interaction Design offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "DESIGN_B_DES_ANIMATION___GAME_DESIGN",
-    "department": "Design",
-    "title": "B.Des Animation & Game Design",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Des Animation & Game Design offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "DESIGN_B_DES_GRAPHIC___VISUAL_COMMUNICATION_DESIGN",
-    "department": "Design",
-    "title": "B.Des Graphic & Visual Communication Design",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Des Graphic & Visual Communication Design offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "DESIGN_B_DES_INDUSTRIAL_PRODUCT_DESIGN",
-    "department": "Design",
-    "title": "B.Des Industrial Product Design",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Des Industrial Product Design offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
-  {
-    "code": "DESIGN_B_DES_USER_EXPERIENCE___INTERACTION_DESIGN",
-    "department": "Design",
-    "title": "B.Des User Experience & Interaction Design",
-    "level": "UG",
-    "duration": "3 Years",
-    "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
-    ],
-    "description": "B.Des User Experience & Interaction Design offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
-  },
+"code": "DESIGN_M_DES_DESIGN_FUTURES",
+"department": "Design",
+"title": "M.Des Design Futures",
+"level": "PG",
+"duration": "2 Years",
+"bullets": [
+"Design strategy and futures thinking",
+"Speculative design and systems thinking",
+"Research lab and capstone project"
+],
+"description": "A two-year postgraduate program for designers who want to shape what comes next, not just execute briefs. You study futures thinking, design strategy, speculative design and emerging technologies, preparing for leadership and strategy roles across design, innovation and research."
+},
+{
+"code": "DESIGN_M_DES_GRAPHIC___VISUAL_COMMUNICATION_DESIGN",
+"department": "Design",
+"title": "M.Des Graphic & Visual Communication Design",
+"level": "PG",
+"duration": "2 Years",
+"bullets": [
+"Advanced visual communication and branding",
+"Research-driven design and strategy",
+"Thesis project and industry collaboration"
+],
+"description": "A two-year postgraduate program that deepens visual communication into strategy and research. You explore advanced branding, typography, motion and data storytelling through a research-led curriculum and thesis, preparing for senior roles in design direction, brand strategy and visual communication."
+},
+{
+"code": "DESIGN_M_DES_INDUSTRIAL_PRODUCT_DESIGN",
+"department": "Design",
+"title": "M.Des Industrial Product Design",
+"level": "PG",
+"duration": "2 Years",
+"bullets": [
+"Advanced product design and innovation",
+"Sustainable materials and manufacturing",
+"Research, prototyping and thesis project"
+],
+"description": "A two-year postgraduate program for designers advancing into complex product and systems design. You combine advanced prototyping, sustainable materials and design innovation with research and a thesis, preparing for leadership roles in product design, R&D and design consulting."
+},
+{
+"code": "DESIGN_M_DES_USER_EXPERIENCE___INTERACTION_DESIGN",
+"department": "Design",
+"title": "M.Des User Experience & Interaction Design",
+"level": "PG",
+"duration": "2 Years",
+"bullets": [
+"Advanced UX research and strategy",
+"Interaction design and emerging tech",
+"Research, prototyping and thesis project"
+],
+"description": "A two-year postgraduate program for designers moving into UX leadership and research. You go deeper into user research, interaction design, design strategy and emerging technologies, preparing for senior roles as a UX lead, product designer or design researcher."
+},
+{
+"code": "DESIGN_B_DES_ANIMATION___GAME_DESIGN",
+"department": "Design",
+"title": "B.Des Animation & Game Design",
+"level": "UG",
+"duration": "4 Years",
+"bullets": [
+"2D, 3D animation and game design",
+"Character design and storytelling",
+"Production studios and live projects"
+],
+"description": "A four-year program for storytellers who want to build worlds in animation and games. You learn 2D and 3D animation, character design, game development and visual storytelling in production studios, preparing you for careers in animation, gaming and visual effects."
+},
+{
+"code": "DESIGN_B_DES_GRAPHIC___VISUAL_COMMUNICATION_DESIGN",
+"department": "Design",
+"title": "B.Des Graphic & Visual Communication Design",
+"level": "UG",
+"duration": "4 Years",
+"bullets": [
+"Typography, branding and visual identity",
+"Motion graphics and digital media",
+"Industry studios and live projects"
+],
+"description": "A four-year undergraduate design program that trains you to build brands and tell stories through visuals. You learn typography, branding, illustration, motion graphics and digital media in well-equipped studios, graduating ready for roles in graphic design, advertising, branding and visual communication."
+},
+{
+"code": "DESIGN_B_DES_INDUSTRIAL_PRODUCT_DESIGN",
+"department": "Design",
+"title": "B.Des Industrial Product Design",
+"level": "UG",
+"duration": "4 Years",
+"bullets": [
+"Product design and prototyping",
+"CAD, materials and manufacturing",
+"Workshops, labs and live projects"
+],
+"description": "A four-year program focused on designing physical products that are useful, sustainable and well made. You move from sketching and CAD to prototyping in dedicated workshops and fabrication labs, building the skills for careers in product design, manufacturing and design studios."
+},
+{
+"code": "DESIGN_B_DES_USER_EXPERIENCE___INTERACTION_DESIGN",
+"department": "Design",
+"title": "B.Des User Experience & Interaction Design",
+"level": "UG",
+"duration": "4 Years",
+"bullets": [
+"UX research and interaction design",
+"Wireframing, prototyping and usability",
+"Live projects in the usability lab"
+],
+"description": "A four-year program built for the digital product economy, covering UX research, interaction design, wireframing and prototyping. You test ideas in a dedicated usability lab and work on live projects, graduating ready for roles as a UX, UI or interaction designer."
+}
+,
   {
     "code": "GEN_B_SC_CLINICAL_PSYCHOLOGY",
     "department": "Paramedical",
@@ -1328,31 +1237,33 @@
     ],
     "description": "B.Sc Nursing offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
   },
+
+
   {
     "code": "LAW_BA_LLB__HONS__",
     "department": "Law",
     "title": "BA LLB (Hons.)",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "5 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Integrated law and humanities",
+      "Bar Council approved degree",
+      "Court visits and internships"
     ],
-    "description": "BA LLB (Hons.) offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "BA LLB (Hons.) is a five-year integrated law program that combines legal education with humanities and social sciences. Students gain a strong foundation in constitutional law, criminal law, civil law and legal research through practical exposure, moot courts and internships."
   },
   {
     "code": "LAW_BBA_LLB__HONS__",
     "department": "Law",
     "title": "BBA LLB (Hons.)",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "5 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Law with business studies",
+      "Corporate law exposure",
+      "Moot courts and internships"
     ],
-    "description": "BBA LLB (Hons.) offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "BBA LLB (Hons.) integrates legal studies with business administration to prepare students for careers in corporate law, legal consulting and business governance. The program combines legal theory with practical learning through moot courts, internships and industry interaction."
   },
   {
     "code": "LAW_LLB__HONS__",
@@ -1361,25 +1272,26 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Three-year honours law degree",
+      "Bar Council approved curriculum",
+      "Legal research and practice"
     ],
-    "description": "LLB (Hons.) offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "LLB (Hons.) is a three-year law degree designed for graduates who wish to pursue a legal career. The program develops expertise in constitutional law, criminal law, civil law, legal drafting and advocacy while providing practical exposure through moot courts and internships."
   },
   {
     "code": "LAW_LLM",
     "department": "Law",
     "title": "LLM",
     "level": "PG",
-    "duration": "2 Years",
+    "duration": "1 Year",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Advanced legal specialization",
+      "Research and dissertation focus",
+      "Five industry-relevant specializations"
     ],
-    "description": "LLM offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "LLM is a one-year postgraduate law program for graduates seeking advanced legal expertise. Students can specialize in Intellectual Property and Technology Law, International Investment and Commercial Arbitration, Environmental Law and Climate Justice, Construction Law and Practice, or Constitutional Law and Governance while engaging in advanced legal research and dissertation work."
   },
+
   {
 "code": "COM_B_COM__HONS__",
 "department": "Commerce",
@@ -1590,18 +1502,18 @@
     ],
     "description": "MHM is a postgraduate program that focuses on advanced hospitality management, strategic operations, leadership, and global hospitality trends. It prepares students for managerial and leadership roles in hotels, resorts, airlines, and international tourism organizations."
   },
-    {
+  {
     "code": "GEN_B_SC__HONS___BIOTECHNOLOGY",
     "department": "Biosciences",
     "title": "B.Sc (Hons.) Biotechnology",
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Cell biology, genetics and microbiology",
+      "Molecular biology and lab techniques",
+      "Research project and industry exposure"
     ],
-    "description": "B.Sc (Hons.) Biotechnology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year honours science degree exploring how living systems can be engineered for medicine, agriculture and industry. You build strong lab skills in genetics, molecular biology and microbiology and complete a research project, preparing for roles in biotech, pharma, research labs and higher studies."
   },
   {
     "code": "GEN_B_SC__HONS___FORENSIC_SCIENCE",
@@ -1610,11 +1522,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Crime scene investigation and analysis",
+      "Forensic biology, chemistry and toxicology",
+      "Lab practice and case-based projects"
     ],
-    "description": "B.Sc (Hons.) Forensic Science offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year honours degree that applies science to criminal investigation. You learn evidence collection, forensic biology, chemistry, toxicology and document examination in dedicated labs, preparing for careers in forensic laboratories, law enforcement support and investigative agencies."
   },
   {
     "code": "GEN_M_SC_BIOINFORMATICS",
@@ -1623,11 +1535,11 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Genomics, proteomics and data analysis",
+      "Computational biology and programming",
+      "Research, dissertation and lab projects"
     ],
-    "description": "M.Sc Bioinformatics offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A two-year postgraduate program at the meeting point of biology and computing. You learn to analyse genomic and biological data using programming and computational tools, completing a research dissertation that prepares you for roles in genomics, pharma, biotech analytics and research."
   },
   {
     "code": "GEN_M_SC_BIOTECHNOLOGY",
@@ -1636,11 +1548,11 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Advanced molecular biology and genomics",
+      "Bioprocessing and recombinant technology",
+      "Research, dissertation and lab training"
     ],
-    "description": "M.Sc Biotechnology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A two-year postgraduate program that deepens expertise in molecular biology, genomics and bioprocessing. Through advanced lab work and a research dissertation, you prepare for careers in biotechnology research, pharmaceuticals, R&D and doctoral study."
   },
   {
     "code": "GEN_B_SC__HONS___MICROBIOLOGY",
@@ -1649,11 +1561,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Advanced microbiology and immunology",
+      "Molecular and industrial microbiology",
+      "Research project and lab specialization"
     ],
-    "description": "B.Sc (Hons.) Microbiology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year honours degree that takes microbiology deeper into molecular, medical and industrial applications. With advanced lab training and a research project, you prepare for specialised roles in research, diagnostics, biotech and pharmaceutical industries."
   },
   {
     "code": "GEN_B_SC_MICROBIOLOGY",
@@ -1662,11 +1574,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Bacteriology, virology and immunology",
+      "Microbial techniques and lab practice",
+      "Foundations for healthcare and research"
     ],
-    "description": "B.Sc Microbiology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year science degree exploring microorganisms and their role in health, industry and the environment. You gain hands-on skills in microbial culture, staining and analysis, building a foundation for careers in diagnostics, food and pharma industries, and further study."
   },
   {
     "code": "GEN_M_SC_MICROBIOLOGY",
@@ -1675,11 +1587,11 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Advanced medical and industrial microbiology",
+      "Molecular techniques and bioinformatics",
+      "Research, dissertation and lab training"
     ],
-    "description": "M.Sc Microbiology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A two-year postgraduate program covering medical, industrial and environmental microbiology in depth. Through advanced techniques and a research dissertation, you prepare for careers in research labs, healthcare, food and pharma industries, and doctoral study."
   },
   {
     "code": "GEN_B_SC_FOOD_TECHNOLOGY",
@@ -1688,11 +1600,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Food chemistry, processing and safety",
+      "Quality control and preservation",
+      "Lab practice and industry exposure"
     ],
-    "description": "B.Sc Food Technology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year science degree covering how food is processed, preserved and kept safe. You gain practical skills in food chemistry, quality control and processing technology, preparing for roles in the food and beverage industry, quality assurance and product development."
   },
   {
     "code": "GEN_B_SC__HONS___FOOD_TECHNOLOGY",
@@ -1701,11 +1613,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Advanced food processing and engineering",
+      "Food safety, quality and packaging",
+      "Research project and industry training"
     ],
-    "description": "B.Sc (Hons.) Food Technology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year honours degree that takes food technology deeper into processing engineering, safety systems and product innovation. With a research project and industry exposure, you prepare for specialised roles in food manufacturing, R&D, quality assurance and further study."
   },
   {
     "code": "GEN_B_SC_NUTRITION___DIETETICS",
@@ -1714,11 +1626,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Human nutrition and dietetics",
+      "Diet planning and clinical nutrition",
+      "Practical training and internships"
     ],
-    "description": "B.Sc Nutrition & Dietetics offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year science degree focused on nutrition, health and therapeutic diets. You learn how food supports the body and how to plan diets for different needs, with practical training that prepares you for careers as a nutritionist, dietitian or wellness professional."
   },
   {
     "code": "GEN_B_SC___HONS___NUTRITION___DIETETICS",
@@ -1727,11 +1639,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Advanced clinical and therapeutic nutrition",
+      "Public health and community nutrition",
+      "Research project and clinical internships"
     ],
-    "description": "B.Sc. (Hons.) Nutrition & Dietetics offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year honours degree that deepens the study of clinical, therapeutic and public health nutrition. With a research project and clinical internships, you prepare for specialised roles in hospitals, wellness, the food industry and nutrition research."
   },
   {
     "code": "GEN_M_SC_FOODS___NUTRITION",
@@ -1740,11 +1652,11 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Advanced nutrition science and research",
+      "Clinical, public health and sports nutrition",
+      "Research, dissertation and field work"
     ],
-    "description": "M.Sc Foods & Nutrition offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A two-year postgraduate program advancing expertise across clinical, community and sports nutrition. Through research and a dissertation, you prepare for senior roles in dietetics, public health, the food industry, research and academia."
   },
   {
     "code": "GEN_M_SC_FOOD_TECHNOLOGY",
@@ -1753,11 +1665,11 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Advanced food science and processing",
+      "Food safety, quality and innovation",
+      "Research, dissertation and lab work"
     ],
-    "description": "M.Sc Food Technology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A two-year postgraduate program advancing expertise in food science, processing and safety. Through research and a dissertation, you prepare for senior roles in food manufacturing, R&D, quality management and the wider food and beverage industry."
   },
   {
     "code": "GEN_M_SC_CHEMISTRY",
@@ -1766,11 +1678,11 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Specialization in organic or inorganic chemistry",
+      "Advanced analytical and lab techniques",
+      "Research, dissertation and instrumentation"
     ],
-    "description": "M.Sc Chemistry offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A two-year postgraduate program with specialization in organic or inorganic chemistry. You gain advanced analytical and instrumentation skills and complete a research dissertation, preparing for careers in chemical and pharma industries, research labs, quality control and doctoral study."
   },
   {
     "code": "GEN_M_SC_EVS",
@@ -1779,11 +1691,11 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Ecology, pollution and climate science",
+      "Environmental monitoring and assessment",
+      "Research, fieldwork and dissertation"
     ],
-    "description": "M.Sc EVS offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A two-year postgraduate program on the science of environmental systems and sustainability. You study ecology, pollution control, climate and environmental management with fieldwork and research, preparing for roles in environmental consulting, regulatory bodies, NGOs and research."
   },
   {
     "code": "GEN_B_SC_GEOLOGY",
@@ -1792,11 +1704,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Earth processes, minerals and rocks",
+      "Structural and field geology",
+      "Fieldwork and lab practice"
     ],
-    "description": "B.Sc Geology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year science degree exploring the Earth, its materials and processes. You study minerals, rocks, structures and surface processes with regular fieldwork, building a foundation for careers in mining, groundwater, environment and geological surveys."
   },
   {
     "code": "GEN_B_SC__HONS___GEOLOGY",
@@ -1805,11 +1717,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Advanced geology and earth sciences",
+      "Petrology, structural geology and remote sensing",
+      "Research project and field training"
     ],
-    "description": "B.Sc (Hons.) Geology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year honours degree that takes geology deeper into petrology, structural geology and remote sensing. With a research project and extensive fieldwork, you prepare for specialised roles in mineral exploration, hydrogeology, environment and further study."
   },
   {
     "code": "GEN_M_SC_APPLIED_GEOLOGY",
@@ -1818,11 +1730,11 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Advanced applied and economic geology",
+      "Hydrogeology, remote sensing and GIS",
+      "Research, fieldwork and dissertation"
     ],
-    "description": "M.Sc Applied Geology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A two-year postgraduate program focused on the applied side of earth science, from mineral and groundwater exploration to remote sensing and GIS. Through fieldwork and a research dissertation, you prepare for careers in mining, oil and gas, hydrogeology, environment and geological surveys."
   },
   {
     "code": "GEN_B_A___HONS___ECONOMICS",
@@ -1831,11 +1743,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Micro, macro and development economics",
+      "Statistics, econometrics and data",
+      "Research project and analytical training"
     ],
-    "description": "B.A. (Hons.) Economics offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year honours degree building strong foundations in economic theory, data and policy. You study micro, macro and development economics alongside statistics and econometrics, preparing for careers in banking, analytics, policy, civil services and postgraduate study."
   },
   {
     "code": "GEN_B_A___HONS___ENGLISH",
@@ -1844,11 +1756,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "British, Indian and world literature",
+      "Literary theory and critical writing",
+      "Communication and language skills"
     ],
-    "description": "B.A. (Hons.) English offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year honours degree exploring literature, language and critical thinking across periods and cultures. You develop strong reading, writing and analytical skills, preparing for careers in content, media, publishing, teaching, civil services and postgraduate study."
   },
   {
     "code": "GEN_B_A___HONS___PSYCHOLOGY",
@@ -1857,11 +1769,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Cognitive, social and developmental psychology",
+      "Psychological testing and research methods",
+      "Practical labs and case studies"
     ],
-    "description": "B.A. (Hons.) Psychology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year honours degree exploring the science of mind and behaviour. You study cognitive, social and developmental psychology with practical labs and research methods, preparing for careers in counselling, HR, research and postgraduate study in psychology."
   },
   {
     "code": "GEN_B_A___HONS___POLITICAL_SCIENCE",
@@ -1870,11 +1782,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Political theory and Indian government",
+      "International relations and public policy",
+      "Research and analytical training"
     ],
-    "description": "B.A. (Hons.) Political Science offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year honours degree covering political theory, governance, international relations and public policy. You build strong analytical and writing skills, preparing for careers in civil services, law, journalism, policy, research and postgraduate study."
   },
   {
     "code": "GEN_B_A___HONS___SOCIOLOGY",
@@ -1883,11 +1795,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Society, culture and social theory",
+      "Research methods and fieldwork",
+      "Social analysis and writing skills"
     ],
-    "description": "B.A. (Hons.) Sociology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year honours degree examining how societies, cultures and institutions work. You learn social theory and research methods with fieldwork, preparing for careers in social research, development, civil services, HR, media and postgraduate study."
   },
   {
     "code": "GEN_B_A_",
@@ -1896,11 +1808,11 @@
     "level": "UG",
     "duration": "3 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Choose from arts and humanities subjects",
+      "Literature, social sciences and languages",
+      "Communication and analytical skills"
     ],
-    "description": "B.A. offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A three-year undergraduate degree offering a broad foundation across the arts and humanities. You combine subjects such as English, economics, political science and sociology while building strong communication and analytical skills, opening paths to civil services, media, teaching, management and postgraduate study."
   },
   {
     "code": "GEN_M_A__APPLIED_PSYCHOLOGY",
@@ -1909,11 +1821,11 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Clinical, counselling and organizational psychology",
+      "Psychological assessment and therapy basics",
+      "Research, practicum and dissertation"
     ],
-    "description": "M.A. Applied Psychology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A two-year postgraduate program applying psychology to real settings, from clinical and counselling to organisational contexts. With practicum training and a research dissertation, you prepare for roles in counselling, mental health, human resources, research and academia."
   },
   {
     "code": "GEN_M_A__SOCIOLOGY",
@@ -1922,11 +1834,11 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Advanced social theory and research",
+      "Fieldwork and qualitative methods",
+      "Research, dissertation and analysis"
     ],
-    "description": "M.A. Sociology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A two-year postgraduate program advancing social theory and research methodology. Through fieldwork and a dissertation, you prepare for careers in social research, policy, development organisations, academia and the public sector."
   },
   {
     "code": "GEN_M_A__ENGLISH",
@@ -1935,11 +1847,11 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Advanced literary studies and theory",
+      "Comparative and postcolonial literature",
+      "Research, dissertation and criticism"
     ],
-    "description": "M.A. English offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A two-year postgraduate program advancing the study of literature, theory and criticism. Through research and a dissertation, you prepare for careers in academia, writing, media, publishing, teaching and the wider creative and knowledge industries."
   },
   {
     "code": "GEN_M_A__ECONOMICS",
@@ -1948,11 +1860,11 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Advanced economic theory and policy",
+      "Econometrics and quantitative methods",
+      "Research, dissertation and analysis"
     ],
-    "description": "M.A. Economics offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A two-year postgraduate program deepening economic theory, quantitative methods and policy analysis. Through research and a dissertation, you prepare for careers in economics, banking, research, public policy, analytics and academia."
   },
   {
     "code": "GEN_M_A__POLITICAL_SCIENCE",
@@ -1961,10 +1873,10 @@
     "level": "PG",
     "duration": "2 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Advanced political theory and governance",
+      "International relations and public policy",
+      "Research, dissertation and analysis"
     ],
-    "description": "M.A. Political Science offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "A two-year postgraduate program deepening political theory, governance and international relations. Through research and a dissertation, you prepare for careers in civil services, policy research, academia, journalism and the development sector."
   }
 ]
