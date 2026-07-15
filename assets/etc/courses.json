@@ -1055,187 +1055,189 @@
 "description": "A four-year program built for the digital product economy, covering UX research, interaction design, wireframing and prototyping. You test ideas in a dedicated usability lab and work on live projects, graduating ready for roles as a UX, UI or interaction designer."
 }
 ,
+  
   {
     "code": "GEN_B_SC_CLINICAL_PSYCHOLOGY",
     "department": "Paramedical",
     "title": "B.Sc Clinical Psychology",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "3.5 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Study of psychological assessment, mental health disorders and evidence-based therapy approaches",
+      "Practical training in counselling, psychometric testing and clinical case management",
+      "Careers in hospitals, mental health clinics, rehabilitation centres and corporate wellness"
     ],
-    "description": "B.Sc Clinical Psychology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "B.Sc Clinical Psychology is a 3.5-year undergraduate program covering the foundations of psychological science, abnormal psychology, psychodiagnostics, and therapeutic interventions. Students gain practical exposure through clinical placements, preparing them for careers in hospitals, psychiatric units, counselling centres, and as a foundation for M.Sc and postgraduate clinical training."
   },
   {
     "code": "GEN_B_SC_ANAESTHESIA_TECHNOLOGY",
     "department": "Paramedical",
     "title": "B.Sc Anaesthesia Technology",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "3.5 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Training in anaesthesia equipment, drug protocols, airway management and patient monitoring",
+      "Clinical practice in operation theatres alongside anaesthesiologists",
+      "Careers as anaesthesia technicians in hospitals, surgical centres and ICUs"
     ],
-    "description": "B.Sc Anaesthesia Technology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "B.Sc Anaesthesia Technology is a 3.5-year program training students to assist in the administration and monitoring of anaesthesia during surgical procedures. The curriculum covers anaesthetic pharmacology, airway management, patient monitoring systems, and post-operative care, preparing graduates for roles in operation theatres and intensive care settings."
   },
   {
     "code": "GEN_B_SC_RENAL_DIALYSIS",
     "department": "Paramedical",
     "title": "B.Sc Renal Dialysis",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "3.5 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Training in haemodialysis, peritoneal dialysis and renal replacement therapy techniques",
+      "Clinical exposure in dialysis units and nephrology departments of hospitals",
+      "Careers as dialysis technicians in hospitals, kidney care centres and dialysis chains"
     ],
-    "description": "B.Sc Renal Dialysis offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "B.Sc Renal Dialysis Technology is a 3.5-year program focused on the care of patients with chronic kidney disease and renal failure. Students learn haemodialysis procedures, water treatment systems, vascular access management, and patient monitoring, preparing them for careers in hospital dialysis units and kidney care centres."
   },
   {
     "code": "GEN_B_SC_CRITICAL_CARE",
     "department": "Paramedical",
     "title": "B.Sc Critical Care",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "3.5 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Training in ICU monitoring, life support systems and critical care patient management",
+      "Hands-on clinical exposure in intensive care and emergency medical units",
+      "Careers in ICUs, trauma centres, emergency departments and critical care hospitals"
     ],
-    "description": "B.Sc Critical Care offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "B.Sc Critical Care Technology is a 3.5-year program equipping students with the skills to manage critically ill patients in intensive care settings. The curriculum covers hemodynamic monitoring, ventilator management, cardiac support devices, and emergency protocols, preparing graduates for roles as critical care technicians in hospitals and trauma centres."
   },
   {
     "code": "GEN_B_SC_RESPIRATORY_THERAPY",
     "department": "Paramedical",
     "title": "B.Sc Respiratory Therapy",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "3.5 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Mechanical ventilation, pulmonary diagnostics and critical care respiratory support",
+      "Clinical practice in ICUs, pulmonology wards and emergency respiratory care settings",
+      "Careers as respiratory therapists in hospitals, ICUs and pulmonary rehabilitation centres"
     ],
-    "description": "B.Sc Respiratory Therapy offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "B.Sc Respiratory Therapy is a 3.5-year program training students in the assessment and treatment of patients with breathing disorders. The curriculum covers mechanical ventilation, pulmonary function testing, oxygen therapy, and critical care management, preparing graduates for roles in ICUs, emergency departments, and pulmonary clinics."
   },
   {
     "code": "GEN_BPH",
     "department": "Paramedical",
     "title": "BPH",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "3.5 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Epidemiology, disease prevention, health policy and community health management",
+      "Field training in public health programmes, rural health delivery",
+      "Careers in health departments, NGOs, WHO and health agencies"
     ],
-    "description": "BPH offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "BPH is a 3.5-year undergraduate program in public health sciences, covering epidemiology, health economics, environmental health, biostatistics, and healthcare management. Graduates are equipped to work in government health departments, international health organisations, NGOs, community health centres, and policy research institutions."
   },
   {
     "code": "GEN_B_SC_CARDIAC_PERFUSION_TECHNOLOGY",
     "department": "Paramedical",
     "title": "B.Sc Cardiac Perfusion Technology",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "3.5 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Training in heart-lung machine operation, cardiopulmonary bypass and cardiac surgery support",
+      "Clinical exposure in cardiac operation theatres alongside cardiac surgeons and anaesthesiologists",
+      "Careers as clinical perfusionists in cardiac hospitals and cardiovascular surgery centres"
     ],
-    "description": "B.Sc Cardiac Perfusion Technology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "B.Sc Cardiac Perfusion Technology is a 3.5-year program focused on the operation of heart-lung bypass machines and life-support systems during open-heart surgery. Students train in cardiovascular physiology, perfusion techniques, and intraoperative monitoring, preparing for careers as certified clinical perfusionists in cardiac surgery teams."
   },
   {
     "code": "GEN_B_SC_OPTOMETRY",
     "department": "Paramedical",
     "title": "B.Sc Optometry",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "3.5 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Study of vision science, ocular anatomy, refraction and eye disease management",
+      "Clinical training in refraction, contact lens fitting and low-vision assessment",
+      "Careers as optometrists in hospitals, eye clinics and optical retail chains"
     ],
-    "description": "B.Sc Optometry offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "B.Sc Optometry is a 3.5-year program in vision care and eye health, covering ocular anatomy, visual optics, refraction, contact lens practice, and detection of eye disorders. Graduates practice as optometrists in eye hospitals, ophthalmology departments, community vision centres, and optical chains across India."
   },
   {
     "code": "GEN_B_SC_MEDICAL_MICROBIOLOGY",
     "department": "Paramedical",
     "title": "B.Sc Medical Microbiology",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "3.5 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Study of bacteria, viruses, fungi and parasites in clinical and research contexts",
+      "Laboratory training in culture techniques, diagnostics and infection control",
+      "Careers in diagnostic labs, pharmaceutical research, public health and hospitals"
     ],
-    "description": "B.Sc Medical Microbiology offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "B.Sc Medical Microbiology is a 3.5-year undergraduate program focused on the identification and study of disease-causing microorganisms. Students gain practical skills in microbial culture, diagnostic testing, and infection surveillance, preparing them for roles in clinical labs, pharmaceutical companies, research institutes, and public health agencies."
   },
   {
     "code": "GEN_B_SC_OPERATION_THEATRE",
     "department": "Paramedical",
-    "title": "B.Sc Operation Theatre",
+    "title": "B.Sc Operation Theatre Technology",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "3.5 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Training in surgical instrumentation, sterilisation, anaesthesia support and OT management",
+      "Hands-on clinical practice in live operation theatre environments",
+      "Careers as operation theatre technicians in hospitals and surgical centres"
     ],
-    "description": "B.Sc Operation Theatre offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "B.Sc Operation Theatre Technology is a 3.5-year program preparing students for roles in surgical and perioperative care. The curriculum covers OT setup, sterilisation protocols, surgical instrumentation, anaesthesia assistance, and patient safety, equipping graduates for careers in hospitals, nursing homes, and day-care surgical units."
   },
   {
     "code": "GEN_BMLT",
     "department": "Paramedical",
     "title": "BMLT",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "3.5 Years",
     "bullets": [
-      "Advanced AI and machine learning algorithms",
-      "Deep learning and neural networks",
-      "Industry projects and hands-on labs"
+      "Diagnostic lab techniques: haematology, microbiology, biochemistry and pathology",
+      "Practice in clinical laboratory settings with modern diagnostic equipment",
+      "Careers in hospitals, diagnostic centres, blood banks and research labs"
     ],
-    "description": "BMLT focuses on cutting-edge artificial intelligence and machine learning technologies. Students learn deep learning, neural networks, computer vision, NLP, and AI ethics. The program includes hands-on projects, industry collaborations, and exposure to real-world AI applications in various domains."
+    "description": "BMLT is a 3.5-year undergraduate program in medical laboratory technology, training students in diagnostic procedures across haematology, biochemistry, microbiology, and clinical pathology. Graduates are equipped to work in hospital labs, diagnostic centres, blood banks, and public health laboratories across India and abroad."
   },
   {
     "code": "GEN_BMRIT",
     "department": "Paramedical",
     "title": "BMRIT",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "3.5 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Training in X-ray, MRI, CT scan, ultrasound and nuclear imaging techniques",
+      "Hands-on clinical exposure with modern radiology and diagnostic imaging equipment",
+      "Careers in hospitals, radiology departments, diagnostic labs and imaging centres"
     ],
-    "description": "BMRIT offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "BMRIT is a 3.5-year program in medical radiology and imaging technology, covering radiographic procedures, MRI, CT scanning, ultrasound, and radiation safety. Graduates work as radiologic technologists in hospitals, diagnostic imaging centres, and nuclear medicine departments."
   },
   {
     "code": "GEN_BPT",
     "department": "Paramedical",
     "title": "BPT",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "4.5 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Training in musculoskeletal, neurological, cardiopulmonary and sports physiotherapy",
+      "Supervised clinical internships in hospitals, rehabilitation units and sports injury clinics",
+      "Careers as physiotherapists in hospitals, sports teams, geriatric care and private practice"
     ],
-    "description": "BPT offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "BPT is a 4.5-year undergraduate program including a 6-month compulsory internship, covering the full spectrum of physiotherapy practice—musculoskeletal rehabilitation, neurological physiotherapy, paediatric care, and sports injury management. Graduates practice as registered physiotherapists in hospitals, rehabilitation centres, sports academies, and community health settings."
   },
+
   {
     "code": "GEN_B_SC_NURSING",
     "department": "Nursing",
     "title": "B.Sc Nursing",
     "level": "UG",
-    "duration": "3 Years",
+    "duration": "4 Years",
     "bullets": [
-      "Comprehensive curriculum",
-      "Experienced faculty and mentorship",
-      "Career development opportunities"
+      "Covering anatomy, physiology, pharmacology and community health",
+      "Hands-on clinical training in hospitals and healthcare settings",
+      "Prepares graduates for nursing careers in government hospitals, private healthcare and abroad"
     ],
-    "description": "B.Sc Nursing offers quality education with focus on both theoretical knowledge and practical skills. The program prepares students for successful careers through industry exposure, internships, and placement support."
+    "description": "B.Sc Nursing is a 4-year undergraduate program combining theoretical nursing science with extensive clinical training. Students gain hands-on experience in patient care, midwifery, community health nursing, and medical-surgical practice, preparing them for careers in government hospitals, private healthcare, and international nursing roles."
   },
 
 
