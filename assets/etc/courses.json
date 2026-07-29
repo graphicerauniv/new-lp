@@ -1055,6 +1055,73 @@
 "description": "A four-year program built for the digital product economy, covering UX research, interaction design, wireframing and prototyping. You test ideas in a dedicated usability lab and work on live projects, graduating ready for roles as a UX, UI or interaction designer."
 }
 ,
+
+  {
+    "code": "DESIGN_BSC_HONS_ANIMATION_AND_VFX_DESIGN",
+    "department": "Design",
+    "title": "B.Sc. (Hons.) Animation and VFX Design",
+    "level": "UG",
+    "duration": "3 Years (4th Year Optional)",
+    "bullets": [
+      "2D, 3D animation and VFX production",
+      "Motion graphics and industry-standard pipelines",
+      "Studio projects for film, gaming and digital media"
+    ],
+    "description": "A three-year honours program with an optional fourth year that combines creative storytelling with technical animation skills. You learn 2D and 3D animation, visual effects, motion graphics and post-production through hands-on studio projects, preparing for careers in film, gaming, animation studios and digital media."
+  },
+  {
+    "code": "DESIGN_BSC_HONS_GRAPHIC_AND_INTERACTION_DESIGN",
+    "department": "Design",
+    "title": "B.Sc. (Hons.) Graphic and Interaction Design",
+    "level": "UG",
+    "duration": "3 Years (4th Year Optional)",
+    "bullets": [
+      "Visual communication, branding and UI/UX",
+      "Typography and interactive media design",
+      "Portfolio-driven projects for design agencies"
+    ],
+    "description": "A three-year honours program with an optional fourth year that develops expertise in visual storytelling, branding and interaction design. You build practical skills in typography, user experience and digital design while creating a professional portfolio for careers in branding, design agencies and interactive media."
+  },
+  {
+    "code": "DESIGN_BSC_HONS_PRODUCT_AND_INTERIOR_DESIGN",
+    "department": "Design",
+    "title": "B.Sc. (Hons.) Product and Interior Design",
+    "level": "UG",
+    "duration": "3 Years (4th Year Optional)",
+    "bullets": [
+      "Product design and interior planning",
+      "Sketching, 3D modeling and material studies",
+      "Design studios and practical workshops"
+    ],
+    "description": "A three-year honours program with an optional fourth year focused on designing functional products and inspiring interior spaces. You gain hands-on experience in sketching, 3D modeling, material exploration and design thinking, preparing for careers in product and interior design."
+  },
+  {
+    "code": "DESIGN_MSC_GRAPHIC_AND_INTERACTION_DESIGN",
+    "department": "Design",
+    "title": "M.Sc. Graphic and Interaction Design",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Advanced UI/UX and brand strategy",
+      "Research-driven design and industry projects",
+      "Leadership skills for UX and design roles"
+    ],
+    "description": "A two-year postgraduate program that advances your expertise in interaction design, branding and user experience. Through research-led learning and industry-aligned projects, you develop the strategic and creative skills needed for leadership roles in UX research, branding and digital design."
+  },
+  {
+    "code": "DESIGN_MSC_PRODUCT_AND_INTERIOR_DESIGN",
+    "department": "Design",
+    "title": "M.Sc. Product and Interior Design",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Product innovation and spatial design",
+      "Prototyping, research and industry collaboration",
+      "Advanced studio practice and leadership"
+    ],
+    "description": "A two-year postgraduate program that deepens your knowledge of product development and interior design through advanced design theory, prototyping and collaborative studio practice. You graduate prepared for specialized and leadership roles across product design, interior design and innovation-focused industries."
+  },
+
   
   {
     "code": "GEN_B_SC_CLINICAL_PSYCHOLOGY",
