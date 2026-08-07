@@ -1947,5 +1947,85 @@
       "Research, dissertation and analysis"
     ],
     "description": "A two-year postgraduate program deepening political theory, governance and international relations. Through research and a dissertation, you prepare for careers in civil services, policy research, academia, journalism and the development sector."
-  }
+  },
+  {
+    "code": "GEN_B_SC_NURSING_INTERNATIONAL",
+    "department": "International",
+    "title": "B.Sc Nursing",
+    "level": "UG",
+    "duration": "4 Years",
+    "bullets": [
+      "Covering anatomy, physiology, pharmacology and community health",
+      "Hands-on clinical training in hospitals and healthcare settings",
+      "Prepares graduates for nursing careers in government hospitals, private healthcare and abroad"
+    ],
+    "description": "B.Sc Nursing is a 4-year undergraduate program combining theoretical nursing science with extensive clinical training. Students gain hands-on experience in patient care, midwifery, community health nursing, and medical-surgical practice, preparing them for careers in government hospitals, private healthcare, and international nursing roles."
+  },
+   {
+    "code": "GEN_BMLT_INTERNATIONAL",
+    "department": "International",
+    "title": "Bachelor of Medical Laboratory Technology (BMLT)",
+    "level": "UG",
+    "duration": "3.5 Years",
+    "bullets": [
+      "Diagnostic lab techniques: haematology, microbiology, biochemistry and pathology",
+      "Practice in clinical laboratory settings with modern diagnostic equipment",
+      "Careers in hospitals, diagnostic centres, blood banks and research labs"
+    ],
+    "description": "BMLT is a 3.5-year undergraduate program in medical laboratory technology, training students in diagnostic procedures across haematology, biochemistry, microbiology, and clinical pathology. Graduates are equipped to work in hospital labs, diagnostic centres, blood banks, and public health laboratories across India and abroad."
+  },
+  {
+    "code": "GEN_BMRIT_INTERNATIONAL",
+    "department": "International",
+    "title": "Bachelor of Medical Radiotherapy Technology (BMRIT)",
+    "level": "UG",
+    "duration": "3.5 Years",
+    "bullets": [
+      "Training in X-ray, MRI, CT scan, ultrasound and nuclear imaging techniques",
+      "Hands-on clinical exposure with modern radiology and diagnostic imaging equipment",
+      "Careers in hospitals, radiology departments, diagnostic labs and imaging centres"
+    ],
+    "description": "BMRIT is a 3.5-year program in medical radiology and imaging technology, covering radiographic procedures, MRI, CT scanning, ultrasound, and radiation safety. Graduates work as radiologic technologists in hospitals, diagnostic imaging centres, and nuclear medicine departments."
+  },
+
+  {
+    "code": "GEN_B_SC_OPERATION_THEATRE_INTERNATIONAL",
+    "department": "International",
+    "title": "B.Sc Operation Theatre",
+    "level": "UG",
+    "duration": "3.5 Years",
+    "bullets": [
+      "Training in surgical instrumentation, sterilisation, anaesthesia support and OT management",
+      "Hands-on clinical practice in live operation theatre environments",
+      "Careers as operation theatre technicians in hospitals and surgical centres"
+    ],
+    "description": "B.Sc Operation Theatre Technology is a 3.5-year program preparing students for roles in surgical and perioperative care. The curriculum covers OT setup, sterilisation protocols, surgical instrumentation, anaesthesia assistance, and patient safety, equipping graduates for careers in hospitals, nursing homes, and day-care surgical units."
+  },
+  {
+    "code": "GEN_BPT_INTERNATIONAL",
+    "department": "International",
+    "title": "Bachelor of Physiotherapy (BPT)",
+    "level": "UG",
+    "duration": "4.5 Years",
+    "bullets": [
+      "Training in musculoskeletal, neurological, cardiopulmonary and sports physiotherapy",
+      "Supervised clinical internships in hospitals, rehabilitation units and sports injury clinics",
+      "Careers as physiotherapists in hospitals, sports teams, geriatric care and private practice"
+    ],
+    "description": "BPT is a 4.5-year undergraduate program including a 6-month compulsory internship, covering the full spectrum of physiotherapy practice—musculoskeletal rehabilitation, neurological physiotherapy, paediatric care, and sports injury management. Graduates practice as registered physiotherapists in hospitals, rehabilitation centres, sports academies, and community health settings."
+  },
+ {
+  "code": "GEN_B_SC_CARDIOVASCULAR_TECHNOLOGY_INTERNATIONAL",
+  "department": "International",
+  "title": "B.Sc Cardiovascular Technology",
+  "level": "UG",
+  "duration": "3.5 Years",
+  "bullets": [
+    "Training in ECG, echocardiography and cardiac diagnostics",
+    "Clinical exposure in cath labs, cardiac ICUs and cardiology departments",
+    "Careers in hospitals, heart institutes and diagnostic centres"
+  ],
+  "description": "B.Sc Cardiovascular Technology is a 3.5-year undergraduate program that prepares students to assist in the diagnosis and treatment of cardiovascular diseases. The curriculum covers cardiac anatomy and physiology, electrocardiography (ECG), echocardiography, stress testing (TMT), cardiac catheterization procedures, and advanced diagnostic techniques. Through extensive clinical training in hospitals and cardiac care centres, students develop the technical expertise required to work alongside cardiologists in delivering high-quality cardiac care. Graduates can pursue rewarding careers as cardiovascular technologists in hospitals, heart institutes, diagnostic centres, and critical care units."
+}
+
 ]
