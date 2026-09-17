@@ -2026,6 +2026,71 @@
     "Careers in hospitals, heart institutes and diagnostic centres"
   ],
   "description": "B.Sc Cardiovascular Technology is a 3.5-year undergraduate program that prepares students to assist in the diagnosis and treatment of cardiovascular diseases. The curriculum covers cardiac anatomy and physiology, electrocardiography (ECG), echocardiography, stress testing (TMT), cardiac catheterization procedures, and advanced diagnostic techniques. Through extensive clinical training in hospitals and cardiac care centres, students develop the technical expertise required to work alongside cardiologists in delivering high-quality cardiac care. Graduates can pursue rewarding careers as cardiovascular technologists in hospitals, heart institutes, diagnostic centres, and critical care units."
-}
+},
+{
+    "code": "GEN_BCA_ONLINE",
+    "department": "Online",
+    "title": "Bachelor of Computer Application (BCA)",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "IT-focused, industry-oriented curriculum",
+      "Live sessions, video lectures and e-books on the LMS",
+      "Eligibility: 10+2 with Mathematics/Statistics"
+    ],
+    "description": "BCA is a three-year undergraduate degree built for a career in information technology. The curriculum is at par with regular programmes and is delivered online with live sessions, video lectures, e-books on the Learning Management System, virtual counselling and help desk support."
+  },
+  {
+    "code": "GEN_BBA_ONLINE",
+    "department": "Online",
+    "title": "Bachelor of Business Administration (BBA)",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Industry-oriented business and management curriculum",
+      "Live online sessions and guest lectures by industry experts",
+      "Eligibility: 10+2 in any stream"
+    ],
+    "description": "BBA is a three-year undergraduate degree that builds the knowledge and skills needed for a career in business and management. The programme is delivered entirely online with live online sessions, guest lectures by industry experts and virtual counselling throughout."
+  },
+  {
+    "code": "GEN_MCA_ONLINE",
+    "department": "Online",
+    "title": "Master of Computer Application (MCA)",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Three electives: IoT, Big Data Analytics, Machine Learning",
+      "Live online sessions with full LMS access",
+      "Eligibility: 10+2+3 with Mathematics"
+    ],
+    "description": "MCA is a two-year postgraduate degree designed for career progression in information technology. The programme offers three electives—IoT, Big Data Analytics and Machine Learning—allowing students to align their studies with their career goals. The programme is delivered through live online sessions with full Learning Management System access."
+  },
+  {
+    "code": "GEN_MBA_ONLINE",
+    "department": "Online",
+    "title": "Master of Business Administration (MBA)",
+    "level": "PG",
+    "duration": "2 Years",
+    "bullets": [
+      "Core subjects from Organisational Behaviour to Operations Management",
+      "Six electives with Major and Minor specialisations",
+      "Eligibility: Bachelor's degree in any discipline"
+    ],
+    "description": "MBA is a two-year postgraduate degree that builds the administrative, managerial and leadership skills required to advance a career in business and management. The programme covers core subjects ranging from Organisational Behaviour to Operations Management and offers six electives with Major and Minor specialisations chosen at the start of the programme."
+  },
+  {
+    "code": "GEN_BCOM_HONS_ONLINE",
+    "department": "Online",
+    "title": "B.Com (Hons.) - Bachelor of Commerce (Honours)",
+    "level": "UG",
+    "duration": "3 Years",
+    "bullets": [
+      "Commerce curriculum for today's business environment",
+      "Study material, video sessions and quizzes on the portal",
+      "Eligibility: 10+2 in any stream"
+    ],
+    "description": "B.Com (Hons.) is a three-year undergraduate degree that cultivates the knowledge and skills needed for careers in commerce and business. The programme is delivered fully online with study material, video sessions, quizzes, counselling and help desk support."
+  }
 
 ]
